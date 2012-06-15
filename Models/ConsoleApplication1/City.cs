@@ -15,8 +15,8 @@ namespace ConsoleApplication1
         List<Park> parks { get; set; }
         List<TrainStation> trainStations { get; set; }
 
-        float longitude  { get; set; }
-        float latitude  { get; set; }
+        float longitude  { get;}
+        float latitude  { get; }
         string name { get; set; }
 
         public City(){
