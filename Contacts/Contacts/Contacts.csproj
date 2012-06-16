@@ -143,9 +143,9 @@
     <None Include="Resources\es-lion-cs4.gif" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="ContactDB.mdf">
+    <Content Include="ContactDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EntityDeploy>
+    </Content>
     <Content Include="ContactDB_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>ContactDB.mdf</DependentUpon>
