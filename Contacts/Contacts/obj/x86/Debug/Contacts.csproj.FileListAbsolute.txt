@@ -17,3 +17,18 @@ c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Co
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Contacts\Contacts\bin\Debug\Contacts.exe.config
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.exe
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.pdb
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.exe
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.pdb
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\bin\Debug\ContactDB_log.ldf
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\bin\Debug\Contacts.exe.manifest
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\bin\Debug\Contacts.application
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\bin\Debug\Contacts.exe
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\bin\Debug\Contacts.pdb
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.Form1.resources
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.Properties.Resources.resources
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.exe.manifest
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.application

@@ -8,13 +8,18 @@ using System.Data.Linq.Mapping;
 
 namespace ConsoleApplication1
 {
-    [Table(Name = "TRAINSTATIONS")]
-    public class TrainStation
+    //[Table(Name = "TRAINSTATIONS")]
+    public class TrainStation : Location
     {
-        City city; // the city in which the park is located park.City
-        float longitude;
-        float latitude;
-        string Name;
+        public City city; // the city in which the park is located park.City
+        //double longitude;
+        //double latitude;
+        //string Name;
+
+        public TrainStation(double Lat, double Long, string tsName)
+            : base(Lat, Long, tsName)
+        {
+        }
         
     }
 }

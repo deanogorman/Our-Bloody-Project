@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>iigpNyf8EL7Nx96BSc4Cu0G2PtE=</dsig:DigestValue>
+        <dsig:DigestValue>ArwCGTbLhhUQBloyDhaI6fZon3w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,13 +62,13 @@
       <dsig:DigestValue>Y6OF50A08cUlRWfJEAO5wT4pu64=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Contacts.exe.config" size="541">
+  <file name="Contacts.exe.config" size="445">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>acl+WqQAnIiODLkjIFNeZNigZtQ=</dsig:DigestValue>
+      <dsig:DigestValue>1x3EEioYon/+EagrGvrnvoQSw/o=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

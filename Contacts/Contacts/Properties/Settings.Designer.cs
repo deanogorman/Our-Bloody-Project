@@ -27,7 +27,7 @@ namespace Contacts.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;AttachDbFilename=|DataDirectory|\\ContactDB.mdf;Integrate" +
-            "d Security=True;User Instance=True")]
+            "d Security=True;User Instance=False")]
         public string Database1ConnectionString {
             get {
                 return ((string)(this["Database1ConnectionString"]));
