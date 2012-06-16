@@ -1,6 +1,0 @@
-C:\college\Semester 3\Enterprise Frameworks\Project\silverlight map\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-C:\college\Semester 3\Enterprise Frameworks\Project\silverlight map\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-C:\college\Semester 3\Enterprise Frameworks\Project\silverlight map\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
-C:\college\Semester 3\Enterprise Frameworks\Project\silverlight map\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
-C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Models\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
-C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Models\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
