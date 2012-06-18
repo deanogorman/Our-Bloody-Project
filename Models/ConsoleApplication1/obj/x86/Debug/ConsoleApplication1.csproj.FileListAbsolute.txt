@@ -11,3 +11,5 @@ C:\Users\John\Documents\GitHub\Our-Bloody-Project\Models\ConsoleApplication1\bin
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Models\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Models\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Models\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\Dean\Projects\Models\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\Dean\Projects\Models\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
