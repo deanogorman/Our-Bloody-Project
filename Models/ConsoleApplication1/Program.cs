@@ -13,15 +13,20 @@ namespace ConsoleApplication1
 
             Park newpark = new Park(53.362, -6.328, "Phoenix Park");
             dublin.addLocation(newpark);
-
-            Console.WriteLine("The name of the city is " + newpark.city.getName());
-            Console.ReadLine();
             //dublin.addToParks(newpark);
             //newYork.addToParks(newpark);
-
-            TrainStation newTrainStation = new TrainStation(53.548, -6.250, "Random Station Name");
+            
+            TrainStation newTrainStation = new TrainStation(53.3513, -6.2498, "Connolly Station / Amiens Street Station");
+            dublin.addLocation(newTrainStation);
             //dublin.addToTrainStations(newTrainStation);
             //newYork.addToTrainStations(newTrainStation);
+
+            Console.WriteLine("The name of the city is " + newpark.city.getName());
+
+            Console.WriteLine("The name of the Park is " + newpark.getName());
+            Console.WriteLine("The name of the train station is " + newTrainStation.getName());
+            Console.ReadLine();
+            
         }
     }
 

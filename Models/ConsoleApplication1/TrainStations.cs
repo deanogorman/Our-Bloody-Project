@@ -11,14 +11,21 @@ namespace ConsoleApplication1
     //[Table(Name = "TRAINSTATIONS")]
     public class TrainStation : Location
     {
-        public City city; // the city in which the park is located park.City
+        public City city; // the city in which the TrainStation is located trainStation.City
         //double longitude;
         //double latitude;
         //string Name;
+		boolean wheelchairFriendly;
+		boolean taxiRank;
+        boolean carPark;
 
-        public TrainStation(double Lat, double Long, string tsName)
-            : base(Lat, Long, tsName)
+        public TrainStation(double Lat, double Long, string tsName) : base(Lat, Long, tsName)
         {
+		    this.city = null;
+            this.wheelchairFriendly = "0";
+			this.taxiRank = "0";
+			this.carPark = "0";		
+			
         }
         
     }
