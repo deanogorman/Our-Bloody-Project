@@ -5,9 +5,30 @@ using System.Text;
 
 namespace ConsoleApplication1
 {
-    class Schools
+    //[Table(Name = "SCHOOLS")]
+    public class School : Location
     {
-        //info to be added for schools
-        //attributes & methoods
+        public City city; // the city in which the School is located school.City
+            //double longitude inhereted;
+            //double latitude inhereted;
+            //string Name inhereted;
+		    string level;       //primary, secondary, both
+		    string gender;      //male, female, mixed
+            string principal;   //principal name
+            int studentSize;    //number of students
+            int facultySize;    //number of teachers
+            Boolean religion;   //religious based school?
+            string sports;      //list of sports. Perhaps an array?
+        
+        public School(double Lat, double Long, string tsName) : base(Lat, Long, tsName)
+        {
+            this.level = "";
+            this.gender = "";
+            this.principal = "";
+            this.studentSize = 0;
+            this.facultySize = 0;
+            this.religion = false;
+            this.sports = "";
+        }
     }
 }
