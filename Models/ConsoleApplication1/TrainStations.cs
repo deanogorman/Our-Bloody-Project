@@ -15,9 +15,9 @@ namespace ConsoleApplication1
         //double longitude;
         //double latitude;
         //string Name;
-		boolean wheelchairFriendly;
-		boolean taxiRank;
-        boolean carPark;
+		string wheelchairFriendly;
+		string taxiRank;
+        string carPark;
 
         public TrainStation(double Lat, double Long, string tsName) : base(Lat, Long, tsName)
         {

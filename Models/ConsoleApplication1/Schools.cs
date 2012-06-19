@@ -17,7 +17,7 @@ namespace ConsoleApplication1
             string principal;   //principal name
             int studentSize;    //number of students
             int facultySize;    //number of teachers
-            Boolean religion;   //religious based school?
+            bool religion;   //religious based school?
             string sports;      //list of sports. Perhaps an array?
         
         public School(double Lat, double Long, string tsName) : base(Lat, Long, tsName)
