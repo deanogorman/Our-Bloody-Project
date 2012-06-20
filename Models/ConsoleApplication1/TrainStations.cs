@@ -15,16 +15,16 @@ namespace ConsoleApplication1
         //double longitude;
         //double latitude;
         //string Name;
-		string wheelchairFriendly;
-		string taxiRank;
-        string carPark;
+		bool wheelchairFriendly;
+		bool taxiRank;
+        bool carPark;
 
         public TrainStation(double Lat, double Long, string tsName) : base(Lat, Long, tsName)
         {
 		    this.city = null;
-            this.wheelchairFriendly = "0";
-			this.taxiRank = "0";
-			this.carPark = "0";		
+            this.wheelchairFriendly = true;
+			this.taxiRank = true;
+			this.carPark = true;		
 			
         }
         

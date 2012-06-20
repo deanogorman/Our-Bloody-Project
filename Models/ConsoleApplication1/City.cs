@@ -21,6 +21,7 @@ namespace ConsoleApplication1
         List<Park> parks { get; set; }
         List<TrainStation> trainStations { get; set; }
         List<School> schools { get; set; }
+        List<Hospital> hospitals { get; set; }
         List<Location> venues {get; set; }
 
         // do we need to declare these?
@@ -35,6 +36,7 @@ namespace ConsoleApplication1
             parks = new List<Park>();
             trainStations = new List<TrainStation>();
             schools = new List<School>();
+            hospitals = new List<Hospital>();
         }
 
         public void addLocation(Location venue)
@@ -51,6 +53,10 @@ namespace ConsoleApplication1
             {
                 this.schools.Add((School)venue);
                 ((School)venue).city = this;
+            } else if (venue is Hospital)
+            {
+                this.hospitals.Add((Hospital)venue);
+                ((Hospital)venue).city = this;
             } else
             {
                 this.venues.Add(venue);

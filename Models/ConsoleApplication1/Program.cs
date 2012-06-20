@@ -24,11 +24,15 @@ namespace ConsoleApplication1
             School newSchool = new School(53.3513, -6.2498, "Loreto College, Crumlin");
             dublin.addLocation(newSchool);
 
+            Hospital newHospital = new Hospital(53.3513, -6.2498, "Crumlin Childrens Hospital");
+            dublin.addLocation(newHospital);
+
             Console.WriteLine("The name of the city is " + newpark.city.getName());
 
             Console.WriteLine("The name of the Park is " + newpark.getName());
             Console.WriteLine("The name of the train station is " + newTrainStation.getName());
             Console.WriteLine("The name of the school is " + newSchool.getName());
+            Console.WriteLine("The name of the hospital is " + newHospital.getName());
             Console.ReadLine();
             
         }
