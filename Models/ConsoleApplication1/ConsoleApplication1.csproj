@@ -44,9 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Schools.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Schools.cs" />
     <Compile Include="TrainStations.cs" />
     <Compile Include="Park.cs" />
     <Compile Include="City.cs" />

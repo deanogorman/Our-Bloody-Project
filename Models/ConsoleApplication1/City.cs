@@ -34,6 +34,7 @@ namespace ConsoleApplication1
             this.theCityID = theID;
             parks = new List<Park>();
             trainStations = new List<TrainStation>();
+            schools = new List<School>();
         }
 
         public void addLocation(Location venue)
@@ -46,7 +47,7 @@ namespace ConsoleApplication1
             {
                 this.trainStations.Add((TrainStation)venue);
                 ((TrainStation)venue).city = this;
-            } else if (venue is TrainStation)
+            } else if (venue is School)
             {
                 this.schools.Add((School)venue);
                 ((School)venue).city = this;

@@ -1,0 +1,19 @@
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\bin\Debug\Contacts.exe
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\bin\Debug\Contacts.pdb
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\obj\x86\Debug\Contacts.Form1.resources
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\obj\x86\Debug\Contacts.Properties.Resources.resources
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\obj\x86\Debug\Contacts.exe
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\obj\x86\Debug\Contacts.pdb
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\bin\Debug\ContactDB.mdf
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\bin\Debug\ContactDB_log.ldf
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\bin\Debug\Contacts.exe.config
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\bin\Debug\Contacts.exe.manifest
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\bin\Debug\Contacts.application
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\obj\x86\Debug\Contacts.exe.manifest
+c:\users\dean\documents\visual studio 2010\Projects\MS Book\Chapter1\Contacts\Contacts\obj\x86\Debug\Contacts.application
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Contacts\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.exe
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Contacts\Contacts\obj\x86\Debug\Contacts.pdb

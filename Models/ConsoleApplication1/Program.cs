@@ -21,12 +21,11 @@ namespace ConsoleApplication1
             //dublin.addToTrainStations(newTrainStation);
             //newYork.addToTrainStations(newTrainStation);
 
-            School newSchool = new School(53.461022, -6.217582, "Fingal Community College");
+            School newSchool = new School(53.3513, -6.2498, "Loreto College, Crumlin");
             dublin.addLocation(newSchool);
-            //dublin.addToParks(newpark);
-            //newYork.addToParks(newpark);
 
             Console.WriteLine("The name of the city is " + newpark.city.getName());
+
             Console.WriteLine("The name of the Park is " + newpark.getName());
             Console.WriteLine("The name of the train station is " + newTrainStation.getName());
             Console.WriteLine("The name of the school is " + newSchool.getName());
