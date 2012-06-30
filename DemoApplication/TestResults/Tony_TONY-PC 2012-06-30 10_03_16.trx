@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ee4ee413-8a9a-409a-97b5-237c31a31978" name="Tony@TONY-PC 2012-06-30 10:03:16" runUser="Tony-PC\Tony" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="d07dbfa2-2597-4709-83c9-e87478fecbd7">
+    <Deployment runDeploymentRoot="Tony_TONY-PC 2012-06-30 10_03_16">
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication.Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\DemoApplication.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication.Tests\bin\Debug\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-30T10:03:16.7670545+01:00" queuing="2012-06-30T10:03:23.2134232+01:00" start="2012-06-30T10:03:23.3794327+01:00" finish="2012-06-30T10:03:36.5511861+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\users\tony\documents\ncirl\semester 3\h9tecent - enterprise frameworks\lecture 6\demoapplication\demoapplication.tests\bin\debug\demoapplication.tests.dll" id="d8ba4761-0754-0d95-e34c-49ce3a3a330d">
+      <Execution id="20bf7454-a3cd-4ada-914f-a9d2f6315b89" />
+      <TestMethod codeBase="C:/Users/Tony/Documents/NCIRL/Semester 3/H9TECENT - Enterprise Frameworks/Lecture 6/DemoApplication/DemoApplication.Tests/bin/Debug/DemoApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DemoApplication.Tests.Controllers.HomeControllerTest, DemoApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="setStreamSourceTest" storage="c:\users\tony\documents\ncirl\semester 3\h9tecent - enterprise frameworks\lecture 6\demoapplication\demoapplication.tests\bin\debug\demoapplication.tests.dll" id="3c5c3afd-5d97-d6c6-b964-e82107c8d5c5">
+      <DeploymentItems>
+        <DeploymentItem filename="DemoApplication.dll" />
+      </DeploymentItems>
+      <Execution id="58f36290-efb4-4948-8a09-1175243814ea" />
+      <TestMethod codeBase="C:/Users/Tony/Documents/NCIRL/Semester 3/H9TECENT - Enterprise Frameworks/Lecture 6/DemoApplication/DemoApplication.Tests/bin/Debug/DemoApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DemoApplication.Tests.CVSParserTest, DemoApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceTest" />
+      <AspNet webSiteUrl="http://localhost:56662/">
+        <Host pathToWebApp="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CVSParserConstructorTest" storage="c:\users\tony\documents\ncirl\semester 3\h9tecent - enterprise frameworks\lecture 6\demoapplication\demoapplication.tests\bin\debug\demoapplication.tests.dll" id="70ae25ba-7834-3534-95ad-971da69ce1b8">
+      <Execution id="dd6fcca9-f0a2-43dd-ac9b-31f95ae49fbb" />
+      <TestMethod codeBase="C:/Users/Tony/Documents/NCIRL/Semester 3/H9TECENT - Enterprise Frameworks/Lecture 6/DemoApplication/DemoApplication.Tests/bin/Debug/DemoApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DemoApplication.Tests.CVSParserTest, DemoApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CVSParserConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:56662/">
+        <Host pathToWebApp="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="supportsTypeTest" storage="c:\users\tony\documents\ncirl\semester 3\h9tecent - enterprise frameworks\lecture 6\demoapplication\demoapplication.tests\bin\debug\demoapplication.tests.dll" id="f31dafd7-1a0b-6412-b281-d11bcd74a90f">
+      <Execution id="7a119a04-12e9-4829-ab59-596de7eff190" />
+      <TestMethod codeBase="C:/Users/Tony/Documents/NCIRL/Semester 3/H9TECENT - Enterprise Frameworks/Lecture 6/DemoApplication/DemoApplication.Tests/bin/Debug/DemoApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DemoApplication.Tests.CVSParserTest, DemoApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest" />
+      <AspNet webSiteUrl="http://localhost:56662/">
+        <Host pathToWebApp="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="parseExhangeRatesTest" storage="c:\users\tony\documents\ncirl\semester 3\h9tecent - enterprise frameworks\lecture 6\demoapplication\demoapplication.tests\bin\debug\demoapplication.tests.dll" id="7bb0c8cd-db97-003f-809d-6eb1f0443a60">
+      <Execution id="6d4bc2fa-a0dd-4037-8284-52180f43ca5d" />
+      <TestMethod codeBase="C:/Users/Tony/Documents/NCIRL/Semester 3/H9TECENT - Enterprise Frameworks/Lecture 6/DemoApplication/DemoApplication.Tests/bin/Debug/DemoApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DemoApplication.Tests.CVSParserTest, DemoApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseExhangeRatesTest" />
+      <AspNet webSiteUrl="http://localhost:56662/">
+        <Host pathToWebApp="C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3c5c3afd-5d97-d6c6-b964-e82107c8d5c5" executionId="58f36290-efb4-4948-8a09-1175243814ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70ae25ba-7834-3534-95ad-971da69ce1b8" executionId="dd6fcca9-f0a2-43dd-ac9b-31f95ae49fbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bb0c8cd-db97-003f-809d-6eb1f0443a60" executionId="6d4bc2fa-a0dd-4037-8284-52180f43ca5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8ba4761-0754-0d95-e34c-49ce3a3a330d" executionId="20bf7454-a3cd-4ada-914f-a9d2f6315b89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f31dafd7-1a0b-6412-b281-d11bcd74a90f" executionId="7a119a04-12e9-4829-ab59-596de7eff190" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="58f36290-efb4-4948-8a09-1175243814ea" testId="3c5c3afd-5d97-d6c6-b964-e82107c8d5c5" testName="setStreamSourceTest" computerName="TONY-PC" startTime="2012-06-30T10:03:23.6914506+01:00" endTime="2012-06-30T10:03:32.0939312+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58f36290-efb4-4948-8a09-1175243814ea">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56662/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_setStreamSourceTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="TONY-PC\WebRequestResponse_setStreamSourceTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd6fcca9-f0a2-43dd-ac9b-31f95ae49fbb" testId="70ae25ba-7834-3534-95ad-971da69ce1b8" testName="CVSParserConstructorTest" computerName="TONY-PC" startTime="2012-06-30T10:03:32.1029317+01:00" endTime="2012-06-30T10:03:32.2659410+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd6fcca9-f0a2-43dd-ac9b-31f95ae49fbb">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56662/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CVSParserConstructor.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="TONY-PC\WebRequestResponse_CVSParserConstructor.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d4bc2fa-a0dd-4037-8284-52180f43ca5d" testId="7bb0c8cd-db97-003f-809d-6eb1f0443a60" testName="parseExhangeRatesTest" computerName="TONY-PC" startTime="2012-06-30T10:03:32.2709413+01:00" endTime="2012-06-30T10:03:32.4159496+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d4bc2fa-a0dd-4037-8284-52180f43ca5d">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56662/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_parseExhangeRatesTes.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="TONY-PC\WebRequestResponse_parseExhangeRatesTes.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="20bf7454-a3cd-4ada-914f-a9d2f6315b89" testId="d8ba4761-0754-0d95-e34c-49ce3a3a330d" testName="Index" computerName="TONY-PC" duration="00:00:01.8924310" startTime="2012-06-30T10:03:32.5689583+01:00" endTime="2012-06-30T10:03:34.7650840+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20bf7454-a3cd-4ada-914f-a9d2f6315b89">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Modify this template to kick-start your ASP.NET MVC application.&gt;. Actual:&lt;(null)&gt;. </Message>
+          <StackTrace>   at CallSite.Target(Closure , CallSite , Type , String , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at DemoApplication.Tests.Controllers.HomeControllerTest.Index() in C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication.Tests\Controllers\HomeControllerTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a119a04-12e9-4829-ab59-596de7eff190" testId="f31dafd7-1a0b-6412-b281-d11bcd74a90f" testName="supportsTypeTest" computerName="TONY-PC" startTime="2012-06-30T10:03:34.7710843+01:00" endTime="2012-06-30T10:03:34.9630953+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a119a04-12e9-4829-ab59-596de7eff190">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56662/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_supportsTypeTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="TONY-PC\WebRequestResponse_supportsTypeTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

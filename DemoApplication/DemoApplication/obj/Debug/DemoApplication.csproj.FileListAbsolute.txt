@@ -1,0 +1,69 @@
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\DemoApplication.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\DemoApplication.pdb
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\Antlr3.Runtime.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\EntityFramework.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\Microsoft.Web.Infrastructure.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\Newtonsoft.Json.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Net.Http.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Net.Http.Formatting.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Net.Http.WebRequest.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Helpers.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Http.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Http.WebHost.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Mvc.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Optimization.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Providers.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Razor.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.WebPages.Deployment.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.WebPages.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.WebPages.Razor.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\WebGrease.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\EntityFramework.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\Newtonsoft.Json.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Net.Http.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Net.Http.Formatting.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Net.Http.WebRequest.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Helpers.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Http.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Http.WebHost.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Mvc.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.Razor.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.WebPages.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.WebPages.Deployment.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\bin\System.Web.WebPages.Razor.xml
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\obj\Debug\ResolveAssemblyReference.cache
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\obj\Debug\DemoApplication.dll
+c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication\obj\Debug\DemoApplication.pdb
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.Providers.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\DemoApplication.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\DemoApplication.pdb
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\Antlr3.Runtime.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\EntityFramework.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\LumenWorks.Framework.IO.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\Newtonsoft.Json.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Net.Http.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Net.Http.WebRequest.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.Helpers.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.Http.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.Mvc.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.Optimization.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.Razor.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.WebPages.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\WebGrease.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\LumenWorks.Framework.IO.xml
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\EntityFramework.xml
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\Newtonsoft.Json.xml
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.Helpers.xml
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.Razor.xml
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.WebPages.xml
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\obj\Debug\DemoApplication.dll
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\obj\Debug\DemoApplication.pdb
+C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Lecture 6\DemoApplication\DemoApplication\bin\Microsoft.Web.Infrastructure.xml
