@@ -34,3 +34,33 @@ c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplic
 c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication.Tests\obj\Debug\ResolveAssemblyReference.cache
 c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.dll
 c:\users\lhogan\documents\visual studio 2010\Projects\DemoApplication\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.pdb
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.Tests.dll.config
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.Tests.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.Tests.pdb
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\WebGrease.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.pdb
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.pdb
