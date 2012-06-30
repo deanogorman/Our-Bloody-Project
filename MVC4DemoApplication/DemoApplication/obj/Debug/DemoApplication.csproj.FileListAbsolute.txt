@@ -61,6 +61,5 @@ C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplic
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication\bin\System.Web.WebPages.xml
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication\bin\System.Web.WebPages.Deployment.xml
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication\bin\System.Web.WebPages.Razor.xml
-C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication\obj\Debug\DemoApplication.csprojResolveAssemblyReference.cache
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication\obj\Debug\DemoApplication.dll
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\MVC4DemoApplication\DemoApplication\obj\Debug\DemoApplication.pdb

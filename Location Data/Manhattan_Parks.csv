@@ -1,0 +1,377 @@
+objectID,longitude,latitude,location,waterfront,signname,borough,acres
+6,40.76013727,-73.96245931,"E. 59 St., between 1 Ave. and 2 Ave.",N,14 Honey Locusts Park,Manhattan,0.295
+11,40.7917536,-73.94547038,E. 105 St. To E. 106 St. between Lexington Ave. and 3 Ave.,N,White Playground,Manhattan,0.684
+12,40.76107926,-73.9927469,W. 45 St. Between 9 Ave. and 10 Ave.,N,Matthews - Palmer Playground,Manhattan,0.475
+13,40.81015473,-73.94033556,"5 Ave., W. 130 St. To .W 131 St.",N,Courtney Callender Playground,Manhattan,0.653
+15,40.83805813,-73.93869677,"W. 165 St., Amsterdam Ave. To Audubon Ave.",N,Mckenna Square,Manhattan,0.24
+19,40.74876765,-73.96784736,E. 42 St. between 1 Ave. and FDR,N,Playground,Manhattan,1.369
+20,40.83027386,-73.94134871,Corner of W. 155 St. and St. Nicholas Ave.,N, ,Manhattan,0.161
+27,40.76168293,-73.97066055,E 46 St To E 59 St & Park Av,N,Park Avenue Malls,Manhattan,0.65
+28,40.74713978,-73.98126898,E 34 St To E 39 St & Park Av,N,Park Avenue Malls,Manhattan,1.58
+29,40.84326347,-73.94380015,"E/s Riverside Dr, W 168 St To W 177 St",N,Strip,Manhattan,1.494
+30,40.72185681,-73.98567581,"Essex St., Norfolk St. and Houston St.",N,ABC Playground,Manhattan,0.451
+31,40.79726382,-73.92948917,E. 120 St. and Paladino Ave. (Service Rd To FDR Dr.),N,Strip,Manhattan,0.188
+32,40.79870489,-73.92910624,"E. 122 St. To E. 125 St., FDR Dr. To Harlem River Dr.",N,Park,Manhattan,5.2
+33,40.76383486,-73.97359448,"5 Av, W 58 St To W 59 St",N,Grand Army Plaza,Manhattan,0.625
+35,40.80130019,-73.93049124,"E.125 St., FDR Dr., 1 Ave., Paladino Ave.",N,Louis Cuvillier Park,Manhattan,2.752
+36,40.81262386,-73.93920593,"W. 134 St., Lenox Terrace Pl.",N,Hansborough Recreation Center,Manhattan,0.29
+37,40.71219812,-73.98810282,Madison St. between Clinton St. and Rutgers St.,N,Little Flower Playground,Manhattan,1.294
+38,40.82535683,-73.93708261,"W. 150 St., W/s 7 Ave.",N,Bill Bojangles Robinson Playground,Manhattan,0.172
+39,40.8252052,-73.9346646,"Harlem River Dr., W. 151 St. To W. 154 St.",N,Harlem Lane Playground,Manhattan,1.635
+76,40.85654746,-73.9361823,Cabrini Blvd. between W. 187 St. and W. 190 St.,N,P.s./I.S. 187,Manhattan,0.887
+77,40.8018889,-73.95596012,W. 112 St. between Adam C. Powell Blvd. and Frederick Douglas Blvd.,N,P.S. 241,Manhattan,0.665
+78,40.79814287,-73.94917145,W. 111 St. between 5 Ave. and Lenox Ave.,No,P.S. 185,Manhattan,0.601
+99,40.85041566,-73.93388834,Wadsworth Ave. between W. 183 St. and W. 182 St.,No,P.S. 132,Manhattan,0.108
+100,40.79883105,-73.95026096,W. 111 St. between 5 Ave. and Lenox Ave.,No,P.S. 208,Manhattan,0.869
+110,40.80697268,-73.95171702,W. 120 St. between Adam C. Powell Blvd. and St. Nicholas Ave.,No,P.S. 76,Manhattan,0.428
+115,40.71733297,-74.01343763,West St. between Warren St. and Chambers St.,No,I.S./P.S. 89,Manhattan,0.236
+116,40.85953958,-73.92783436,Ellwood St. between Hillside Ave. and Nagle Ave.,No,P.S. 152,Manhattan,0.027
+117,40.80758532,-73.955123,"Manhattan Ave., Morningside Ave., W. 119 St., and W. 120 St.",No,P.S. 242,Manhattan,0.719
+124,40.85938133,-73.92244112,"Harlem River Drive, Dyckman St. and 10 Ave.",No,P.S. 5,Manhattan,0.406
+125,40.85303228,-73.93358055,Broadway between W. 185 St. and W. 187 St.,No,P.S. 48,Manhattan,0.78
+144,40.70591428,-74.00382704,"Front St, John St, & South St",N,Imagination Playground,Manhattan,0.385
+189,40.70746263,-74.00115016,Peck Slip between South St. and Front St.,N,Peck Slip,Manhattan,0.187
+201,40.72420487,-73.97821139,E. 7 St. bet. Ave. C and Ave. D,N,Urban Botanical/Sam and Sadie Koenig Garden,Manhattan,0.029
+202,40.72433153,-73.97776205,E 8th St Btwn Av C and Av D,N,Firemen's Memorial Garden,Manhattan,0.169
+203,40.72400365,-73.97698289,E 8th St Btwn Av C and Av D,N,Green Oasis and Gilbert's Grd,Manhattan,0.388
+204,40.72219526,-73.98406015,E. 2 St. bet. Ave. A and Ave. B,N,Hope Garden,Manhattan,0.046
+205,40.71945156,-73.98167457,"E Houston St, Stanton St, Sheriff St, Pitt St",N,Hamilton Fish Park,Manhattan,4.3
+206,40.72056777,-73.98024719,"E Houston St, Av C and E 2 St",N,GustAv Hartman Sq,Manhattan,0.095
+207,40.72119552,-73.98169432,247 E 2nd St,N,Allied Productions/le Petit Versailles,Manhattan,0.034
+241,40.75630883,-73.9651018,E. 54 St. between 1 Ave. and 2 Ave.,N,Recreation Center 54,Manhattan,0.17
+253,40.71349251,-73.9896602,Rutgers St. and Henry St.,N,Captain Jacob Joseph Playground,Manhattan,0.135
+254,40.72273833,-73.98739691,"E. 1 St., E. Houston St., 1 Ave. & Allen St.",N,Peretz Square,Manhattan,0.192
+255,40.72401753,-73.99041787,"Houston St., E. 1 St., 1 Ave.",N,First Park,Manhattan,0.763
+256,40.73023996,-74.00154713,S/e Corner Minetta Lane & Ave. of Americas,N,Minetta Green,Manhattan,0.056
+257,40.73069711,-74.00115975,"Minetta Lane, W. 3 St. and Ave. of Americas",N,Minetta Playground,Manhattan,0.206
+258,40.72974587,-74.0019857,N/e Corner Ave. of Americas & Minetta St.,N,Minetta Triangle,Manhattan,0.075
+259,40.72705656,-74.00356751,"Ave. of Americas, King St. and Charlton St.",N,Charlton Plaza,Manhattan,0.039
+260,40.83222617,-73.94028373,"Edgecombe Ave., W. 157 St.",N,Bushman Steps,Manhattan,0.08
+263,40.7807968,-73.94439203,E. 93 St. and FDR Dr.,N,Park,Manhattan,0.034
+264,40.72811989,-73.97937993,E. 12 St. Between Ave. A and Ave. B,N,Joseph C. Sauer Park,Manhattan,0.403
+265,40.72808246,-73.9791371,S/w Corner of E. 12 St. At Ave. B,N,Children's Garden,Manhattan,0.037
+266,40.72849671,-74.00187141,"W. Houston St., Ave. of Americas, Macdougal St.",N,William F. Passannante Ballfield,Manhattan,0.607
+267,40.72792104,-74.00262535,"S/s W. Houston St., Ave. of Americas",N,Playground of the Americas,Manhattan,0.079
+270,40.78252993,-73.94446794,"FDR Dr., E. 95 St. To E. 97 St.",N,Stanley Isaacs Playground,Manhattan,1.227
+271,40.7787276,-73.94363369,"E. 90 St., York Ave., FDR Dr.",N,Asphalt Green,Manhattan,4.35
+273,40.80153895,-73.93158051,"1 Ave. To 2 Ave., E. 124 St. To E. 126 St.",N,Triboro Plaza,Manhattan,2.3
+274,40.78737532,-73.93879154,FDR Dr. between E. 102 St. and E. 106 St.,N,Playground 103 CIII,Manhattan,1.052
+275,40.7527209,-73.96439338,"E. 49 St. To E. 51 St., W/s FDR Dr.",N,Peter Detmold Park,Manhattan,1.339
+276,40.75690507,-73.95995783,E. River Between E. 56 St. and E. 57 St.,Y,Sutton Place Park,Manhattan,0.3
+277,40.75537268,-73.96172236,"E. 53 St. to E. 54 St. at Sutton Pl.; Foot of E. 55 St., E. 56 St., E. 57 St.",Y,Five Parks,Manhattan,1.104
+278,40.75960194,-73.95827002,"FDR Dr., E. 60 St. To E. 61 St. and York Ave.",N,Twenty-Four Sycamores Park,Manhattan,0.622
+279,40.76044611,-73.95637192,E. River Between E. 59 St. and E. 63 St.,Y,E 60th St Heliport,Manhattan,1.984
+284,40.78487517,-73.9828087,"Riverside Dr. to Hudson River, W. 72 St.to St Clair Pl.",Y,Riverside Park,Manhattan,266.791
+286,40.80146854,-73.93163164,E 124 St Bet 1 and 2 Avs,N,Wagner Houses Pool,Manhattan,0.808
+299,40.73455912,-73.99001943,"Broadway To 4 Ave., E 14 St. To E 17 St.",N,Union Square Park,Manhattan,6.51
+300,40.73934701,-73.97823637,"E. 26 St. To E. 28 St., 2 Ave.",N,Bellevue South Park,Manhattan,1.593
+302,40.75223499,-73.96492706,"E. 48 St. To E. 49 St., FDR",N,MacArthur Park,Manhattan,0.329
+307,40.82150065,-73.95876131,Henry Hudson Pkwy betw. St. Clair Pl. and W. 135 St.,Y,West Harlem Piers,Manhattan,4.712
+315,40.74176941,-73.97826651,"N/s E. 29 St., W/s 2 Ave.",N,Vincent F. Albano Jr. Playground,Manhattan,0.346
+316,40.81553449,-73.93732949,"W. 138 St., Between Lenox Ave. and 5 Ave.",N,William McCray Playground,Manhattan,0.456
+317,40.79692281,-73.94157178,E. 115 St. Between 3 Ave. and Lexington Ave.,N,James Weldon Johnson Playground,Manhattan,1.303
+320,40.7528939,-73.96978158,E. 47 St. between 1 Ave. and 2 Ave.,N,Dag Hammarskjold Plaza,Manhattan,1.59
+321,40.84803579,-73.92967132,"Amsterdam Av, W 182 St Laurel Hill Terrace",N, ,Manhattan,0.067
+328,40.71998286,-73.99218979,E. Houston St. To Canal St. Between Chrystie St. and Forsyth St.,N,Sara D. Roosevelt Park,Manhattan,7.85
+329,40.73573351,-73.9752091,"E. 23 St. To E. 25 St., FDR Drive",N,Asser Levy Playground,Manhattan,1.837
+330,40.70986335,-73.99601103,"Cherry St. To Water St., W. Catherine Slip To Market Slip",N,Tanahey Playground,Manhattan,1.254
+331,40.78000671,-73.98784987,Riverside Drive Between 65 St. and 72 St.,Y,Riverside Park South,Manhattan,34.675
+332,40.73090253,-74.00092286,"Ave. Of Americas, W. 3 St. and W. 4 St.",N,West 4th Street Courts,Manhattan,0.42
+333,40.74859984,-73.96967801,"1 Ave., E. 41 St. To E. 42 St.",N,Robert Moses Playground,Manhattan,1.344
+348,40.72923343,-73.99143693,Lafayette St bet Astor Pl & E 4 St,N,The Public Theater,Manhattan,0.909
+349,40.72757234,-73.99236371,E 4th St Btwn Bowery and Lafayette,N,Mercahnt's House Museum,Manhattan,0.072
+350,40.72136642,-73.97820327,E. 4 St. bet. Ave. C and Ave. D,N,Orchard Alley Garden,Manhattan,0.224
+369,40.8313911,-73.94052064,"W 155 St & Dyckman St, Edgecombe Av & Amsterdam Av",Y,Highbridge Park,Manhattan,118.753
+377,40.73013812,-74.00672402,"Hudson St, St Luke's Pl, Clarkson St, 7 Av",N,James J Walker Park,Manhattan,1.67
+378,40.84549905,-73.9405987,"Ft Washington Av & HAvn Ave, W 173 St to W 176 St",N,J Hood Wright Park,Manhattan,6.699
+379,40.7424407,-73.98901996,"Broadway, 5 Ave., W. 24 St. to W. 25 St.",N,Worth Square,Manhattan,0.076
+381,40.82268872,-73.93969486,W 146 St bet Fredrick Douglass & Adam Clayton Powell Blvd,N,Bradhurst Urban Renewal Park,Manhattan,0.436
+388,40.84745053,-73.94288175,"E/s Riverside Dr., Haven Ave., W. 176 St. To W. 178 St.",N,Haven Avenue,Manhattan,1.38
+389,40.75882973,-73.98509028,"Broadway, W. 46 St. To W. 47 St., 7 Ave.",N,Father Duffy Square,Manhattan,0.076
+390,40.8315133,-73.94670396,"Broadway, W. 135 St. To W. 156 St.",N,Broadway Malls,Manhattan,2.198
+391,40.83846674,-73.94162339,"Broadway, W 156 St To W 168 St",N,Broadway Malls,Manhattan,1.139
+393,40.77889681,-73.98163281,"Broadway, Amsterdam Ave. and W. 73 St.",N,Verdi Square,Manhattan,0.055
+394,40.71426208,-73.98882966,"Canal St, Essex St, Jefferson St & E Broadway",N,Seward Park,Manhattan,3.046
+395,40.80159985,-73.96812313,"Broadway, W. 106 St., W. End Ave.",N,Straus Park,Manhattan,0.072
+396,40.73387465,-73.9828475,"Rutherford Pl. To N D Perlman Pl., E 15 St. To E 17 St.",N,Stuyvesant Square,Manhattan,3.928
+397,40.8123937,-73.96215821,"Riverside Dr., Claremont Ave. To W. 122 St.",N,Sakura Park,Manhattan,2.067
+398,40.72518209,-73.98125645,"Ave. A To Ave. B, E. 7 St. To E. 10 St.",N,Tompkins Square Park,Manhattan,10.502
+399,40.80357444,-73.95803902,"Manhattan Av, W 114 St, Morningside Av",N,Lafayette Square,Manhattan,0.018
+417,40.80068232,-73.92899683,"FDR Drive, E 96 St. To E 125 St.",Y,East River Esplanade,Manhattan,8.595
+418,40.76218346,-73.95443202,"FDR Drive, E 63 St. To E 81 St.",Y,East River Walk,Manhattan,3.089
+438,40.77687636,-73.94274131,"East End Av To East River, E 84 St To E 90 St",Y,Carl Schurz Park,Manhattan,14.938
+445,40.72498231,-74.00263966,Thompson St bet Spring St & Prince St,N,Vesuvio Playground,Manhattan,0.635
+447,40.75879964,-73.95982613,"West of York Ave., E 59 St. To E 60 St.",N,Queensboro Oval,Manhattan,1.239
+448,40.83415019,-73.93831668,"Jumel Terr To Edgecombe Av, W 160 St To W 162 St",N,Roger Morris Park,Manhattan,1.524
+449,40.74458615,-73.97312916,"1 Ave. To 2 Ave., E. 35 St. To E. 36 St.",N,St. Vartan Park,Manhattan,2.759
+450,40.81328726,-73.95043743,"St Nicholas Av To St Nicholas Terr, W 128 St To W 141 St",N,St Nicholas Park,Manhattan,22.74
+451,40.76474824,-73.95841958,"1 Ave., E. 67 St. To E. 68 St.",N,St Catherine's Park,Manhattan,1.383
+452,40.80026634,-73.95773461,"5 Av To Central Park W, 59 St To 110 St",N,Central Park,Manhattan,840.01
+453,40.77095009,-73.98867251,"W 59 St To W 60 St, Amsterdam Av To W End Av",N,Recreation Center 59,Manhattan,0.69
+454,40.71237532,-73.98441469,"Cherry St, Montgomery St & Gouverneur St",N,Lillian D Wald Playground,Manhattan,0.68
+455,40.71546864,-73.98121799,"Columbia St, Delancey St & Bialystoker Pl",N,Luther Gulick Playground,Manhattan,1.451
+456,40.7413448,-74.00197756,"W. 17 St., 8 Ave. To 9 Ave.",N,Dr. Gertrude B. Kelly Playground,Manhattan,0.525
+457,40.71360532,-73.99442125,"Henry St., Market St., E. Broadway",N,Sophie Irene Loeb,Manhattan,0.122
+480,40.83889347,-73.93566252,"Edgecombe Ave., W. 167 St., and Jumel Pl.",N,Mirabal Sisters Community Park,Manhattan,0.76
+502,40.84163584,-73.93767304,"Audubon Av, W 169 and W 170 Sts",N,Audubon Playground,Manhattan,0.656
+533,40.74275844,-73.98677782,"Broadway To Madison Av, E 23 St To E 26 St",N,Madison Square Park,Manhattan,6.234
+534,40.77967203,-73.97361916,"Central Park W, Columbus Av, W 77 To W 81 Sts",N,Theodore Roosevelt Park,Manhattan,17.574
+535,40.8396894,-73.93998721,"Broadway, St Nicholas Av, W 166 St To W 168 St",N,Mitchel Square,Manhattan,0.774
+536,40.80298749,-73.95845556,"W 110 St To W 123 St, Manhattan Av To Morningside Av",N,Morningside Park,Manhattan,29.888
+537,40.80390728,-73.94591165,"Madison Ave, E. 120 St. to E. 124 St.",N,Marcus Garvey Park,Manhattan,20.165
+538,40.7296677,-73.97245222,"Ave. C, FDR Dr., E. 17 St.",N,Murphy's Brother's Playground,Manhattan,1.275
+555,40.82760315,-73.9519443,"Riverside Dr to Henry Hudson Pkwy, W 153 St",N,Riverside Park,Manhattan,26.45
+556,40.71743817,-74.01088085,"Chambers, Greenwich, W Street",N,Washington Market Park,Manhattan,1.61
+557,40.71632573,-74.01217155,Warren St Bet Greenwich St and W St,N,Tribeca Dog Run,Manhattan,0.096
+558,40.83358404,-73.94977793,"W. 145 St., W. 155 St., Hudson River",Y,Recreational Area,Manhattan,23.3
+559,40.82122637,-73.95395232,"Broadway, Hamilton Pl., W. 138 St.",N,Montefiore Square,Manhattan,0.34
+560,40.77337874,-73.98194017,"Broadway To Columbus Ave, W. 66 St.",N,Richard Tucker Square,Manhattan,0.051
+562,40.70927048,-74.00507859,Fulton St bet Ryders Alley & Gold St,N,Delury Square Park,Manhattan,0.209
+569,40.78793225,-73.94378583,E. 102 St. bet. 2 Ave and 1 Ave,N,Blake Hobbs Playground,Manhattan,0
+570,40.78677183,-73.94339642,E 100 St to E 101 St bet 2 Av & 1 Av,N,Harlem RBI,Manhattan,0.9
+571,40.81553868,-73.93384281,"W 155 St, 10 Av & Harlem River",Y,Harlem River Park,Manhattan,35.482
+572,40.85586682,-73.92209574,10 Ave. bet. Academy St. and the  Harlem,Y,Sherman Creek,Manhattan,15.06
+573,40.85113346,-73.94444234,"Riverside Dr., Hudson River, W. 155 St. to W. 179 St.",Y,Fort Washington Park,Manhattan,159.992
+574,40.86998715,-73.92093487,"Dyckman St, Hudson River, Harlem River S",Y,Inwood Hill Park,Manhattan,196.398
+575,40.87205127,-73.91987772,"Broadway, Isham St, Inwood Pk",N,Isham Park,Manhattan,20.095
+576,40.79229418,-73.93489023,"1 Ave To FDR Dr., E 111 St. To E 114 St.",N,Thomas Jefferson Park,Manhattan,15.524
+577,40.79297143,-73.97686614,"Riverside Dr., W. 91 St. To W. 95 St.",N,Joan Of Arc Park,Manhattan,1.578
+584,40.73881066,-74.00257386,"8 Ave. To Greenwich Ave., Horatio St.",N,Jackson Square,Manhattan,0.227
+585,40.7690091,-73.94903734,"FDR Dr., E 76 St. To E 78 St.",N,John Jay Park,Manhattan,3.312
+604,40.82407948,-73.94866813,"Amsterdam Av, W 143 St & Hamilton Pl",N,Johnny Hartman Square,Manhattan,0.001
+605,40.82313184,-73.95070623,"Hamilton Pl., W. 140 St. To W. 141 St.",N,Alexander Hamilton Playground,Manhattan,0.811
+621,40.80968275,-73.95326774,"St Nicholas Av, Manhattan Av, W 123 St",N,Hancock Park,Manhattan,0.067
+622,40.8269331,-73.9354759,"7 Ave., Macombs Pl., At W. 153 St.",N,Colonel Charles Young Triangle,Manhattan,0.882
+623,40.7499045,-73.98781633,"Broadway, Av Of Americas, bet W 34 St & W 35 St",N,Herald Square,Manhattan,0.21
+626,40.85972021,-73.93135506,"Riverside Dr To Broadway, W 192 St To Dyckman St",N,Fort Tryon Park,Manhattan,66.627
+627,40.85581256,-73.93171715,"Broadway To Wadsworth Terr, W 189 St To W 190 St",N,Gorman Park,Manhattan,1.89
+628,40.74840364,-73.98827506,"Broadway, Av Of Americas, bet W 32 St & W 33 St",N,Greeley Square Park,Manhattan,0.144
+631,40.71079331,-73.99316195,"Cherry St, Pike St, Monroe St",N,Coleman Playground,Manhattan,2.61
+632,40.8269191,-73.94283755,"St Nicholas Av, W 150 St To St Nicholas Av",N,Donnellan Square,Manhattan,0.038
+633,40.71705514,-74.00926104,"Hudson St., Duane St.",N,Duane Park,Manhattan,0.115
+634,40.86718369,-73.9230532,Broadway and W. 204 St.,N,Dyckman House Museum,Manhattan,0.545
+639,40.73009067,-74.00292996,"Downing St to Carmine St, Av Of Americas",N,Downing Street Playground,Manhattan,0.223
+659,40.76727281,-73.99383727,"W. 52 St. To W. 54 St., 11 Ave. To 12 Ave.",N,De Witt Clinton Park,Manhattan,5.829
+660,40.81802704,-73.94740229,"W 136 St To W 137 St, St Nicholas Av, Edgecom Av",N,Dorrence Brook Square,Manhattan,0.038
+687,40.72026745,-74.00563914,W Broadway and Beach St,N,Beach Street Park,Manhattan,0.04
+688,40.71471132,-73.98365299,"Grand St, E Broadway & Willet St",N,Ahearn Park,Manhattan,0.094
+713,40.82885247,-73.94423739,"Amsterdam Av, W 151 St To W 152 St",N,Carmansville Playground,Manhattan,0.573
+714,40.77160234,-73.98243757,"Broadway, Columbus Av, W 63 St",N,Dante Park,Manhattan,0.142
+715,40.71108804,-73.98030414,"Jackson St, Cherry St, FDR Drive",N,Corlears Hook Park,Manhattan,4.355
+728,40.80366735,-73.95250304,"7 Av, St Nicholas Av, W 117 St",N,A Philip Randolph Square,Manhattan,0.074
+735,40.78837266,-73.97641536,"Broadway, Columbus Circle To W 110 St",N,Broadway Malls,Manhattan,5.605
+736,40.85223815,-73.93793,"Ft Washington Av, W 183 St, Pinehurst Av",N,Bennett Park,Manhattan,1.8
+737,40.75069829,-74.00177474,"9 Av To 10 Av, W 27 St To W 28 St",N,Chelsea Park,Manhattan,3.9
+738,40.73344595,-74.00253688,"Christopher St, Grove St, W 4 St",N,Christopher Park,Manhattan,0.146
+739,40.71176985,-74.00749079,"Broadway, Park Row and Chambers St",N,City Hall Park,Manhattan,8.8
+740,40.82824916,-73.93941095,"Bradhurst Av & Edgecombe Av, W 145 St To",N,Jackie Robinson Park,Manhattan,12.772
+741,40.7151812,-73.99974545,"Baxter St, Mulberry St, Bayard St & Park",N,Columbus Park,Manhattan,3.233
+742,40.7284764,-73.99089147,"3 Av To 4 Av, E 6 St To E 7 St",N,Cooper Triangle,Manhattan,0.229
+751,40.73708349,-74.00558016,"Hudson St, 8 Av, W 12 St",N,Abingdon Square,Manhattan,0.222
+752,40.75342578,-73.98110626,"Between 5 and 6 Av, W 40 St & W 42 St",N,Bryant Park,Manhattan,9.603
+753,40.81782527,-73.95197554,"Convent and Amsterdam Av, W 135 St",N,Annunciation Park,Manhattan,1.24
+754,40.72053601,-73.98966071,"E Houston St, E Broadway",N,Allen Mall One,Manhattan,2.58
+783,40.71874901,-74.01668557,"Hudson River, Liberty St and Pier A",Y,Battery Park city,Manhattan,0
+791,40.72569074,-74.01078297,Canal St Bet W St and Washington St,N,Canal Park,Manhattan,0.669
+792,40.71179725,-74.01594766,Hudson River S/o Liberty St,Y,Battery Park City,Manhattan,1.556
+798,40.71114575,-74.00048991,"Pearl St, Madison St and St James Pl",N,James Madison Plaza,Manhattan,0.361
+802,40.78052438,-73.94995409,Second Av B/w E 90 and E 91 Sts,N,Ruppert Park,Manhattan,0.997
+803,40.78500684,-73.95074138,"Lexington Av, E 95 To E 96 Sts",N,Samuel Seabury Playground,Manhattan,0.786
+804,40.78886911,-73.93617389,Fdr Drive and 107th Street,Y,Pier 107 CVII,Manhattan,0.356
+807,40.79145892,-73.93937634,335 E 108th St Bet 1st and 2nd Av,N,Humacao Community Garden,Manhattan,0.11
+808,40.79208088,-73.94016111,E 109th St Bet 1st and 2nd Avs,N,Neighbors Of Vega Baja,Manhattan,0.072
+810,40.79649336,-73.94724523,1659 Madison Av,N,M384,Manhattan,0.054
+811,40.79923127,-73.94416362,E/ 115th St bet Park and Madison Avs,N,La Cuevita Garden,Manhattan,0.057
+812,40.76070499,-73.96443525,W/s Second Av Bet E 59-60 Sts,N,Tramway Plaza,Manhattan,0.345
+813,40.7952238,-73.94366594,156 E 111th St Bet Lex and 3rd Av,N,Family Community Garden,Manhattan,0.04
+814,40.79891376,-73.94045283,172 E 117th St Bet Lex and 3rd Av,N,117th St Community Garden,Manhattan,0.08
+815,40.80253699,-73.93836029,2015 Lex Av Bet E 122nd and E 123rd St,N,Life Spire Garden,Manhattan,0.02
+816,40.79936459,-73.93473682,N/s E 120 St Bet 1 and 2 Avs,N,Wagner Playground,Manhattan,1.591
+817,40.7889597,-73.93786609,"Fdr Drive, E 106 To E 107 Sts",N,East River Playground,Manhattan,1.285
+818,40.80252056,-73.9411885,"Park Av, E 120 To E 121 Sts",N,Eugene McCabe Field,Manhattan,0.789
+819,40.79198068,-73.94158727,E 109 St Bet 2 and 3 Avs,N,Poor Richards Playground,Manhattan,1.58
+820,40.79669812,-73.93147127,"Pleasant Av, B/w E 118 and E 119 Sts",N,Pleasant Village Community Gdn,Manhattan,0.383
+821,40.79747535,-73.93495631,"E 117 To E 118 Sts, 1 To 2 Avs",N,P.S. 155 Playground,Manhattan,0.834
+822,40.80257775,-73.93492874,E 124 St B/w 2 and 3 Avs,N,Carver Community Garden,Manhattan,0.252
+823,40.72214188,-73.97891329,"E 4-5 Streets, Avs C and D",N,El Jardin Del Paraiso Park,Manhattan,0.73
+824,40.80862314,-73.93982928,4-8 E 129th Street,N,Harlem Rose Garden,Manhattan,0.163
+825,40.80322142,-73.93963189,103 E 122nd Street,N,Jackie Robinson Community Garden,Manhattan,0.058
+826,40.80041394,-73.9440118,Madison Av and,N,Peaceful Valley Garden,Manhattan,0.052
+827,40.79418631,-73.93437516,437-39 E 114th St,N,Pleasant Park Garden,Manhattan,0.116
+828,40.7979278,-73.93615136,306-310 E 118th St Bet 1st and 2nd,N,Diamante Garden,Manhattan,0.186
+829,40.7885766,-73.94759023,E101st St Bet 3rd and Lexington Avs,N,Sunshine Playground,Manhattan,0.46
+830,40.80240012,-73.93788301,Lexington Av Bet E 122-123 Sts,N,Dr. Ronald E. McNair Playground,Manhattan,0.624
+831,40.7238988,-73.98046406,"E 5th and E 6th St, Av B & Av C",N,6BC Botanical Garden,Manhattan,0.267
+832,40.72413328,-73.98948699,E 1st St Bet 1st and 2nd Avs,N,First Street Garden,Manhattan,0.061
+833,40.70927193,-73.99612263,Catherine Slip between Cherry St. and South St.,N,Catherine Slip Malls,Manhattan,0.143
+834,40.71413504,-73.99001995,"Canal St, Rutgers St and E Broadway",N,Straus Square,Manhattan,0.015
+835,40.71325212,-73.99803345,"Chatham Sq, Oliver St and E Broadway",N,Kimlau Square,Manhattan,0.092
+836,40.71803139,-73.98667416,Delancey St bet Bowery & Essex St,N,Schiff Mall,Manhattan,0.7
+837,40.72406824,-73.99155223,"E Houston, Bowery and 2nd Av",N,Liz Christy Garden,Manhattan,1.09
+838,40.72949456,-73.98258725,404-16 E 12th Street,N,Open Road Garden,Manhattan,0
+839,40.72011622,-73.98434895,171 Stanton St and Clinton St,N,Cmty Of Poor People In Action,Manhattan,0.06
+840,40.72916481,-73.97977781,E13th St Bet Av A and B,N,Dias Y Flores,Manhattan,0.119
+841,40.72843637,-73.97957942,537 E 12th St Bet Av A and B,N,El Sol Brilliante Jr,Manhattan,0.059
+842,40.7283687,-73.97899508,Av B Bet E 12th and E 13th St,N,Community Garden Association,Manhattan,0.023
+843,40.72830601,-73.97898478,Av B Bet E 12th and E 13th St,N,Vamos Sembrar,Manhattan,0.023
+844,40.72497749,-73.9752044,"Szold Pl, E 10 St",N,Dry Dock Playground,Manhattan,1.5
+845,40.72417149,-73.9855825,"Av A, E 3-e 4 Sts",N,McKinley Playground,Manhattan,0.274
+846,40.7237177,-73.98076716,626-27 E 5th St,N,5th St Slope Garden Club,Manhattan,0
+847,40.7300592,-73.98785629,E. 10 St. and Stuyvesant Pl.,N,Abe Lebewohl Triangle,Manhattan,0.014
+848,40.72424727,-73.98193869,Av B B/w 5th and 6th Sts,N,6th St and Av B Comm Garden,Manhattan,0.39
+849,40.72474119,-73.98247158,"E 6th St, Btwn Av A and Av B",N,The Creative Little Garden,Manhattan,0.063
+850,40.72264211,-73.98125877,E 4th St Bet Av B and C,N,Generation X,Manhattan,0.11
+851,40.72241326,-73.98022775,E 4th and Av C,N,The Secret Garden,Manhattan,0.05
+852,40.72528065,-73.97816273,E 8th St Bet Av B and C,N,La Plaza Cultural,Manhattan,0.64
+853,40.72534638,-73.97973586,E 8th St Bet Av B and C,N,De Colores Cmty Yard and Center,Manhattan,0.066
+854,40.72218554,-73.98159307,237 E 3rd St Bet Av B and C,N,Brisas Del Caribe,Manhattan,0.06
+855,40.7219747,-73.98254176,E 2nd St Bet Av B and C,N,Kenkeleba House,Manhattan,0.31
+856,40.72150396,-73.98198628,E 2nd St Bet Av B and C,N,Peachtree Garden,Manhattan,0.12
+857,40.72251318,-73.98353099,"E 3rd St, Btwn Av A and Av B",N,Miracle Garden,Manhattan,0.117
+858,40.72509219,-73.97728162,E 9th St and Av C,N,9th St Community Garden Park,Manhattan,0.478
+859,40.71399648,-73.98372172,"Broadway, Henry St, Gouverneur St",N,Sql Lain Playground,Manhattan,0.891
+860,40.7137901,-73.98198205,"Jackson, Madison, Henry Sts",N,Henry M. Jackson Playground,Manhattan,0.61
+861,40.7194554,-73.98400442,N/s Rivington and Attorney Sts,N,Nathan Straus Playground,Manhattan,0.851
+862,40.79967701,-73.96202563,955 Columbus Av and W107th St,N,Mobilization For Change,Manhattan,0.043
+863,40.79949472,-73.96579223,"Amsterdam Av, W 104 and W 105 Sts",N,Bloomingdale Playground,Manhattan,0.715
+864,40.72241963,-73.98203022,"E3th St, Bet Av B and C",N,Los Amigos Garden,Manhattan,0.061
+865,40.7273292,-73.97744682,640-644 E 12th Street,N,Campos Garden,Manhattan,0.199
+866,40.72465344,-73.97951499,213 E 7th Street,N,Lower E Side Ecology Center,Manhattan,0.15
+867,40.72501021,-73.97891974,333-335 E 8th St Bet Av B and C,N,Earth People,Manhattan,0.106
+868,40.72848769,-73.97822949,209 Av B and E 13th St,N,Yu Suen Garden,Manhattan,0.06
+869,40.71265348,-73.99840971,St James Pl and Oliver St,N,St. James Triangle,Manhattan,0.043
+870,40.77331678,-73.98317912,"Columbus Av, W 63 St",N,Lincoln Center Plaza,Manhattan,3.8
+871,40.78210763,-73.97877004,W 78 St and Amsterdam Av,N,Tecumseh Playground,Manhattan,0.738
+872,40.79648641,-73.96756208,E/s Amsterdam Av Bet W 100 and W 102 Sts,N,Frederick Douglass Playground,Manhattan,1.945
+873,40.78935466,-73.96860495,"Columbus Av, W 91 To W 92 Sts, Central P",N,Sol Bloom Playground,Manhattan,0.837
+874,40.7884169,-73.97171747,"S/s W 89 St, Amsterdam and Columbus Avs",N,Playground Eighty Nine LXXXIX,Manhattan,0.402
+875,40.77871237,-73.98424645,71 St Bet W End and Amsterdam Avs,N,Septuagesimo UNO,Manhattan,0.04
+876,40.79679332,-73.96205556,"W 104th St, Manhattan Av, Central Park W",N,W 104th Street Garden,Manhattan,0.38
+877,40.78694859,-73.97093869,"W 87th St, Columbus Av, Central Park Wes",N,W 87th Street Garden,Manhattan,0.095
+878,40.82991036,-73.94195215,Corner Of W 153rd St and St Nicholas Pl,N,Harris Garden,Manhattan,0.11
+879,40.8080848,-73.9638091,"Broadway, W 110 StTo W 122 St",N,Broadway Malls,Manhattan,1.701
+880,40.8085952,-73.95957698,Amsterdam Av Bet W 118th and W 119th,N,Old Croton Aqueduct Gatehouse,Manhattan,0.175
+881,40.79814398,-73.96320748,76 W 105 St,N,La Perla Garden,Manhattan,0.04
+882,40.77702026,-73.98363528,W 70 St Bet W End and Amsterdam Avs,N,Playground Seventy,Manhattan,1.373
+883,40.78944676,-73.97183201,W 90th St B/w Broadway and Amsterdam Av,N,St. Gregory's Playground,Manhattan,0.231
+884,40.77728876,-73.98227835,Broadway and Amsterdam Ave. At W. 70 St.,N,Sherman Square,Manhattan,0.001
+885,40.77195829,-73.98414259,Amsterdam Av and W 62 St,N,Damrosch Park,Manhattan,2.443
+886,40.835635,-73.93915391,W 162nd St Bet Amsterdam & Edgecombe Av,N,Morris-jumel Ecological Garden,Manhattan,0.1
+887,40.85137541,-73.94136391,"Riverside Dr., W. 181 St. To Haven Ave.",N,Plaza Lafayette,Manhattan,0.092
+888,40.82623444,-73.94211864,Edgecombe Av and W 150th St,N,Edgecombe Park,Manhattan,0.069
+889,40.82654447,-73.94188712,Edgecombe Av and W 150th St,N,Edgecombe Park,Manhattan,0.155
+890,40.80391133,-73.96337883,Corner Of W 111th St and Amsterdam Av,N,Garden,Manhattan,0.109
+891,40.82411899,-73.94986559,"W 143, Btwn Hamilton Pl and Broadway",N,Frank White Nbrhd Service Cent,Manhattan,0.086
+892,40.81977634,-73.95179849,"Amsterdam Av, W 136 St",N,Jacob H. Schiff Playground,Manhattan,3.852
+893,40.82814443,-73.94258828,"Convent Av, 151 St and St Nicholas Av",N,Convent Garden,Manhattan,0.134
+899,40.83164894,-73.94128244,St Nicholas Av and W 156 St,N,Wright Brothers Playground,Manhattan,0.584
+900,40.85197737,-73.93075707,"W186 St, Audubon, St Nicholas Avs",N,West 186th Street Basketball Court,Manhattan,0.123
+1164,40.71588391,-74.0016692,Leonard St Bet Centre and Lafayette Sts,N,Collect Pond Park,Manhattan,0.994
+1165,40.70893269,-74.00109231,Dover St Bet Pearl and Water Sts,N,Fishbridge Garden,Manhattan,0.1
+1166,40.70793867,-74.00374111,Pearl St Bet Fulton St and Beekman St,N,Pearl St Playground,Manhattan,0.162
+1167,40.70216497,-74.00998903,N/S South St Bet Broad St & Old Slip,N,Vietnam Veterans Plaza,Manhattan,0.728
+1168,40.72159323,-73.99744214,"Kenmare St., Lafayette St., and Cleveland Pl.",N,Petrosino Square,Manhattan,0.03
+1169,40.72235969,-74.00486133,"Thompson and Canal Sts, Av Of Americas",N,Grand Canal Court,Manhattan,0.134
+1170,40.72143402,-73.9960047,Spring and Mulberry Sts,N,Desalvio Playground,Manhattan,0.396
+1171,40.73885177,-74.00430925,Hudson Bet Gansevoort and Horatio Sts,N,Corporal John A. Seravalli Playground,Manhattan,1.143
+1172,40.73434153,-73.99924924,W 9 St Av Of Americas and Greenwich Av,N,Womens House Of Detention,Manhattan,0.361
+1173,40.73531492,-74.00168486,"7 Ave., Charles St. and Waverly Pl.",N,McCarthy Square,Manhattan,0.039
+1174,40.73658673,-74.00539595,"Hudson, Bleecker and W 11 Sts",N,Bleecker Playground,Manhattan,0.45
+1175,40.73288262,-74.00209055,"Washington Pl, Grove St, W 4 St, Barrow",N,Sheridan Square Viewing Garden,Manhattan,0.07
+1176,40.72210891,-74.00550675,"Av Of Americas,canal and Grand Sts",N,Duarte Square,Manhattan,0.448
+1177,40.72996117,-74.0021644,"Ave. of Americas, Bleecker St. and Carmine St.",N,Father Demo Square,Manhattan,0.247
+1178,40.76317782,-73.98991468,"N/s W 49 St, 9 and 10 Avs",N,Gutenberg Playground,Manhattan,0.551
+1179,40.76128176,-73.98931726,47th St Between 8th and& 9th Avs,N,Ramon Aponte Park,Manhattan,0.174
+1180,40.76294482,-73.99233619,"E/s 10 Av, W 47 To W 48 St",N,Park (47 St Playground),Manhattan,0.576
+1181,40.76298267,-73.99189225,"W 47-48 Sts, 9 and 10 Avs",N,Clinton Community Garden,Manhattan,0.35
+1182,40.7463694,-74.00404324,"W 22 St, 10 Av",N,Clement Clarke Moore Park,Manhattan,0.489
+1183,40.74752728,-73.99830376,"W 26, 8 To 9 Avs",N,Penn South Playground,Manhattan,0.6
+1184,40.74812348,-74.00199803,"S/s W 25 St, 9 To 10 Avs",N,Chelsea Recreation Center,Manhattan,0.385
+1185,40.73618089,-73.98107985,"E 20 To E 21 Sts, 1 To 2 Avs",N,Peter's Field,Manhattan,1.591
+1186,40.74486635,-73.97046091,Fdr Drive Bet E36-38th Streets,Y,East River Esplanade,Manhattan,0.62
+1187,40.74898467,-73.96997037,"1 Ave., E. 42 St. to E. 43 St.",N,Ralph Bunche Park,Manhattan,0.231
+1188,40.73545428,-73.98184893,"2 Av, E 19 To E 20 Sts",N,Augustus St. Gaudens Playground,Manhattan,0.642
+1189,40.80432124,-73.95602985,302-304 W 116th St,N,Garden Of Love,Manhattan,0.087
+1190,40.80716835,-73.94516591,Lenox and 5th Av,N,W 124th Street Community Garden,Manhattan,0.046
+1191,40.80816225,-73.95199959,275-277 W 122nd Street,N,Our Little Green Acre/garden Eight,Manhattan,0.052
+1192,40.81104756,-73.95071587,2351 8th Av and 303 W 126th St,N,Cep Community Garden,Manhattan,0.057
+1193,40.81131829,-73.95153085,W126th St Bet St Nicholas & Frederick Do,N,Will Washington Memorial Garn,Manhattan,0.084
+1194,40.80610012,-73.9511294,W120th St Bet Adam Clayton Powell & St N,N,Ps 76 Garden,Manhattan,0.053
+1195,40.81726317,-73.94069022,W139th St Bet A Clayton Powell Jr Blvd&,N,Abyssinian Tot Lot,Manhattan,0.118
+1196,40.80849711,-73.94091349,"Fifth Av, E 128th Street",N,Collyer Brothers Park,Manhattan,0.034
+1197,40.82086694,-73.94064366,"7 To 8 Avs, W 143 To W 144 Sts",N,Renaissance Playground,Manhattan,1.34
+1198,40.82757104,-73.93918688,Bradhurst Av and W 152nd St,N,Bradhurst Ave Garden,Manhattan,0.09
+1199,40.8075453,-73.95065556,W 122nd St Bet Fred Douglass & Adam C Po,N,Joseph Daniel Wilson Garden,Manhattan,0.06
+1200,40.81620911,-73.94087568,W 137th St Bet Lenox and A C Powell Blvd,N,Elizabeth Langley Memor Gardn,Manhattan,0.11
+1201,40.80671371,-73.94731311,W123rd St Bet Lenox Av & Adam C Powell B,N,New 123rd St Block Assogardn,Manhattan,0.14
+1202,40.81236752,-73.94294855,"W132 St, Lenox Av",N,132 St Block Association Park,Manhattan,0.171
+1203,40.81358678,-73.94341233,155-159 W 133rd St,N,Margrichante Garden,Manhattan,0
+1204,40.81361739,-73.94273682,"W134th St, Lenox Av, Adam C Powell, Ps17",N,Harlem Success Gardens,Manhattan,0.42
+1205,40.81082906,-73.94121166,W 131 St Bet 5th Av and Lenox Av,N,United Block Association Garden,Manhattan,0.076
+1206,40.80943897,-73.94248055,"W 128th Street, B/w Fifth Av & Lenox Av",N,Unity Gardens,Manhattan,0.129
+1207,40.80957727,-73.94279402,"129th St, Btwn Lenox Av and Fifth Av",N,Rev Linette C Williamson Memor,Manhattan,0.107
+1549,40.72809043,-73.99566866,Mercer St. between Houston St. & W. 4th St.,N,Mercer Playground,Manhattan,0.582
+1554,40.72699741,-73.99689829,Bleecker St. between La Guardia Pl. and Mercer St.,N,Park,Manhattan,0.461
+1683,40.72977973,-74.00547821,"Carmine St. and Clarkson St., 7 Ave.",N,Tony Dapolito Recreation Center,Manhattan,0.208
+1684,40.70480771,-74.01337739,Broadway & Whitehall St.,N,Bowling Green,Manhattan,1.016
+1704,40.79588243,-73.96846071,W. 97 St. and Amsterdam Ave.,N,Happy Warrior Playground,Manhattan,1.652
+1722,40.70462124,-74.01637398,"Battery Pl, State St and Whitehall St",Y,Battery Park,Manhattan,23.21
+1735,40.8246345,-73.93462373,7 Ave. between W. 150 St. and W. 151 St.,N,Frederick Johnson Playground,Manhattan,2.445
+1736,40.72228865,-74.00619272,"Laight St., Canal St., and Varick St.",N,CaVaLa Park,Manhattan,0.366
+1737,40.81729787,-73.93881088,"Lenox Ave., W. 139 St. To W. 140 St.",N,Fred Samuel Playground,Manhattan,0.688
+1738,40.7592157,-73.99144035,W. 43 St. between 8 Ave. and 9 Ave.,N,McCaffrey Playground,Manhattan,0.436
+1739,40.71778538,-73.97614712,Corner of Baruch Pl. and Mangin St.,N,Baruch Playground,Manhattan,2.32
+1740,40.80105747,-73.93847003,E. 120 St. and Sylvan Pl.,N,Harlem Art Park,Manhattan,0.347
+1741,40.80262216,-73.95272066,"7 Ave., St. Nicholas Ave., W. 115 St.",N,Samuel Marx Triangle,Manhattan,0.03
+1742,40.71112717,-73.98655499,Corner of Cherry St. and Clinton St.,N,Cherry Clinton Playground,Manhattan,0.483
+1778,40.8656882,-73.92776274,"Riverside Dr., Dyckman St. and Broadway",N,Lt. Wm. Tighe Triangle,Manhattan,0.156
+1779,40.7115034,-73.98181771,Madison St. To Water St. between Jackson St. and Gouverneur St.,N,Vladeck Park,Manhattan,0.789
+1780,40.79440607,-73.94713332,Park Ave. between E 108 St. and E. 109 St.,N,Peter Minuit Playground,Manhattan,0.943
+1789,40.76295181,-73.96974593,E. 59 St. To E. 96 St. and Park Ave.,N,Park Avenue Malls,Manhattan,4.55
+1790,40.77396589,-73.98652618,"W. 64 St., between Amsterdam Ave. and West End Ave.",N,Samuel N. Bennerson 2nd Playground,Manhattan,0.749
+1791,40.81814568,-73.93439185,"W. 145 St. to W. 143 St., Lenox Ave., and Harlem River",N,Col. Young Playground,Manhattan,6.423
+1798,40.72966821,-73.99660685,"5 Ave, Waverly Pl., W. 4 St. and Macdougal St.",N,Washington Square Park,Manhattan,9.749
+1817,40.78436387,-73.94548713,"2 Ave., E. 96 St. to E. 97 St.",N,Marx Brothers Playground,Manhattan,1.486
+1818,40.73012511,-73.98676157,E. 10 St. and 2 Ave.,N,Abe Lebewohl Park,Manhattan,0.156
+1819,40.81132419,-73.95423115,W. 125 St. and Morningside Ave.,N,Roosevelt Triangle,Manhattan,0.073
+1820,40.81554977,-73.95626156,"W. 126 St. to W. 129 St., Amsterdam Ave. to Old Broadway",N,Sheltering Arms Playground,Manhattan,1.43
+1821,40.81184553,-73.93682694,5 Ave. and E. 135 St.,N,Abraham Lincoln Playground,Manhattan,0.991
+1822,40.71009763,-73.99723317,"Catherine Slip, Madison St. and South St.",N,Alfred E. Smith Playground,Manhattan,2.766
+1823,40.71498949,-73.97963919,Lewis St. between Delancey St. and Broome St.,N,Sidney Hillman Playground,Manhattan,0.189
+1824,40.71208656,-73.99771197,Madison St. between Catherine St. and Oliver St.,N,Playground One,Manhattan,0.44
+1825,40.79996367,-73.95090139,"Lenox Ave, W. 113 St. To W. 114 St.",N,Martin Luther King Playground,Manhattan,1
+1826,40.86264739,-73.92047377,W. 204 St. between 10 Ave. and Nagle Ave.,N,Monsignor Kett Playground,Manhattan,1
+1827,40.80095741,-73.96310982,"W. 107 St. to W. 108 St., Columbus Ave. and Amsterdam Ave.",N,Booker T. Washington Playground,Manhattan,1.441
+1828,40.80125913,-73.96263453,"W. 108 St. to W. 109 St., Columbus Ave. and Amsterdam Ave.",N,Anibal Aviles Playground,Manhattan,0.517
+1829,40.71940901,-73.97675987,E. Houston St. and FDR Dr.,N,Wald Playground,Manhattan,0.525
+1832,40.71471626,-74.0014079,"County Court House, Worth St, Pearl St, Centre St",N,Thomas Paine Park,Manhattan,1.924
+1845,40.77987104,-73.94391562,"York Ave., FDR Dr. bet. E. 92 St. and E. 93 St.",N,DeKovats Triangle,Manhattan,0.25
+1879,40.74884251,-73.97023733,"1 Ave., E. 41 St. to E. 42 St.",N,Trygve Lie Plaza,Manhattan,0.095
+1880,40.74957909,-73.97052784,E. 42 St. between 1 Ave. and 2 Ave.,N,Mary O'Connor Playground,Manhattan,0.229
+1881,40.7492162,-73.97123023,E. 42 St. between 1 Ave. and 2 Ave.,N,Tudor Grove Playground,Manhattan,0.192
+1882,40.809515,-73.93804386,Madison Ave. between E. 130 St. and E. 131 St.,N,Moore Playground,Manhattan,0.766
+1883,40.81139256,-73.95639651,"Morningside Ave., W. 123 St. and W. 124 St.",N,Playground one Twenty Five CXXV,Manhattan,1.691
+1884,40.7268094,-74.00338802,Ave. Of Americas between Prince St. & Spring St.,N,Father Fagan Park,Manhattan,0.15
+1885,40.80601216,-73.93496556,"Lexington Ave., E. 128 St. to E. 129 St.",N,Alice Kornegay Triangle,Manhattan,0.883
+1886,40.80685134,-73.93521372,"Lexington Ave., E. 129 St. to E. 130 St.",N,Each One Teach One,Manhattan,0.059
+1887,40.80802669,-73.93460088,"Lexington Ave., E. 130 St. to E. 131 St.",N,Harlem River Park,Manhattan,0.203
+1888,40.80742608,-73.93430532,"E. 128 St., 2 Ave., 3 Ave., Harlem River Drive",N,Harlem River Park,Manhattan,5.756
+1889,40.80491105,-73.93192612,"E. 127 St., 2 Ave., and Harlem River Drive",N,Crack Is Wack Playground,Manhattan,1.369
+1890,40.80384753,-73.93127291,"E. 127 St., 2 Ave., and Harlem River Drive",N,Harlem River Park,Manhattan,0.267
+1891,40.80352367,-73.93085595,E. 127 St. and Harlem River Drive,N,Harlem River Park,Manhattan,0.351
+1892,40.78082954,-73.93804641,East River Opp E. 96 St.,Y,Mill Rock Park,Manhattan,8.639
+1893,40.81151028,-73.94676241,W/s 7 Ave. Between W. 127 St. and W. 129 St.,N,St. Nicholas Playground South,Manhattan,0.67
+1894,40.81192213,-73.94646186,W/s 7 Ave. at W. 130 St.,N,St. Nicholas Playground North,Manhattan,0.66
+1895,40.70462457,-74.00943849,"Hanover Sq., Pearl St. and Stone St.",N,British Garden at Hanover Square,Manhattan,0.056
+1896,40.79266285,-73.94895711,"N/s E. 104 St., Madison Ave. and Park Ave.",N,Mae Grant Playground,Manhattan,0.97
+1899,40.79841779,-73.9129326,ssss,N,ssss,Manhattan,80
+1901,40.78446026,-73.92451626,E River and Hell Gate,Y,Wards Island Park,Manhattan,68
+1902,40.8002623,-73.9208629,East River and Harlem River,Y,Randall's Island Park,Manhattan,256.111
+1931,40.74864492,-74.00411869,Gansevoort St. To W. 30 St. Between Washington St. and 11 Ave.,N,The High Line,Manhattan,6.73
+1958,40.78896109,-73.94934658,Lexington Ave. bet. E. 100 St. and E. 101 St.,N,Ebenezer Wesleyan Garden,Manhattan,0.173
+1960,40.71020184,-73.98127644,South Side Of Fdr Drive E Of Vouverneur,Y,Pier 42,Manhattan,0.399
+1961,40.71027051,-73.97862387,"Montgomery St. To E. 12 St., FDR Drive",Y,East River Park,Manhattan,57.457
+2015,40.78926448,-73.94364305,E. 102 St. To E. 104 St. and 2 Ave.,N,Blake Hobbs Playground,Manhattan,1
+2016,40.78685885,-73.94706292,"99 St. To 100 St., 3 Ave.",N,Cherry Tree Park,Manhattan,0.95
+2019,40.82853957,-73.9351906,"W. 155 St., 8 Ave. To Harlem River Drive",N,Holcombe Rucker Park,Manhattan,3.125
+2020,40.8137159,-73.93798957,"W. 135 St. To W. 136 St., Lenox Ave. To 5 Ave.",N,Howard Bennett Playground,Manhattan,1.228
