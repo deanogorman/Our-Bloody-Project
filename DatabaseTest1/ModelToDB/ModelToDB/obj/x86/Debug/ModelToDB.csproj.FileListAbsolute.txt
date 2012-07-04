@@ -1,0 +1,8 @@
+C:\Louise\Semester3\EnterpriseFrameworks\Labs\ModelToDB\ModelToDB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Louise\Semester3\EnterpriseFrameworks\Labs\ModelToDB\ModelToDB\bin\Debug\ModelToDB.exe.config
+C:\Louise\Semester3\EnterpriseFrameworks\Labs\ModelToDB\ModelToDB\bin\Debug\ModelToDB.exe
+C:\Louise\Semester3\EnterpriseFrameworks\Labs\ModelToDB\ModelToDB\bin\Debug\ModelToDB.pdb
+C:\Louise\Semester3\EnterpriseFrameworks\Labs\ModelToDB\ModelToDB\bin\Debug\EntityFramework.dll
+C:\Louise\Semester3\EnterpriseFrameworks\Labs\ModelToDB\ModelToDB\bin\Debug\EntityFramework.xml
+C:\Louise\Semester3\EnterpriseFrameworks\Labs\ModelToDB\ModelToDB\obj\x86\Debug\ModelToDB.exe
+C:\Louise\Semester3\EnterpriseFrameworks\Labs\ModelToDB\ModelToDB\obj\x86\Debug\ModelToDB.pdb
