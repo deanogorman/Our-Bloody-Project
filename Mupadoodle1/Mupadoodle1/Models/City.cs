@@ -17,11 +17,11 @@ namespace Mupadoodle1.Models
             get { return cityID; }
             set { cityID = value; }
         }
-        List<Park> parks { get; set; }
-        List<TrainStation> trainStations { get; set; }
-        List<School> schools { get; set; }
-        List<Hospital> hospitals { get; set; }
-        List<Location> venues { get; set; }
+        public List<Park> parks { get; set; }
+        public List<TrainStation> trainStations { get; set; }
+        public List<School> schools { get; set; }
+        public List<Hospital> hospitals { get; set; }
+        public List<Location> venues { get; set; }
 
         // do we need to declare these?
         //double longitude  { get;}

@@ -7,6 +7,7 @@ namespace Mupadoodle1.Models
 {
     public class TestProgram
     {
+        /*
         public static void Main(String[] args)
         {
             City dublin = new City(53.353, -6.267, "Dublin");
@@ -35,7 +36,7 @@ namespace Mupadoodle1.Models
             Console.WriteLine("The name of the school is " + newSchool.getName());
             Console.WriteLine("The name of the hospital is " + newHospital.getName());
             Console.ReadLine();
-
+        
         }
-    }
+*/    }
 }

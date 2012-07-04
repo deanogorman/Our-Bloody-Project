@@ -8,7 +8,7 @@ namespace Mupadoodle1.DataAccess
 {
     public class CitiesDAL
     {
-        public City addLocation(Location venue, City toCity)
+        public void addLocation(Location venue, City toCity)
         {
             //look up the City database and add the location to the city
             if (venue is Park)
