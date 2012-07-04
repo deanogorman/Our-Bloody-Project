@@ -1,0 +1,15 @@
+﻿//Tutorial..
+//http://www.asp.net/mvc/tutorials/older-versions/models-(data)/creating-model-classes-with-linq-to-sql-cs
+
+<%@Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="MvcApplication1.Views.Home.Index" %>
+<%@Import Namespace="MovieDB.Models"%>
+<asp:Content ID="indexContent" ContentPlaceHolderID="MainContent" runat="server">
+
+     <ul>
+          <% foreach (Book b in (IEnumerable)ViewData.Model)
+
+          { %>
+               <li> <%= b.Title %> </li>
+          <% } %>
+     </ul>
+</asp:Content>
