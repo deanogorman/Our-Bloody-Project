@@ -34,7 +34,7 @@ namespace Mupadoodle1.Ingestion
                     {
                         lng = Convert.ToDouble(csv[i]);
                     }
-                    else if (headers[i].Equals("latitude"))
+                    else if (headers[i].Equals("latitute"))
                     {
                         lat = Convert.ToDouble(csv[i]);
                     }

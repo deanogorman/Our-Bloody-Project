@@ -12,30 +12,30 @@
 
 <table>
     <tr>
-    <!--
         <th>
-            @Html.DisplayNameFor(model => model.getLat())
+            Latitude
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.getLong())
+           Longitude
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.getName())
+           Name
+            
         </th>
         <th></th>
-        -->
     </tr>
 
-@foreach (var item in Model) {
+@foreach (var item in Model)
+{
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.getLat())
+            @Html.DisplayFor(modelItem => item.theLong)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.getLong())
+            @Html.DisplayFor(modelItem => item.theLat)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.getName())
+            @Html.DisplayFor(modelItem => item.theName)
         </td>
     </tr>
 }
@@ -61,6 +61,6 @@
         Use this area to provide additional information.
     </p>
     <ul>
-        <li>@Html.ActionLink("EEEEK", "Index", "Home")</li>
+        <li>@Html.ActionLink("Go Back Home Dude", "Index", "Home")</li>
     </ul>
 </aside>

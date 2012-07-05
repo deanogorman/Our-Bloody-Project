@@ -8,8 +8,20 @@ namespace Mupadoodle1.Models
     public class Location
     {
         double longitude;
+        public double theLong
+        {
+            get { return longitude; }
+        }
         double latitude;
+        public double theLat
+        {
+            get { return latitude; }
+        }
         string name;
+        public string theName
+        {
+            get { return name; }
+        }
 
         private void setLatLong(double Lat, double Long)
         {
