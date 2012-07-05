@@ -10,7 +10,7 @@ namespace Mupadoodle1.Ingestion
     public class CSVReader
     {
         private string fname = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\myfile.csv";
-        private string fname2 = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\Museums_and_Galleries.csv";
+        private string fnameMuseums = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\Museums_and_Galleries.csv";
         private StreamReader myReader;
 
         public List<Location> getCSVFileData()
@@ -24,6 +24,19 @@ namespace Mupadoodle1.Ingestion
             CSVParser parser = new CSVParser();
             parser.setStreamSource(myReader);
             return (parser.parseLocations());
+        }
+
+        public List<Museum> getCSVFileDataMuseums()
+        {
+            if (!File.Exists(fnameMuseums))
+            {
+                return null;
+            }
+
+            myReader = new StreamReader(fnameMuseums);
+            CSVParser parser = new CSVParser();
+            parser.setStreamSource(myReader);
+            return (parser.parseMuseums());
         }
     }
 }

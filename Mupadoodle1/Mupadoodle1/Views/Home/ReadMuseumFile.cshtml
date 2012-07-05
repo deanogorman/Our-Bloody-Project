@@ -1,0 +1,100 @@
+﻿@model IEnumerable<Mupadoodle1.Models.Museum>
+
+@{
+    ViewBag.Title = "ReadMuseumFile";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<table>
+    <tr>
+        <th>
+            Latitude
+        </th>
+        <th>
+           Longitude
+        </th>
+        <th>
+           Name
+        </th>
+        <th>
+           Address
+        </th>
+        <th>
+           Address
+        </th>
+        <th>
+           Zip
+        </th>
+        <th>
+           Phone
+        </th>
+        <th>
+           City
+        </th>
+        <th>
+           URL
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.theLat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.theLong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.theName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.address1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.address2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.zip)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cityStr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.url)
+        </td>
+    </tr>
+}
+</table>
+
+<article>
+    <p>
+        Use this area to provide additional information.
+    </p>
+
+    <p>
+        Use this area to provide additional information.
+    </p>
+
+    <p>
+        Use this area to provide additional information.
+    </p>
+</article>
+
+<aside>
+    <h3>Aside Title</h3>
+    <p>
+        Use this area to provide additional information.
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Go Back Home Dude", "Index", "Home")</li>
+    </ul>
+</aside>
