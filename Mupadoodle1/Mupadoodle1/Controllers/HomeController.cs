@@ -7,12 +7,14 @@ using System.Web.Mvc;
 using Mupadoodle1.Models;
 using Mupadoodle1.Ingestion;
 using System.Runtime.Serialization.Json;
+using System.IO;
+using Mupadoodle1.DataAccess;
 
 namespace Mupadoodle1.Controllers
 {
     public class HomeController : Controller
     {
-        public static Museum MakeRequest(string requestUrl)
+        public static List<Museum> MakeRequest(string requestUrl)
         {
             try
             {
@@ -24,9 +26,10 @@ namespace Mupadoodle1.Controllers
                         "Server error (HTTP {0}: {1}).",
                         response.StatusCode,
                         response.StatusDescription));
-                    DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(Museum));
-                    object objResponse = jsonSerializer.ReadObject(response.GetResponseStream());
-                    Museum jsonResponse = objResponse as Museum;
+                    DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(List<Museum>));
+                    Stream streamy = response.GetResponseStream();
+                    object objResponse = jsonSerializer.ReadObject(streamy);
+                    List<Museum> jsonResponse = objResponse as List<Museum>;
                     return jsonResponse;
                 }
             }
@@ -46,7 +49,17 @@ namespace Mupadoodle1.Controllers
 
         public ActionResult ReadMuseumFile()
         {
-            return View(csvr.getCSVFileDataMuseums());
+            List<Museum> mList = csvr.getCSVFileDataMuseums();
+            MuseumDAL mDAL = new MuseumDAL();
+
+            // stick it in the dB
+            // ???
+            foreach (Museum m in mList)
+            {
+                mDAL.addMuseumToDb(m);
+            }
+
+            return View(mList);
         }
 
         public ActionResult ReadMuseumStreum()

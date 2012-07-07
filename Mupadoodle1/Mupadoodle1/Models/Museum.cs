@@ -13,7 +13,7 @@ namespace Mupadoodle1.Models
     public class Museum : Location
     {
         [Column(IsPrimaryKey = true)]
-        public int id;
+        public int id {get; set;}
         [Column(Name = "CITY")]
         public City city; // the city in which the park is located museum.City
         [DataMember]
