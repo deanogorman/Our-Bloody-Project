@@ -36,3 +36,35 @@ C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bl
 C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\obj\Debug\Mupadoodle1.pdb
 C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\LumenWorks.Framework.IO.dll
 C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\LumenWorks.Framework.IO.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\Mupadoodle1.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\Mupadoodle1.pdb
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\Antlr3.Runtime.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\EntityFramework.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\LumenWorks.Framework.IO.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\Newtonsoft.Json.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Net.Http.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Net.Http.WebRequest.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.Helpers.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.Mvc.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.Optimization.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.Providers.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.Razor.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.WebPages.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.WebPages.Razor.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\WebGrease.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\LumenWorks.Framework.IO.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\EntityFramework.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\Newtonsoft.Json.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Net.Http.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Net.Http.WebRequest.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.Helpers.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.Mvc.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.Razor.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.WebPages.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.WebPages.Razor.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\obj\Debug\Mupadoodle1.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\obj\Debug\Mupadoodle1.dll
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\obj\Debug\Mupadoodle1.pdb
