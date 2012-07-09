@@ -62,6 +62,42 @@ namespace Mupadoodle1.Controllers
             return View(mList);
         }
 
+        // ** Add Museum to DB ** //
+        public ActionResult addMuseumFiletoDB()
+        {
+            List<Museum> mList = csvr.getCSVFileDataMuseums();
+            MuseumDAL mDAL = new MuseumDAL();
+
+            // stick it in the dB
+            foreach (Museum m in mList)
+            {
+                mDAL.addMuseumToDb(m);
+            }
+
+            return View();
+        }
+
+        // ** Query Museum DB **
+        public ActionResult QueryMuseumDB()
+        {
+            string searchFor = "history";
+
+            //ad to db
+            List<Museum> mList = csvr.getCSVFileDataMuseums();
+            MuseumDAL mDAL = new MuseumDAL();
+
+            foreach (Museum m in mList)
+            {
+                mDAL.addMuseumToDb(m);
+            }
+
+            //List<Museum> musList = mDAL.findMuseumFromUserInput();        //two different search methods
+            List<Museum> musList = mDAL.findMuseumFromdB(searchFor);
+
+            return View(musList);
+        }
+
+        // ** Serialissation ** //
         public ActionResult ReadMuseumStreum()
         {
             return View(MakeRequest("https://nycopendata.socrata.com/api/views/sat5-adpb/rows.json"));

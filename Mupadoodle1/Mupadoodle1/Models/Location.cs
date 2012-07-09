@@ -64,5 +64,8 @@ namespace Mupadoodle1.Models
             setLatLong(Lat, Long);
             setName(Name);
         }
+        public Location()
+        {
+        }
     }
 }

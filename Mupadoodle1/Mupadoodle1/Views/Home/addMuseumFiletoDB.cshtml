@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Mupadoodle1.Models.Museum>
+
+@{
+    ViewBag.Title = "Museum File Added to DB";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+
+
+
+<p> 
+   @Html.ActionLink("Query Museum Database", "QueryMuseumDB")  
+</p>
+<p>
+    @Html.ActionLink("Read Sample CSV File", "ReadSampleFile")
+</p>
+<p>
+    @Html.ActionLink("Read Museum CSV File", "ReadMuseumFile")
+</p>
+<p>
+    @Html.ActionLink("Read Museum Stream", "ReadMuseumStreum")
+</p>

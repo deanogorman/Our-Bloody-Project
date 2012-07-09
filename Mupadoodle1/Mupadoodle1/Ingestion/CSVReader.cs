@@ -9,8 +9,11 @@ namespace Mupadoodle1.Ingestion
 {
     public class CSVReader
     {
-        private string fname = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\myfile.csv";
-        private string fnameMuseums = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\Museums_and_Galleries.csv";
+        private string fname = "D:\\CloudComp\\Semester3\\EntFrameWorks\\GroupProj\\Mup3\\Mupadoodle1\\myfile.csv";
+        private string fnameMuseums = "D:\\CloudComp\\Semester3\\EntFrameWorks\\GroupProj\\Mup3\\Mupadoodle1\\Museums_and_Galleries.csv";
+
+       // private string fname = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\myfile.csv";
+        //private string fnameMuseums = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\Museums_and_Galleries.csv";
         private StreamReader myReader;
 
         public List<Location> getCSVFileData()

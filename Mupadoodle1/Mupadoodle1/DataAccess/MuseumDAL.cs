@@ -46,20 +46,40 @@ namespace Mupadoodle1.DataAccess
             return false;
         }
 
-        public Museum findMuseumFromdB(string museumID)
+        public List<Museum> findMuseumFromdB(string museumID)
         {
             // the museumID is an identifier that we've yet to decide on, probably name
             //Museum m = null;
             List<Museum> ms = null;
+            List<Museum> queryResult = null;
 
             ms = db.museums.ToList();
 
             foreach (Museum m in ms)
             {
                 m.theName.Equals(museumID);
-                return m;
+                queryResult.Add(m);
             }
-            return null;
+            return queryResult;
+        }
+
+        public List<Museum> findMuseumFromUserInput()
+        {
+            int val = 12;   //"Anne Frank Center USA";
+
+            List<Museum> queryResult = null;
+
+            // Query for all museums in db using LINQ 
+            var each = from mus in db.museums
+                       where mus.id.Equals(val) // == val
+                       //orderby mus.Name
+                       select mus;
+
+            foreach (var item in each)
+            {
+                queryResult.Add(item);
+            }
+            return queryResult;
         }
     }
 }

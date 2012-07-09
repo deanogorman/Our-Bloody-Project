@@ -70,5 +70,8 @@ namespace Mupadoodle1.Models
             this.zip = zip;
             this.cityStr = city;
         }
+        public Museum()
+        { 
+        }
     }
 }

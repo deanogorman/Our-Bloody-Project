@@ -263,6 +263,12 @@
   <ItemGroup>
     <Content Include="Views\Home\ReadMuseumStreum.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\QueryMuseumDB.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\addMuseumFiletoDB.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -279,7 +285,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1310</DevelopmentServerPort>
+          <DevelopmentServerPort>3770</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
