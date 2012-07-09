@@ -4,15 +4,18 @@ using System.Linq;
 using System.Web;
 using System.Configuration;
 using Mupadoodle1.Models;
+using System.Data.Entity;
 
 namespace Mupadoodle1.DataAccess
 {
     public class MuseumDAL
     {
         protected AccessDB db = new AccessDB();
+        
 
         public MuseumDAL()
         {
+            Database.SetInitializer<AccessDB>(new DropCreateDatabaseIfModelChanges<AccessDB>());
             ConnectionStringSettingsCollection connections = ConfigurationManager.ConnectionStrings;
             if (connections.Count != 0)
             {
@@ -41,6 +44,8 @@ namespace Mupadoodle1.DataAccess
         {
             if (db.museums.Add(m) is Museum)
             {
+                db.SaveChanges();
+                m = db.museums.First();
                 return true;
             }
             return false;
@@ -65,13 +70,13 @@ namespace Mupadoodle1.DataAccess
 
         public List<Museum> findMuseumFromUserInput()
         {
-            int val = 12;   //"Anne Frank Center USA";
+            string val = "New York";
 
             List<Museum> queryResult = null;
 
             // Query for all museums in db using LINQ 
             var each = from mus in db.museums
-                       where mus.id.Equals(val) // == val
+                       where mus.cityStr.Equals(val) // == val
                        //orderby mus.Name
                        select mus;
 

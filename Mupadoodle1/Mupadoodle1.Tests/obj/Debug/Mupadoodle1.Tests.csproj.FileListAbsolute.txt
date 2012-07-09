@@ -112,3 +112,42 @@ C:\Documents and Settings\Louis Harte\groupProj\Mupadoodle1\Mupadoodle1.Tests\bi
 C:\Documents and Settings\Louis Harte\groupProj\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Louis Harte\groupProj\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\Mupadoodle1.Tests.dll
 C:\Documents and Settings\Louis Harte\groupProj\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\Mupadoodle1.Tests.pdb
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Mupadoodle1.Tests.dll.config
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Mupadoodle1.Tests.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Mupadoodle1.Tests.pdb
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Mupadoodle1.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Net.Http.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Http.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Razor.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\EntityFramework.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\WebGrease.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Mupadoodle1.pdb
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Net.Http.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Http.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.Razor.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\EntityFramework.xml
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\Mupadoodle1.Tests.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\Mupadoodle1.Tests.pdb

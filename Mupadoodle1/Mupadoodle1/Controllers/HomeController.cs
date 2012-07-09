@@ -91,8 +91,8 @@ namespace Mupadoodle1.Controllers
                 mDAL.addMuseumToDb(m);
             }
 
-            //List<Museum> musList = mDAL.findMuseumFromUserInput();        //two different search methods
-            List<Museum> musList = mDAL.findMuseumFromdB(searchFor);
+            List<Museum> musList = mDAL.findMuseumFromUserInput();        //two different search methods
+            //List<Museum> musList = mDAL.findMuseumFromdB(searchFor);
 
             return View(musList);
         }
