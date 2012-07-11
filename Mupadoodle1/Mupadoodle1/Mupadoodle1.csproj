@@ -42,7 +42,11 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -131,6 +135,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DataAccess\CitiesDAL.cs" />
+    <Compile Include="DataAccess\MuseumDAL.cs" />
     <Compile Include="DataAccess\ParkDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -140,6 +145,12 @@
     <Compile Include="Ingestion\IDataParser.cs" />
     <Compile Include="Logic\AddLocation.cs" />
     <Compile Include="Logic\SearchCity.cs" />
+    <Compile Include="Migrations\201207071602276_creating_museum_table.cs" />
+    <Compile Include="Migrations\201207071602276_creating_museum_table.Designer.cs">
+      <DependentUpon>201207071602276_creating_museum_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AccessDB.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\City.cs" />
     <Compile Include="Models\Museum.cs" />
@@ -249,6 +260,15 @@
   <ItemGroup>
     <Content Include="Views\Home\ReadMuseumFile.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\ReadMuseumStreum.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\QueryMuseumDB.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\addMuseumFiletoDB.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -265,7 +285,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1310</DevelopmentServerPort>
+          <DevelopmentServerPort>3770</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
