@@ -50,14 +50,7 @@ namespace Mupadoodle1.Controllers
         public ActionResult ReadMuseumFile()
         {
             List<Museum> mList = csvr.getCSVFileDataMuseums();
-            MuseumDAL mDAL = new MuseumDAL();
-
-            // stick it in the dB
-            // ???
-            foreach (Museum m in mList)
-            {
-                mDAL.addMuseumToDb(m);
-            }
+      
 
             return View(mList);
         }
@@ -71,7 +64,8 @@ namespace Mupadoodle1.Controllers
             // stick it in the dB
             foreach (Museum m in mList)
             {
-                mDAL.addMuseumToDb(m);
+                bool result;
+                result = mDAL.addMuseumToDb(m);
             }
 
             return View();
@@ -82,14 +76,7 @@ namespace Mupadoodle1.Controllers
         {
             string searchFor = "history";
 
-            //ad to db
-            List<Museum> mList = csvr.getCSVFileDataMuseums();
             MuseumDAL mDAL = new MuseumDAL();
-
-            foreach (Museum m in mList)
-            {
-                mDAL.addMuseumToDb(m);
-            }
 
             List<Museum> musList = mDAL.findMuseumFromUserInput();        //two different search methods
             //List<Museum> musList = mDAL.findMuseumFromdB(searchFor);

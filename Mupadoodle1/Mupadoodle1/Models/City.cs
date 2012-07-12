@@ -28,6 +28,10 @@ namespace Mupadoodle1.Models
         //double latitude  { get; }
         //string name { get; set; }
 
+        public City()
+        {
+        }
+
         public City(double Lat, double Long, string cityName)
             : base(Lat, Long, cityName)
         {

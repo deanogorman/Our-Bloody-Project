@@ -20,7 +20,7 @@ namespace Mupadoodle1.DataAccess
             if (connections.Count != 0)
             {
                 Console.WriteLine();
-                System.Diagnostics.Debug.WriteLine("Using connectsion strings property");
+                System.Diagnostics.Debug.WriteLine("Using connection strings property");
 
                 // Get the collection elements
                 foreach (ConnectionStringSettings connection in connections)
@@ -42,10 +42,22 @@ namespace Mupadoodle1.DataAccess
 
         public bool addMuseumToDb(Museum m)
         {
-            if (db.museums.Add(m) is Museum)
+            Museum inm = new Museum();
+            try
+            {
+                inm = db.museums.Add(m);
+            }
+            
+            catch (Exception e)
+            {
+                Exception j = e;
+                return false;
+                //do something
+            }
+
+            if (inm is Museum)
             {
                 db.SaveChanges();
-                m = db.museums.First();
                 return true;
             }
             return false;
@@ -56,13 +68,13 @@ namespace Mupadoodle1.DataAccess
             // the museumID is an identifier that we've yet to decide on, probably name
             //Museum m = null;
             List<Museum> ms = null;
-            List<Museum> queryResult = null;
+            List<Museum> queryResult = new List<Museum>();
 
             ms = db.museums.ToList();
 
             foreach (Museum m in ms)
             {
-                m.theName.Equals(museumID);
+                m.name.Equals(museumID);
                 queryResult.Add(m);
             }
             return queryResult;
@@ -70,16 +82,18 @@ namespace Mupadoodle1.DataAccess
 
         public List<Museum> findMuseumFromUserInput()
         {
+            // just a test using hardcoded string for cityStr
             string val = "New York";
 
-            List<Museum> queryResult = null;
+            List<Museum> queryResult = new List<Museum>();
 
             // Query for all museums in db using LINQ 
+           
             var each = from mus in db.museums
                        where mus.cityStr.Equals(val) // == val
                        //orderby mus.Name
                        select mus;
-
+            
             foreach (var item in each)
             {
                 queryResult.Add(item);

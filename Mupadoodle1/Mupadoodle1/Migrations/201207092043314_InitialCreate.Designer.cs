@@ -4,11 +4,11 @@ namespace Mupadoodle1.Migrations
     using System.Data.Entity.Migrations;
     using System.Data.Entity.Migrations.Infrastructure;
     
-    public sealed partial class creating_museum_table : IMigrationMetadata
+    public sealed partial class InitialCreate : IMigrationMetadata
     {
         string IMigrationMetadata.Id
         {
-            get { return "201207071602276_creating_museum_table"; }
+            get { return "201207092043314_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source

@@ -149,6 +149,14 @@
     <Compile Include="Migrations\201207071602276_creating_museum_table.Designer.cs">
       <DependentUpon>201207071602276_creating_museum_table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201207092043314_InitialCreate.cs" />
+    <Compile Include="Migrations\201207092043314_InitialCreate.Designer.cs">
+      <DependentUpon>201207092043314_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201207092126268_noname.cs" />
+    <Compile Include="Migrations\201207092126268_noname.Designer.cs">
+      <DependentUpon>201207092126268_noname.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccessDB.cs" />
     <Compile Include="Models\AccountModels.cs" />
