@@ -74,7 +74,7 @@ namespace Mupadoodle1.DataAccess
 
             foreach (Museum m in ms)
             {
-                m.name.Equals(museumID);
+                m.theName.Equals(museumID);
                 queryResult.Add(m);
             }
             return queryResult;

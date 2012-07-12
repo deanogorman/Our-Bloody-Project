@@ -22,11 +22,7 @@ namespace Mupadoodle1.Models
         public List<School> schools { get; set; }
         public List<Hospital> hospitals { get; set; }
         public List<Location> venues { get; set; }
-
-        // do we need to declare these?
-        //double longitude  { get;}
-        //double latitude  { get; }
-        //string name { get; set; }
+        public virtual ICollection<Museum> museums { get; set; }
 
         public City()
         {
@@ -41,6 +37,7 @@ namespace Mupadoodle1.Models
             trainStations = new List<TrainStation>();
             schools = new List<School>();
             hospitals = new List<Hospital>();
+            //museums = new ICollection<Museum>();
         }
 
         /*public void addLocation(Location venue)

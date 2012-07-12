@@ -10,13 +10,12 @@ namespace Mupadoodle1.Models
 {
     //[DataContract]
     [Table (Name = "MUSEUMS")]
-    public class Museum
+    public class Museum : Location
     {
         //[Column(IsPrimaryKey = true)]
         public int MuseumID {get; set;}
-        public double lat {get; set;}
-        public double lng {get; set;}
-        public string name {get; set;}
+        // City causes dB conflicts, virtual or otherwise
+        //public virtual City city {get; set;}
         public string cityStr { get; set; }
         public string shape { get; set; } 
         public string tel { get; set; }
@@ -25,11 +24,8 @@ namespace Mupadoodle1.Models
         public string address2 { get; set; }
         public string zip { get; set; }
 
-        public Museum(double Lat, double Long, string museumName, string phone, string theUrl, string add1, string add2, string zip, string city)
+        public Museum(double Lat, double Long, string museumName, string phone, string theUrl, string add1, string add2, string zip, string city)  : base (Lat, Long, museumName)
         {
-            this.lat = Lat;
-            this.lng = Long;
-            this.name = museumName;
             //this.city = new City();
             this.tel = phone;
             this.url = theUrl;

@@ -11,25 +11,18 @@ namespace Mupadoodle1.Models
     [Table(Name = "LOCATIONS")]
     public class Location
     {
-        //[Column(IsPrimaryKey = true)]
         public int LocationID { get; set; }
-        //[DataMember]
-        //[Column(Name = "LNG")]
-        double longitude;
+        public double longitude { get; set; }
         public double theLong
         {
             get { return longitude; }
         }
-        //[DataMember]
-        //[Column(Name = "LAT")]
-        double latitude;
+        public double latitude { get; set; }
         public double theLat
         {
             get { return latitude; }
         }
-        //[DataMember]
-        //[Column(Name = "LNAME")]
-        string lname;
+        public string lname { get; set; }
         public string theName
         {
             get { return lname; }
