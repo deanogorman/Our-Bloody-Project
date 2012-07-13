@@ -69,7 +69,24 @@ namespace Mupadoodle1.Controllers
                 result = mDAL.addMuseumToDb(m);
             }
 
+            // Add all the other files to the db
+            // we should really rename this method addVenuesFilestoDB
+            addParksFiletoDB();
+
             return View();
+        }
+
+        private void addParksFiletoDB()
+        {
+            List<Park> pList = csvr.getCSVFileDataParks();
+            ParkDAL pDAL = new ParkDAL();
+
+            // stick it in the dB
+            foreach (Park p in pList)
+            {
+                bool result;
+                result = pDAL.addParkToDb(p);
+            }
         }
 
         // ** Query Museum DB **

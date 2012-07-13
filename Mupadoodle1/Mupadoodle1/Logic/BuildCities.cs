@@ -14,9 +14,11 @@ namespace Mupadoodle1.Logic
             // list of all museums in dB
             // list of all other venues to follow
             List<Museum> ms = new List<Museum>();
+            List<Park> ps = new List<Park>();
             // temporary list of cities
             List<City> cs = new List<City>();
             MuseumDAL mDal = new MuseumDAL();
+            ParkDAL pDal = new ParkDAL();
 
             ms = mDal.getAllMuseumsFromDb();
 
@@ -47,6 +49,32 @@ namespace Mupadoodle1.Logic
             }
 
             // Do this again for each other venue
+            ps = pDal.getAllParksFromDb();
+            foreach (Park p in ps)
+            {
+                bool notFound = true;
+                foreach (City c in cs)
+                {
+                    if (p.cityStr.Equals(c.lname))
+                    {
+                        // Add museum to list of this city's museums
+                        c.parks.Add(p);
+                        notFound = false;
+                        break;
+                    }
+                }
+                if (notFound)
+                {
+                    City addCity = new City();
+                    addCity.lname = p.cityStr;
+                    addCity.latitude = 79.0;
+                    addCity.longitude = 79.0;
+                    // Add museum to list of this city's museums
+                    //addCity.museums = new List<Museum>();
+                    addCity.parks.Add(p);
+                    cs.Add(addCity);
+                }
+            }
             
             // We have created our temporary list of cities, now add them to the dB
             CitiesDAL cDal = new CitiesDAL();

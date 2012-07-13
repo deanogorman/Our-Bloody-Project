@@ -8,7 +8,7 @@ namespace Mupadoodle1.Models
     //[Table(Name = "HOSPITALS")]
     public class Hospital : Location
     {
-        public City city; // the city in which the School is located school.City
+        //public City city; // the city in which the School is located school.City
         //double longitude inhereted;
         //double latitude inhereted;
         //string Name inhereted;
@@ -21,7 +21,7 @@ namespace Mupadoodle1.Models
         public Hospital(double Lat, double Long, string tsName)
             : base(Lat, Long, tsName)
         {
-            this.city = null;
+            //this.city = null;
             this.wheelchairAccess = true;
             this.taxiRank = true;
             this.carPark = true;

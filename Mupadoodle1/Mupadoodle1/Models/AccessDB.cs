@@ -10,6 +10,7 @@ namespace Mupadoodle1.Models
     {
         public DbSet<Museum> museums { get; set; }
         public DbSet<City> cities { get; set; }
+        public DbSet<Park> parks { get; set; }
 
         //public DbSet<ExchangeUI> ExchangeUIs { get; set; }
     }

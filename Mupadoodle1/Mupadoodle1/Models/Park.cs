@@ -8,17 +8,24 @@ namespace Mupadoodle1.Models
     //[Table (Name = "PARKS")]
     public class Park : Location
     {
-        public City city; // the city in which the park is located park.City
-        //double longitude;
-        //double latitude;
-        //string Name;
-        string facilities;
+        public int ParkID { get; set; }
+        public virtual int CityID { get; set; }
+        public string cityStr { get; set; }
+        public string shape { get; set; }
+        public double acres { get; set; }
+        public string place { get; set; }
 
-        public Park(double Lat, double Long, string parkName)
+        public Park()
+        {
+        }
+
+        public Park(double Lat, double Long, string parkName, string city, double size, string place)
             : base(Lat, Long, parkName)
         {
-            this.city = null;
-            this.facilities = "none";
+            this.lname = parkName;
+            this.cityStr = city;
+            this.acres = size;
+            this.place = place;
         }
     }
 }

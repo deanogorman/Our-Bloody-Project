@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<Mupadoodle1.Models.City>
 
 @{
-    ViewBag.Title = "List of Cities";
+    ViewBag.Title = "List of Cities and their Venues";
 }
 
 <hgroup class="title">
@@ -9,36 +9,68 @@
     <h2>@ViewBag.Message</h2>
 </hgroup>
 
-<table>
+<table border="5" cellspacing="10" width="100%">
     <tr>
-        <th>
-            Latitude
-        </th>
-        <th>
-           Longitude
-        </th>
-        <th>
-           Name
-        </th>
-        <th>
-           Number of Museums
-        </th>
+        <th>City</th>
+        <th>Venues</th>
+        <th>Type, Name and Details</th>
     </tr>
-
 @foreach (var item in Model)
 {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.theLat)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.theLong)
-        </td>
-        <td>
+    <tr valign="top">
+        <td width="15%">
             @Html.DisplayFor(modelItem => item.theName)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.museums.Count)
+        <td width="35%">
+            Museums: 
+            @Html.DisplayFor(modelItem => item.museums.Count)<br />
+            Parks: 
+            @Html.DisplayFor(modelItem => item.parks.Count)
+        </td>
+        <td width="50%">
+            <table>
+                @foreach (var m in item.museums)
+                {
+                    <tr valign="top">
+                        <td>
+                            Museum
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => m.lname)
+                        </td>
+                        <td>
+                            Address:
+                            @Html.DisplayFor(modelItem => m.adress1)<br />
+                            Address:
+                            @Html.DisplayFor(modelItem => m.address2)<br />
+                            Zip:
+                            @Html.DisplayFor(modelItem => m.zip)<br />
+                            Phone:
+                            @Html.DisplayFor(modelItem => m.tel)<br />
+                            Website:
+                            @Html.DisplayFor(modelItem => m.url)<br />
+                         </td>
+                    </tr>
+                }
+
+                @foreach (var p in item.parks)
+                {
+                    <tr valign="top">
+                        <td>
+                            Park
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => p.lname)
+                        </td>
+                        <td>
+                            Place:
+                            @Html.DisplayFor(modelItem => p.place)<br />
+                            Acres:
+                            @Html.DisplayFor(modelItem => p.acres)<br />
+                         </td>
+                    </tr>
+                }
+               </table>
         </td>
     </tr>
 }

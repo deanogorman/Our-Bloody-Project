@@ -14,17 +14,8 @@ namespace Mupadoodle1.DataAccess
         public void addLocation(Location venue, City toCity)
         {
             //look up the City database and add the location to the city
-            if (venue is Park)
-            {
-                toCity.parks.Add((Park)venue);
-                ((Park)venue).city = toCity;
-            }
-            else if (venue is TrainStation)
-            {
-                toCity.trainStations.Add((TrainStation)venue);
-                ((TrainStation)venue).city = toCity;
-            }
-            else if (venue is School)
+            /*
+            if (venue is School)
             {
                 toCity.schools.Add((School)venue);
                 ((School)venue).city = toCity;
@@ -38,6 +29,7 @@ namespace Mupadoodle1.DataAccess
             {
                 toCity.venues.Add(venue);
             }
+             * */
         }
 
         public City deleteLocation(Location venue, City fromCity)

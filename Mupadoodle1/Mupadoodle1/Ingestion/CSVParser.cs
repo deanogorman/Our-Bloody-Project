@@ -52,6 +52,16 @@ namespace Mupadoodle1.Ingestion
             //throw new NotImplementedException();
         }
 
+        private void parseShape(string shape, double lat, double lng)
+        {
+            // strip off the first a last characters in the string as these are braces
+            string shape2 = shape.Substring(1, shape.Length - 2);
+            // split the string into 2 strings
+            string[] split = shape2.Split(new Char[] { ',' });
+            lat = Convert.ToDouble(split[0]);
+            lng = Convert.ToDouble(split[1]);
+        }
+
         public List<Models.Museum> parseMuseums()
         {
             CsvReader csv = new CsvReader(reader, true);
@@ -63,7 +73,7 @@ namespace Mupadoodle1.Ingestion
 
             while (csv.ReadNextRecord())
             {
-                string shape = null, cityStr = null;
+                string cityStr = null;
                 double lat = 0, lng = 0;
                 string theName = null, theUrl = null, add1 = null, add2 = null, theZip = null, phone = null;
 
@@ -72,13 +82,7 @@ namespace Mupadoodle1.Ingestion
                     // this is where you actually create your dB object
                     if (headers[i].Equals("Shape"))
                     {
-                        shape = csv[i];
-                        // strip off the first a last characters in the string as these are braces
-                        string shape2 = shape.Substring(1, shape.Length - 2);
-                        // split the string into 2 strings
-                        string[] split = shape2.Split(new Char[] { ',' });
-                        lat = Convert.ToDouble(split[0]);
-                        lng = Convert.ToDouble(split[1]);
+                        parseShape(csv[i], lat, lng);
                     }
                     else if (headers[i].Equals("NAME"))
                     {
@@ -111,6 +115,50 @@ namespace Mupadoodle1.Ingestion
                 }
 
                 exObj = new Museum(lat, lng, theName, phone, theUrl, add1, add2, theZip, cityStr);
+                exList.Add(exObj);
+            }
+
+            return exList;
+
+            //throw new NotImplementedException();
+        }
+
+        public List<Models.Park> parseParks()
+        {
+            CsvReader csv = new CsvReader(reader, true);
+            int fieldCount = csv.FieldCount;
+            List<Park> exList = new List<Park>();
+            Park exObj = null;
+
+            String[] headers = csv.GetFieldHeaders();
+
+            while (csv.ReadNextRecord())
+            {
+                double lat = 0, lng = 0, theAcres = 0;
+                string thePlace = null, theName = null;
+
+                for (int i = 0; i < fieldCount; i++)
+                {
+                    // this is where you actually create your dB object
+                    if (headers[i].Equals("Shape"))
+                    {
+                        parseShape(csv[i], lat, lng);
+                    }
+                    else if (headers[i].Equals("LOCATION"))
+                    {
+                        thePlace = csv[i];
+                    }
+                    else if (headers[i].Equals("SIGNNAME"))
+                    {
+                        theName = csv[i];
+                    }
+                    else if (headers[i].Equals("ACRES"))
+                    {
+                        theAcres = Convert.ToDouble(csv[i]);
+                    }
+                }
+
+                exObj = new Park(lat, lng, theName, "New York", theAcres, thePlace);
                 exList.Add(exObj);
             }
 

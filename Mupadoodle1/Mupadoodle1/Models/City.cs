@@ -11,12 +11,13 @@ namespace Mupadoodle1.Models
     {
         //[Column(IsPrimaryKey = true")]
         public int CityID = 0;
-        public List<Park> parks { get; set; }
+        
         public List<TrainStation> trainStations { get; set; }
         public List<School> schools { get; set; }
         public List<Hospital> hospitals { get; set; }
         public List<Location> venues { get; set; }
         public virtual ICollection<Museum> museums { get; set; }
+        public virtual ICollection<Park> parks { get; set; }
 
         public City()
         {
