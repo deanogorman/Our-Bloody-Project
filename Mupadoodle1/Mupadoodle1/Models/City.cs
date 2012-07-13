@@ -1,22 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Linq.Mapping;
 using System.Web;
 
 namespace Mupadoodle1.Models
 {
-    //[Table(Name = "CITIES")]
+    [Table (Name = "CITIES")]
     public class City : Location
     {
-        //[Column(IsPrimaryKey = true, Storage = "_cityID")]
-
-        private static int theID = 0;
-        private int cityID = 0;
-        public int theCityID
-        {
-            get { return cityID; }
-            set { cityID = value; }
-        }
+        //[Column(IsPrimaryKey = true")]
+        public int CityID = 0;
         public List<Park> parks { get; set; }
         public List<TrainStation> trainStations { get; set; }
         public List<School> schools { get; set; }
@@ -26,18 +20,21 @@ namespace Mupadoodle1.Models
 
         public City()
         {
+                parks = new List<Park>();
+                trainStations = new List<TrainStation>();
+                schools = new List<School>();
+                hospitals = new List<Hospital>();
+                museums = new List<Museum>();
         }
 
         public City(double Lat, double Long, string cityName)
             : base(Lat, Long, cityName)
         {
-            theID++;
-            this.theCityID = theID;
             parks = new List<Park>();
             trainStations = new List<TrainStation>();
             schools = new List<School>();
             hospitals = new List<Hospital>();
-            //museums = new ICollection<Museum>();
+            museums = new List<Museum>();
         }
 
         /*public void addLocation(Location venue)

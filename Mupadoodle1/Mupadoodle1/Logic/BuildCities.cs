@@ -27,6 +27,8 @@ namespace Mupadoodle1.Logic
                 {  
                     if (m.cityStr.Equals(c.lname))
                     {
+                        // Add museum to list of this city's museums
+                        c.museums.Add(m);
                         notFound = false;
                         break;
                     }
@@ -37,6 +39,9 @@ namespace Mupadoodle1.Logic
                     addCity.lname = m.cityStr;
                     addCity.latitude = 69.0;
                     addCity.longitude = 69.0;
+                    // Add museum to list of this city's museums
+                    //addCity.museums = new List<Museum>();
+                    addCity.museums.Add(m);
                     cs.Add(addCity);
                 }
             }
@@ -53,6 +58,7 @@ namespace Mupadoodle1.Logic
                 {
                     //do something
                 }
+                // see if it has an id now
             }
         }
 
