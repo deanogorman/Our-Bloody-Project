@@ -144,6 +144,7 @@
     <Compile Include="Ingestion\CSVParser.cs" />
     <Compile Include="Ingestion\IDataParser.cs" />
     <Compile Include="Logic\AddLocation.cs" />
+    <Compile Include="Logic\BuildCities.cs" />
     <Compile Include="Logic\SearchCity.cs" />
     <Compile Include="Migrations\201207071602276_creating_museum_table.cs" />
     <Compile Include="Migrations\201207071602276_creating_museum_table.Designer.cs">
@@ -276,6 +277,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\addMuseumFiletoDB.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\BuildCities.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -5,6 +5,7 @@ using System.Web;
 using System.Configuration;
 using Mupadoodle1.Models;
 using System.Data.Entity;
+using System.Data;
 
 namespace Mupadoodle1.DataAccess
 {
@@ -37,6 +38,21 @@ namespace Mupadoodle1.DataAccess
             else
             {
                 System.Diagnostics.Debug.WriteLine("No connection string is defined");
+            }
+        }
+
+        public bool updateMuseumInDb(Museum m)
+        {
+            db.Entry(m).State = EntityState.Modified;
+            try
+            {
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception e)
+            {
+                // do something
+                return false;
             }
         }
 
@@ -79,6 +95,12 @@ namespace Mupadoodle1.DataAccess
             }
             return queryResult;
         }
+
+        public List<Museum> getAllMuseumsFromDb()
+        {
+            return(db.museums.ToList());
+        }
+
 
         public List<Museum> findMuseumFromUserInput()
         {

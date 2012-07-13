@@ -9,6 +9,7 @@ using Mupadoodle1.Ingestion;
 using System.Runtime.Serialization.Json;
 using System.IO;
 using Mupadoodle1.DataAccess;
+using Mupadoodle1.Logic;
 
 namespace Mupadoodle1.Controllers
 {
@@ -82,6 +83,18 @@ namespace Mupadoodle1.Controllers
             //List<Museum> musList = mDAL.findMuseumFromdB(searchFor);
 
             return View(musList);
+        }
+
+        public ActionResult BuildCities()
+        {
+
+            BuildCities bCities = new BuildCities();
+            List<City> cList = new List<City>();
+            CitiesDAL cDal = new CitiesDAL();
+
+            cList = cDal.getAllCitiesFromDb();
+
+            return View(cList);
         }
 
         // ** Serialissation ** //

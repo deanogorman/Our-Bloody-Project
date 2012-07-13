@@ -9,6 +9,7 @@ namespace Mupadoodle1.Models
     public class AccessDB : DbContext
     {
         public DbSet<Museum> museums { get; set; }
+        public DbSet<City> cities { get; set; }
 
         //public DbSet<ExchangeUI> ExchangeUIs { get; set; }
     }
