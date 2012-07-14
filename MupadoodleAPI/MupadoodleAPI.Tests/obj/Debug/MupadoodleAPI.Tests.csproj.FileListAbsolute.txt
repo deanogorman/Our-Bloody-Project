@@ -36,3 +36,5 @@ D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI.Tests
 D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI.Tests\obj\Debug\MupadoodleAPI.Tests.pdb
 D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI.Tests\bin\Debug\EntityFramework.dll
 D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI.Tests\bin\Debug\EntityFramework.xml
+D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI.Tests\bin\Debug\LumenWorks.Framework.IO.dll
+D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI.Tests\bin\Debug\LumenWorks.Framework.IO.xml

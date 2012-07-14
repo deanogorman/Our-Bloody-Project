@@ -34,3 +34,4 @@ D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI\bin\S
 D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI\obj\Debug\ResolveAssemblyReference.cache
 D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI\obj\Debug\MupadoodleAPI.dll
 D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI\obj\Debug\MupadoodleAPI.pdb
+D:\CloudComp\Semester3\EntFrameWorks\GroupProj\MupadoodleAPI\MupadoodleAPI\bin\LumenWorks.Framework.IO.xml
