@@ -67,7 +67,6 @@ C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\EntityFramework.xml
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\LumenWorks.Framework.IO.xml
-C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\Mupadoodle1.Tests.csprojResolveAssemblyReference.cache
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\Mupadoodle1.Tests.dll
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\Mupadoodle1.Tests.pdb
 C:\Documents and Settings\Louis Harte\groupProj\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\Mupadoodle1.Tests.dll.config
@@ -151,3 +150,4 @@ C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\Mupadoodle1.Tests.pdb
 C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\LumenWorks.Framework.IO.dll
 C:\Users\Tony\Documents\NCIRL\Semester 3\H9TECENT - Enterprise Frameworks\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\bin\Debug\LumenWorks.Framework.IO.xml
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1.Tests\obj\Debug\ResolveAssemblyReference.cache

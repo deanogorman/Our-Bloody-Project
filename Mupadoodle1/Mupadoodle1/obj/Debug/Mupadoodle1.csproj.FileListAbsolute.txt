@@ -65,7 +65,6 @@ C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\Sy
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.WebPages.xml
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.WebPages.Deployment.xml
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\bin\System.Web.WebPages.Razor.xml
-C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\obj\Debug\Mupadoodle1.csprojResolveAssemblyReference.cache
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\obj\Debug\Mupadoodle1.dll
 C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\obj\Debug\Mupadoodle1.pdb
 C:\Documents and Settings\Louis Harte\groupProj\Mupadoodle1\Mupadoodle1\bin\Mupadoodle1.dll
@@ -142,3 +141,4 @@ C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1\
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1\obj\Debug\ResolveAssemblyReference.cache
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1\obj\Debug\Mupadoodle1.dll
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\Mup4\Mupadoodle1\Mupadoodle1\obj\Debug\Mupadoodle1.pdb
+C:\Users\John\Documents\GitHub\Our-Bloody-Project\Mupadoodle1\Mupadoodle1\obj\Debug\ResolveAssemblyReference.cache
