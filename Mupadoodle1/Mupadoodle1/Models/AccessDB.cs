@@ -17,7 +17,15 @@ namespace Mupadoodle1.Models
         public AccessDB()
             : base()
         {
-            this.Configuration.ProxyCreationEnabled = false;
+            // used for writing to the dB
+            //this.Configuration.ProxyCreationEnabled = false;
+        }
+
+        public AccessDB(bool isProxyCreationEnabled)
+            : base()
+        {
+            // should be used when reading from the dB and should pass a 'false parameter
+            this.Configuration.ProxyCreationEnabled = isProxyCreationEnabled;
         }
     }
 

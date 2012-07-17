@@ -51,44 +51,17 @@ namespace Mupadoodle1.Controllers
 
         public ActionResult ReadMuseumFile()
         {
-            List<Museum> mList = csvr.getCSVFileDataMuseums();
-      
-
-            return View(mList);
+            return View(csvr.getCSVFileDataMuseums());
         }
 
         // ** Add Museum to DB ** //
         public ActionResult addMuseumFiletoDB()
         {
-            List<Museum> mList = csvr.getCSVFileDataMuseums();
-            MuseumDAL mDAL = new MuseumDAL();
-
-            // stick it in the dB
-            foreach (Museum m in mList)
-            {
-                bool result;
-                result = mDAL.addMuseumToDb(m);
-            }
-
-            // Add all the other files to the db
-            // we should really rename this method addVenuesFilestoDB
-            addParksFiletoDB();
+            BuildVenues bv = new BuildVenues();
 
             return View();
         }
 
-        private void addParksFiletoDB()
-        {
-            List<Park> pList = csvr.getCSVFileDataParks();
-            ParkDAL pDAL = new ParkDAL();
-
-            // stick it in the dB
-            foreach (Park p in pList)
-            {
-                bool result;
-                result = pDAL.addParkToDb(p);
-            }
-        }
 
         // ** Query Museum DB **
         public ActionResult QueryMuseumDB()
@@ -105,8 +78,6 @@ namespace Mupadoodle1.Controllers
 
         public ActionResult ShowCitiesGraphically()
         {
-
-            //BuildCities bCities = new BuildCities();
             List<City> cList = new List<City>();
             CitiesDAL cDal = new CitiesDAL();
             List<Museum> mList = new List<Museum>();
@@ -114,12 +85,10 @@ namespace Mupadoodle1.Controllers
             List<Park> pList = new List<Park>();
             ParkDAL pDal = new ParkDAL();
 
-            cList = cDal.getAllCitiesFromDb();
-            mList = mDal.getAllMuseumsFromDb();
-            pList = pDal.getAllParksFromDb();
+            cList = cDal.getAllCitiesFromDb(true);
+            mList = mDal.getAllMuseumsFromDb(true);
+            pList = pDal.getAllParksFromDb(true);
 
-            // data = new { Id = "one", Make = "Two" };
-            //ViewData["Data"] = Json(data);
 
             //System.Web.Script.Serialization.JavaScriptSerializer oSerializer =
          //new System.Web.Script.Serialization.JavaScriptSerializer();
@@ -157,7 +126,7 @@ namespace Mupadoodle1.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to kick-start your ASP.NET MVC application.";
+            ViewBag.Message = "Mupadoodle Frameworks Project - Tourist Venues";
 
             return View();
         }

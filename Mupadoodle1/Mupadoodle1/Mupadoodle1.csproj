@@ -145,6 +145,7 @@
     <Compile Include="Ingestion\IDataParser.cs" />
     <Compile Include="Logic\AddLocation.cs" />
     <Compile Include="Logic\BuildCities.cs" />
+    <Compile Include="Logic\BuildVenues.cs" />
     <Compile Include="Logic\SearchCity.cs" />
     <Compile Include="Migrations\201207071602276_creating_museum_table.cs" />
     <Compile Include="Migrations\201207071602276_creating_museum_table.Designer.cs">

@@ -11,8 +11,10 @@ namespace Mupadoodle1.DataAccess
 {
     public class MuseumDAL
     {
+        // for writing to the dB
         protected AccessDB db = new AccessDB();
-        
+        // for reading from the dB and showing graphically
+        protected AccessDB dbr = new AccessDB(false);
 
         public MuseumDAL()
         {
@@ -98,7 +100,19 @@ namespace Mupadoodle1.DataAccess
 
         public List<Museum> getAllMuseumsFromDb()
         {
-            return(db.museums.ToList());
+            return (getAllMuseumsFromDb(false));
+        }
+
+        public List<Museum> getAllMuseumsFromDb(bool forVisual)
+        {
+            if (forVisual)
+            {
+                return (dbr.museums.ToList());
+            }
+            else
+            {
+                return (db.museums.ToList());
+            }
         }
 
 

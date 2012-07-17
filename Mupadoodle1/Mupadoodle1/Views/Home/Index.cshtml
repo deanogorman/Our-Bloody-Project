@@ -9,30 +9,35 @@
                 <h2>@ViewBag.Message</h2>
             </hgroup>
             <p>
-                To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">
-                    http://asp.net/mvc</a>. The page features <mark>videos, tutorials,
-                        and samples</mark> to help you get the most from ASP.NET MVC. If you have
-                any questions about ASP.NET MVC visit <a href="http://forums.asp.net/1146.aspx/1?MVC"
-                    title="ASP.NET MVC Forum">our forums</a>.
+                Created by <mark>Tony O'Keeffe, Louise Harte, Johnny Morris 
+                        and Dean O'Gorman</mark> to help you find the venues
+                        you need in the cities of your choosing.
             </p>
         </div>
     </section>
 }
 <h3>
+<!--
 <p>
     @Html.ActionLink("Read Sample CSV File", "ReadSampleFile")
 </p>
 <p>
     @Html.ActionLink("Read Museum CSV File", "ReadMuseumFile")
 </p>
+-->
 <p>
-    @Html.ActionLink("Add Museum CSV File to Database", "addMuseumFiletoDB")
+    @Html.ActionLink("Add All Venues to Database", "addMuseumFiletoDB")
 </p>
+<!--
 <p>
     @Html.ActionLink("Read Museum Stream", "ReadMuseumStreum")
 </p>
 <p>
     @Html.ActionLink("Read Parking Locations Stream", "ReadParkingStream")
+</p>
+-->
+<p>
+    @Html.ActionLink("Reconstruct All Cities and Show Textually", "BuildCities")
 </p>
 <p>
     @Html.ActionLink("Show Cities and Venues Graphically", "ShowCitiesGraphically")
