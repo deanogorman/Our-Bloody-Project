@@ -20,4 +20,6 @@ namespace Mupadoodle1.Models
             this.Configuration.ProxyCreationEnabled = false;
         }
     }
+
+    
 }

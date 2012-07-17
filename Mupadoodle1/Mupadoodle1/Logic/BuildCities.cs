@@ -26,7 +26,7 @@ namespace Mupadoodle1.Logic
             {
                 bool notFound = true;
                 foreach (City c in cs)
-                {
+                {  
                     if (m.cityStr.Equals(c.lname))
                     {
                         // Add museum to list of this city's museums
@@ -75,7 +75,7 @@ namespace Mupadoodle1.Logic
                     cs.Add(addCity);
                 }
             }
-
+            
             // We have created our temporary list of cities, now add them to the dB
             CitiesDAL cDal = new CitiesDAL();
             List<City> lCitiesInDB = new List<City>();

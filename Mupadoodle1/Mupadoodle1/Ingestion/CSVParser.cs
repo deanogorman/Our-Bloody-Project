@@ -82,7 +82,7 @@ namespace Mupadoodle1.Ingestion
                     // this is where you actually create your dB object
                     if (headers[i].Equals("Shape"))
                     {
-                        parseShape(csv[i], ref lat, ref lng);
+                        parseShape(csv[i],  ref lat, ref lng);
                     }
                     else if (headers[i].Equals("NAME"))
                     {

@@ -15,7 +15,7 @@ namespace Mupadoodle1.Models
         //[Column(IsPrimaryKey = true)]
         public int MuseumID {get; set;}
         // City causes dB conflicts, virtual or otherwise
-        public virtual int CityID {get; set;}
+        //public virtual int CityID {get; set;}
         public string cityStr { get; set; }
         public string shape { get; set; } 
         public string tel { get; set; }

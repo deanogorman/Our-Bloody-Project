@@ -52,7 +52,7 @@ namespace Mupadoodle1.Controllers
         public ActionResult ReadMuseumFile()
         {
             List<Museum> mList = csvr.getCSVFileDataMuseums();
-
+      
 
             return View(mList);
         }
@@ -122,20 +122,20 @@ namespace Mupadoodle1.Controllers
             //ViewData["Data"] = Json(data);
 
             //System.Web.Script.Serialization.JavaScriptSerializer oSerializer =
-            //new System.Web.Script.Serialization.JavaScriptSerializer();
+         //new System.Web.Script.Serialization.JavaScriptSerializer();
             //string sJSON = oSerializer.Serialize(cList);
-            var serializerSettings = new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects };
-            string cjson = JsonConvert.SerializeObject(cList, Formatting.Indented, serializerSettings);
-            string mjson = JsonConvert.SerializeObject(mList, Formatting.Indented, serializerSettings);
-            string pjson = JsonConvert.SerializeObject(pList, Formatting.Indented, serializerSettings);
-            //string sjson2 = JsonConvert.ToString(cList[0]);
+         var serializerSettings = new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects };
+         string cjson = JsonConvert.SerializeObject(cList, Formatting.Indented, serializerSettings);
+         string mjson = JsonConvert.SerializeObject(mList, Formatting.Indented, serializerSettings);
+         string pjson = JsonConvert.SerializeObject(pList, Formatting.Indented, serializerSettings);
+         //string sjson2 = JsonConvert.ToString(cList[0]);
             ViewData["Cities"] = cjson;
             ViewData["Museums"] = mjson;
             ViewData["Parks"] = pjson;
 
             return View(cList);
         }
-
+        
 
         public ActionResult BuildCities()
         {
