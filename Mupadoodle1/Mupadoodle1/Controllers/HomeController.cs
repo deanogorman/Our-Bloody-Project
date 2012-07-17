@@ -10,6 +10,7 @@ using System.Runtime.Serialization.Json;
 using System.IO;
 using Mupadoodle1.DataAccess;
 using Mupadoodle1.Logic;
+using Newtonsoft.Json;
 
 namespace Mupadoodle1.Controllers
 {
@@ -51,7 +52,7 @@ namespace Mupadoodle1.Controllers
         public ActionResult ReadMuseumFile()
         {
             List<Museum> mList = csvr.getCSVFileDataMuseums();
-      
+
 
             return View(mList);
         }
@@ -101,6 +102,40 @@ namespace Mupadoodle1.Controllers
 
             return View(musList);
         }
+
+        public ActionResult ShowCitiesGraphically()
+        {
+
+            //BuildCities bCities = new BuildCities();
+            List<City> cList = new List<City>();
+            CitiesDAL cDal = new CitiesDAL();
+            List<Museum> mList = new List<Museum>();
+            MuseumDAL mDal = new MuseumDAL();
+            List<Park> pList = new List<Park>();
+            ParkDAL pDal = new ParkDAL();
+
+            cList = cDal.getAllCitiesFromDb();
+            mList = mDal.getAllMuseumsFromDb();
+            pList = pDal.getAllParksFromDb();
+
+            // data = new { Id = "one", Make = "Two" };
+            //ViewData["Data"] = Json(data);
+
+            //System.Web.Script.Serialization.JavaScriptSerializer oSerializer =
+            //new System.Web.Script.Serialization.JavaScriptSerializer();
+            //string sJSON = oSerializer.Serialize(cList);
+            var serializerSettings = new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects };
+            string cjson = JsonConvert.SerializeObject(cList, Formatting.Indented, serializerSettings);
+            string mjson = JsonConvert.SerializeObject(mList, Formatting.Indented, serializerSettings);
+            string pjson = JsonConvert.SerializeObject(pList, Formatting.Indented, serializerSettings);
+            //string sjson2 = JsonConvert.ToString(cList[0]);
+            ViewData["Cities"] = cjson;
+            ViewData["Museums"] = mjson;
+            ViewData["Parks"] = pjson;
+
+            return View(cList);
+        }
+
 
         public ActionResult BuildCities()
         {
