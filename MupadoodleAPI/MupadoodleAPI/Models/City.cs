@@ -6,35 +6,35 @@ using System.Web;
 
 namespace MupadoodleAPI.Models
 {
-    [Table(Name = "CITIES")]
+    [Table (Name = "CITIES")]
     public class City : Location
     {
         //[Column(IsPrimaryKey = true")]
         public int CityID = 0;
-
-       // public List<TrainStation> trainStations { get; set; }
-       // public List<School> schools { get; set; }
-       // public List<Hospital> hospitals { get; set; }
+        
+        public List<TrainStation> trainStations { get; set; }
+        public List<School> schools { get; set; }
+        public List<Hospital> hospitals { get; set; }
         public List<Location> venues { get; set; }
         public virtual ICollection<Museum> museums { get; set; }
         public virtual ICollection<Park> parks { get; set; }
 
         public City()
         {
-            parks = new List<Park>();
-            //trainStations = new List<TrainStation>();
-            //schools = new List<School>();
-            //hospitals = new List<Hospital>();
-            museums = new List<Museum>();
+                parks = new List<Park>();
+                trainStations = new List<TrainStation>();
+                schools = new List<School>();
+                hospitals = new List<Hospital>();
+                museums = new List<Museum>();
         }
 
         public City(double Lat, double Long, string cityName)
             : base(Lat, Long, cityName)
         {
             parks = new List<Park>();
-          //  trainStations = new List<TrainStation>();
-           // schools = new List<School>();
-           // hospitals = new List<Hospital>();
+            trainStations = new List<TrainStation>();
+            schools = new List<School>();
+            hospitals = new List<Hospital>();
             museums = new List<Museum>();
         }
 

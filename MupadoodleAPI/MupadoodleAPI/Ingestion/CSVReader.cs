@@ -9,13 +9,13 @@ namespace MupadoodleAPI.Ingestion
 {
     public class CSVReader
     {
-        //private string fnameMuseums = "C:\\Louise\\Semester3\\EnterpriseFrameworks\\GroupProj\\Mup4\\Mupadoodle1\\Museums_and_Galleries.csv";
-        //private string fname = "C:\\Louise\\Semester3\\EnterpriseFrameworks\\GroupProj\\Mup4\\Mupadoodle1\\myfile.csv";
+        private string fnameMuseums = "C:\\Louise\\Semester3\\EnterpriseFrameworks\\GroupProj\\Mup6\\Mupadoodle1\\Museums_Small.csv";
+        private string fname = "C:\\Louise\\Semester3\\EnterpriseFrameworks\\GroupProj\\Mup6\\Mupadoodle1\\myfile.csv";
+        private string fnameParks = "C:\\Louise\\Semester3\\EnterpriseFrameworks\\GroupProj\\Mup6\\Mupadoodle1\\NYC_Parks_Small.csv";
 
-
-        private string fname = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\myfile.csv";
-        private string fnameMuseums = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\Museums_and_Galleries.csv";
-        private string fnameParks = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\NYC_Parks.csv";
+       //private string fname = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\myfile.csv";
+       //private string fnameMuseums = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\Museums_and_Galleries.csv";
+       //private string fnameParks = "C:\\Users\\Tony\\Documents\\NCIRL\\Semester 3\\H9TECENT - Enterprise Frameworks\\Our-Bloody-Project\\Mupadoodle1\\NYC_Parks.csv";
         private StreamReader myReader;
 
         public List<Location> getCSVFileData()

@@ -52,7 +52,7 @@ namespace MupadoodleAPI.Ingestion
             //throw new NotImplementedException();
         }
 
-        private void parseShape(string shape, double lat, double lng)
+        private void parseShape(string shape, ref double lat, ref double lng)
         {
             // strip off the first a last characters in the string as these are braces
             string shape2 = shape.Substring(1, shape.Length - 2);
@@ -82,7 +82,7 @@ namespace MupadoodleAPI.Ingestion
                     // this is where you actually create your dB object
                     if (headers[i].Equals("Shape"))
                     {
-                        parseShape(csv[i], lat, lng);
+                        parseShape(csv[i],  ref lat, ref lng);
                     }
                     else if (headers[i].Equals("NAME"))
                     {
@@ -142,7 +142,7 @@ namespace MupadoodleAPI.Ingestion
                     // this is where you actually create your dB object
                     if (headers[i].Equals("Shape"))
                     {
-                        parseShape(csv[i], lat, lng);
+                        parseShape(csv[i], ref lat, ref lng);
                     }
                     else if (headers[i].Equals("LOCATION"))
                     {

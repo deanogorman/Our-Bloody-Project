@@ -1,51 +1,45 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>ASP.NET Web API</title>
-    <script src="../../Scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function () {
-                // Send an AJAX request
-                $.getJSON("api/locations/",
-            function (data) {
-                // On success, 'data' contains a list of products.
-                $.each(data, function (key, val) {
-
-                    // Format the text to display.
-                    var str = val.lname + ' Lat: ' + val.latitude + ' Long: ' + val.longitude;
-
-                    // Add a list item for the product.
-                    $('<li/>', { html: str }).appendTo($('#locations'));
-                });
-            });
-            });
-
-            function find() {
-                var id = $('#locId').val();
-                $.getJSON("api/locations/" + id,
-                function (data) {
-                    var str = data.lname + ' Lat: ' + data.latitude + ' Long: ' + data.longitude;
-                    $('#location').html(str);
-                })
-            .fail(
-                function (jqXHR, textStatus, err) {
-                    $('#location').html('Error: ' + err);
-                });
-            }     
-    </script>
-
-</head>
-<body>
-    <div>
-        <h1>All Locations</h1>
-        <ul id='locations' />
-    </div>
-    <div>
-        <label for="locId">ID:</label>
-        <input type="text" id="locId" size="5"/>
-        <input type="button" value="Search" onclick="find();" />
-        <p id="location" />
-    </div>
-</body>
-</html>
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                Created by <mark>Tony O'Keeffe, Louise Harte, Johnny Morris 
+                        and Dean O'Gorman</mark> to help you find the venues
+                        you need in the cities of your choosing.
+            </p>
+        </div>
+    </section>
+}
+<h3>
+<!--
+<p>
+    @Html.ActionLink("Read Sample CSV File", "ReadSampleFile")
+</p>
+<p>
+    @Html.ActionLink("Read Museum CSV File", "ReadMuseumFile")
+</p>
+-->
+<p>
+    @Html.ActionLink("Add All Venues to Database", "addMuseumFiletoDB")
+</p>
+<!--
+<p>
+    @Html.ActionLink("Read Museum Stream", "ReadMuseumStreum")
+</p>
+<p>
+    @Html.ActionLink("Read Parking Locations Stream", "ReadParkingStream")
+</p>
+-->
+<p>
+    @Html.ActionLink("Reconstruct All Cities and Show Textually", "BuildCities")
+</p>
+<p>
+    @Html.ActionLink("Show Cities and Venues Graphically", "ShowCitiesGraphically")
+</p>
+</h3>

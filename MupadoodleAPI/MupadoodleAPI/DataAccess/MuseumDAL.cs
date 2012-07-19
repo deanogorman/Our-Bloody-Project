@@ -11,8 +11,10 @@ namespace MupadoodleAPI.DataAccess
 {
     public class MuseumDAL
     {
+        // for writing to the dB
         protected AccessDB db = new AccessDB();
-
+        // for reading from the dB and showing graphically
+        protected AccessDB dbr = new AccessDB(false);
 
         public MuseumDAL()
         {
@@ -63,7 +65,7 @@ namespace MupadoodleAPI.DataAccess
             {
                 inm = db.museums.Add(m);
             }
-
+            
             catch (Exception e)
             {
                 Exception j = e;
@@ -98,7 +100,19 @@ namespace MupadoodleAPI.DataAccess
 
         public List<Museum> getAllMuseumsFromDb()
         {
-            return (db.museums.ToList());
+            return (getAllMuseumsFromDb(false));
+        }
+
+        public List<Museum> getAllMuseumsFromDb(bool forVisual)
+        {
+            if (forVisual)
+            {
+                return (dbr.museums.ToList());
+            }
+            else
+            {
+                return (db.museums.ToList());
+            }
         }
 
 
@@ -110,12 +124,12 @@ namespace MupadoodleAPI.DataAccess
             List<Museum> queryResult = new List<Museum>();
 
             // Query for all museums in db using LINQ 
-
+           
             var each = from mus in db.museums
                        where mus.cityStr.Equals(val) // == val
                        //orderby mus.Name
                        select mus;
-
+            
             foreach (var item in each)
             {
                 queryResult.Add(item);

@@ -11,8 +11,11 @@ namespace MupadoodleAPI.DataAccess
 {
     public class ParkDAL
     {
+        // for writing to the dB
         protected AccessDB db = new AccessDB();
-
+        // for reading from the dB and showing graphically
+        protected AccessDB dbr = new AccessDB(false);
+        
         public ParkDAL()
         {
             Database.SetInitializer<AccessDB>(new DropCreateDatabaseIfModelChanges<AccessDB>());
@@ -80,7 +83,19 @@ namespace MupadoodleAPI.DataAccess
 
         public List<Park> getAllParksFromDb()
         {
-            return (db.parks.ToList());
+            return (getAllParksFromDb(false));
+        }
+
+        public List<Park> getAllParksFromDb(bool forVisual)
+        {
+            if (forVisual)
+            {
+                return (dbr.parks.ToList());
+            }
+            else
+            {
+                return (db.parks.ToList());
+            }
         }
     }
 }

@@ -9,7 +9,10 @@ namespace MupadoodleAPI.DataAccess
 {
     public class CitiesDAL
     {
+        // for writing to the dB
         protected AccessDB db = new AccessDB();
+        // for reading from the dB and showing graphically
+        protected AccessDB dbr = new AccessDB(false);
 
         public void addLocation(Location venue, City toCity)
         {
@@ -54,7 +57,19 @@ namespace MupadoodleAPI.DataAccess
 
         public List<City> getAllCitiesFromDb()
         {
-            return (db.cities.ToList());
+            return (getAllCitiesFromDb(false));
+        }
+
+        public List<City> getAllCitiesFromDb(bool forVisual)
+        {
+            if (forVisual)
+            {
+                return (dbr.cities.ToList());
+            }
+            else
+            {
+                return (db.cities.ToList());
+            }
         }
 
         public bool addCityToDb(City c)
@@ -62,7 +77,7 @@ namespace MupadoodleAPI.DataAccess
             City inc = new City();
             try
             {
-
+                
                 inc = db.cities.Add(c);
             }
 

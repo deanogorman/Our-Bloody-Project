@@ -9,7 +9,7 @@ namespace MupadoodleAPI.Models
     public class Park : Location
     {
         public int ParkID { get; set; }
-        public virtual int CityID { get; set; }
+        //public virtual int CityID { get; set; }
         public string cityStr { get; set; }
         public string shape { get; set; }
         public double acres { get; set; }

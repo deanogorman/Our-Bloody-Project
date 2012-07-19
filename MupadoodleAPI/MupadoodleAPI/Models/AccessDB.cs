@@ -13,5 +13,21 @@ namespace MupadoodleAPI.Models
         public DbSet<Park> parks { get; set; }
 
         //public DbSet<ExchangeUI> ExchangeUIs { get; set; }
+
+        public AccessDB()
+            : base()
+        {
+            // used for writing to the dB
+            //this.Configuration.ProxyCreationEnabled = false;
+        }
+
+        public AccessDB(bool isProxyCreationEnabled)
+            : base()
+        {
+            // should be used when reading from the dB and should pass a 'false parameter
+            this.Configuration.ProxyCreationEnabled = isProxyCreationEnabled;
+        }
     }
+
+    
 }
