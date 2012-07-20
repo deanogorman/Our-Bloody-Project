@@ -7,6 +7,7 @@ using System.Web.Http;
 using MupadoodleAPI.Models;
 using MupadoodleAPI.DataAccess;
 using MupadoodleAPI.Ingestion;
+using NLog;
 
 namespace MupadoodleAPI.Controllers
 {
@@ -16,13 +17,23 @@ namespace MupadoodleAPI.Controllers
         MuseumDAL mDAL = new MuseumDAL();
 
         //Api logginh
-       // private readonly IUrlRepository _repo;
-       // private readonly ITraceWriter _tracer;
+        private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
 
         public IEnumerable<Museum> GetAllMuseums()
         {
             museums = mDAL.getAllMuseumsFromDb(true);
             return museums;
+
+            logger.Trace("Sample trace message");
+            logger.Debug("Sample debug message");
+            logger.Info("Sample informational message");
+            logger.Warn("Sample warning message");
+            logger.Error("Sample error message");
+            logger.Fatal("Sample fatal error message");
+
+            // alternatively you can call the Log() method 
+            // and pass log level as the parameter.
+            logger.Log(LogLevel.Info, "Sample fatal error message");
         }
 
         public Museum GetMuseumById(int id)
