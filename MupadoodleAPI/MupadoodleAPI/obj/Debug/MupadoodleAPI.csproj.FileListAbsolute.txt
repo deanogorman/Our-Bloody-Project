@@ -145,3 +145,5 @@ C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleA
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI\bin\System.Web.WebPages.Deployment.xml
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI\bin\System.Web.WebPages.Razor.xml
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI\obj\Debug\MupadoodleAPI.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI\bin\NLog.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI\bin\NLog.xml

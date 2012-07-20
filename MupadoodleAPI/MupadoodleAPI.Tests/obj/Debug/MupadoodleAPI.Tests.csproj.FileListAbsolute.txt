@@ -157,3 +157,5 @@ C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleA
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI.Tests\bin\Debug\EntityFramework.xml
 C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI.Tests\obj\Debug\MupadoodleAPI.Tests.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI.Tests\bin\Debug\NLog.dll
+C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI\MupadoodleAPI.Tests\bin\Debug\NLog.xml

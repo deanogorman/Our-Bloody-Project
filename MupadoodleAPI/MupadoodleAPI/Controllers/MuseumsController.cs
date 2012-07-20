@@ -15,6 +15,10 @@ namespace MupadoodleAPI.Controllers
         List<Museum> museums = new List<Museum>();
         MuseumDAL mDAL = new MuseumDAL();
 
+        //Api logginh
+       // private readonly IUrlRepository _repo;
+       // private readonly ITraceWriter _tracer;
+
         public IEnumerable<Museum> GetAllMuseums()
         {
             museums = mDAL.getAllMuseumsFromDb(true);
