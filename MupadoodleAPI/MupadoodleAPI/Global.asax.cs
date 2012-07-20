@@ -6,6 +6,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using MupadoodleAPI.App_Start;
+using MupadoodleAPI.DataAccess;
 
 namespace MupadoodleAPI
 {
@@ -21,6 +23,9 @@ namespace MupadoodleAPI
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+           System.Data.Entity.Database.SetInitializer(new DBInitialiser());
+           // ApiConfig.ConfigureApi(GlobalConfiguration.Configuration);
         }
     }
 }

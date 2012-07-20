@@ -125,9 +125,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\ApiConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ParksController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LocationsController.cs" />
@@ -146,6 +148,7 @@
     <Compile Include="Models\AccessDB.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\City.cs" />
+    <Compile Include="Models\DBInitialiser.cs" />
     <Compile Include="Models\Hospital.cs" />
     <Compile Include="Models\Location.cs" />
     <Compile Include="Models\Museum.cs" />
@@ -242,7 +245,7 @@
     <Content Include="Views\Home\IndexAPI.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Index1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
@@ -255,6 +258,9 @@
     <Content Include="Views\Home\BuildCities.cshtml" />
     <Content Include="Views\Home\QueryMuseumDB.cshtml" />
     <Content Include="Views\Home\ShowCitiesGraphically.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
