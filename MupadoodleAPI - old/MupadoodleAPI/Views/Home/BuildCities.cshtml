@@ -1,0 +1,106 @@
+﻿@model IEnumerable<MupadoodleAPI.Models.City>
+
+@{
+    ViewBag.Title = "List of Cities and their Venues";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<p>
+    @Html.ActionLink("Show Cities and Venues Graphically", "ShowCitiesGraphically")
+</p>
+
+<table border="5" cellspacing="10" width="100%">
+    <tr>
+        <th>City</th>
+        <th>Venues</th>
+        <th>Type, Name and Details</th>
+    </tr>
+@foreach (var item in Model)
+{
+    <tr valign="top">
+        <td width="15%">
+            @Html.DisplayFor(modelItem => item.theName)
+        </td>
+        <td width="35%">
+            Museums: 
+            @Html.DisplayFor(modelItem => item.museums.Count)<br />
+            Parks: 
+            @Html.DisplayFor(modelItem => item.parks.Count)
+        </td>
+        <td width="50%">
+            <table>
+                @foreach (var m in item.museums)
+                {
+                    <tr valign="top">
+                        <td>
+                            Museum
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => m.lname)
+                        </td>
+                        <td>
+                            Address:
+                            @Html.DisplayFor(modelItem => m.adress1)<br />
+                            Address:
+                            @Html.DisplayFor(modelItem => m.address2)<br />
+                            Zip:
+                            @Html.DisplayFor(modelItem => m.zip)<br />
+                            Phone:
+                            @Html.DisplayFor(modelItem => m.tel)<br />
+                            Website:
+                            @Html.DisplayFor(modelItem => m.url)<br />
+                         </td>
+                    </tr>
+                }
+
+                @foreach (var p in item.parks)
+                {
+                    <tr valign="top">
+                        <td>
+                            Park
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => p.lname)
+                        </td>
+                        <td>
+                            Place:
+                            @Html.DisplayFor(modelItem => p.place)<br />
+                            Acres:
+                            @Html.DisplayFor(modelItem => p.acres)<br />
+                         </td>
+                    </tr>
+                }
+               </table>
+        </td>
+    </tr>
+}
+</table>
+<!--
+<article>
+    <p>
+        Use this area to provide additional information.
+    </p>
+
+    <p>
+        Use this area to provide additional information.
+    </p>
+
+    <p>
+        Use this area to provide additional information.
+    </p>
+</article>
+
+<aside>
+    <h3>Aside Title</h3>
+    <p>
+        Use this area to provide additional information.
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Go Back Home Dude", "Index", "Home")</li>
+    </ul>
+</aside>
+-->

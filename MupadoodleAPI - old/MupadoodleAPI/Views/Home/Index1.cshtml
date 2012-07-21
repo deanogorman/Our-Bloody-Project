@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                Created by <mark>Tony O'Keeffe, Louise Harte, Johnny Morris 
+                        and Dean O'Gorman</mark> to help you find the venues
+                        you need in the cities of your choosing.
+            </p>
+        </div>
+    </section>
+}
+<h3>
+<!--
+<p>
+    @Html.ActionLink("Read Sample CSV File", "ReadSampleFile")
+</p>
+<p>
+    @Html.ActionLink("Read Museum CSV File", "ReadMuseumFile")
+</p>
+-->
+<p>
+    @Html.ActionLink("Add All Venues to Database", "addMuseumFiletoDB")
+</p>
+<!--
+<p>
+    @Html.ActionLink("Read Museum Stream", "ReadMuseumStreum")
+</p>
+<p>
+    @Html.ActionLink("Read Parking Locations Stream", "ReadParkingStream")
+</p>
+-->
+<p>
+    @Html.ActionLink("Reconstruct All Cities and Show Textually", "BuildCities")
+</p>
+<p>
+    @Html.ActionLink("Show Cities and Venues Graphically", "ShowCitiesGraphically")
+</p>
+</h3>
