@@ -1,0 +1,47 @@
+OBJECTID,Shape,NAME,CITY,ZIP,LOCATION
+1,"(40.70496936300009, -74.01365504499995)",Bowling Green,Manhattan,,Broadway & Battery Place
+2,"(40.70132845100005, -74.01318551599991)",Staten Island Ferry/Whitehall,Manhattan,,Inside Terminal Building
+3,"(40.709189681000055, -74.01125284699992)",Zuccotti Park,Manhattan,,Cedar Street & Broadway
+4,"(40.713830048000034, -74.00642610799991)",City Hall Park,Manhattan,,Broadway & Chambers Street
+5,"(40.716516788000035, -74.01106926999995)",Tribeca,Manhattan,,Greenwich Street & Chambers Street
+6,"(40.716445717000056, -73.98836462299994)",LES / Grand Street,Manhattan,,Norfolk Street & Grand Street
+7,"(40.72610211600005, -73.98324173199995)",Tompkins Square,Manhattan,,East 7 Street & Avenue A
+8,"(40.73000713300007, -73.98693876499993)",St. Mark's Church,Manhattan,,E 10 Street & 2 Avenue
+9,"(40.73175366300006, -73.97787418199994)",Stuyvesant Town,Manhattan,,Stuy-Town Oval 14 St Loop & Avenue A
+10,"(40.73733623800007, -74.0054487939999)",Abingdon Square,Manhattan,,W 12 Street & 8 Avenue/Hudson Street
+11,"(40.73667719200006, -73.98999380399994)",Union Square,Manhattan,,E 17 Street & Broadway
+12,"(40.74371179900004, -73.97649143599995)",Murray Hill,Manhattan,,2 Avenue & 33 Street
+13,"(40.75231908300009, -73.96883343399992)",Dag Hammarskjold Plaza,Manhattan,,E 47 Street & 2 Avenue
+14,"(40.75906452500004, -73.97845038899993)",Rockefeller Center,Manhattan,,Rockefeller Plaza - 50 Street
+15,"(40.76769461500004, -73.98561503099995)",57th Street,Manhattan,,W 57 Street & 9 Avenue
+16,"(40.77352716000007, -73.98190089499991)",Tucker Square,Manhattan,,W 66 Street & Columbus Avenue
+17,"(40.78119419700005, -73.97579896199994)",77th Street,Manhattan,,Columbus Avenue between 77 Street & 79 Street
+18,"(40.773852426000076, -73.95037316699995)",82nd Street / St Stephens,Manhattan,,E 82 Street - 1st Avenue & York Avenue
+19,"(40.781003748000046, -73.94637903199992)",92nd Street,Manhattan,,1st Avenue - 92 Street & 93 Street
+20,"(40.79353966800005, -73.96702119799994)",97th Street,Manhattan,,W 97 Street & Columbus Avenue
+21,"(40.788836926000045, -73.95193768299993)",Mt Sinai Hospital,Manhattan,,E 99 Street - Madison Avenue & Park Avenue
+22,"(40.79796756600007, -73.95983785399994)",Stranger's Gate,Manhattan,,W 106 Street & Central Park West
+23,"(40.807022601000085, -73.96463967499994)",Columbia,Manhattan,,Broadway - 114 Street & 115 Street
+24,"(40.81354159500006, -73.93928138799993)",Harlem Hospital,Manhattan,,Lenox Avenue - W 136th Street & W 137th Street
+25,"(40.84621102600005, -73.93844219199991)",175th Street,Manhattan,,W 175 Street & Broadway
+26,"(40.869462540000086, -73.9204888559999)",Inwood,Manhattan,,Isham Street - Seaman Street & Cooper Street
+27,"(40.864426955000056, -73.89490119999994)",Poe Park,Bronx,,Grand Concourse & E 192 Street
+28,"(40.82450494300008, -73.92424000199992)",Bronx Borough Hall,Bronx,,Grand Concourse & E 156 Street
+29,"(40.817331282000055, -73.92299534999995)",Lincoln Hospital,Bronx,,E 149 Street & Morris Avenue
+30,"(40.767933569000036, -73.93242282299991)",Astoria,Queens,,14 Street - 31 Avenue & 31 Road
+31,"(40.753304203000084, -73.88922217299995)",Jackson Heights,Queens,,34th Avenue - 77 Street & 78 Street
+32,"(40.74396253800006, -73.95388934399995)",Long Island City,Queens,,48th Avenue & Vernon Blvd
+33,"(40.74725999600008, -73.92126558399991)",Sunnyside,Queens,,Skillman Avenue - 42 Street & 43 Street
+34,"(40.70861076700004, -73.86857627499995)",Atlas Park/Glendale,Queens,,Cooper Avenue & 80 Street
+35,"(40.72276579800007, -73.95176577199993)",Greenpoint - McCarren Park,Brooklyn,,Bedford Avenue & Lorimer Street
+36,"(40.70824485800006, -73.95966202699992)",Williamsburg,Brooklyn,,Havemeyer Street & Broadway
+37,"(40.68980066000006, -73.9733908419999)",Fort Greene Park,Brooklyn,,Washington Park & DeKalb Avenue
+38,"(40.69307943200005, -73.99026358999993)",Brooklyn Borough Hall,Brooklyn,,Court Street & Montague Street
+39,"(40.68088140700007, -73.99563888599994)",Carroll Gardens,Brooklyn,,Carroll Street between Smith & Court Street
+40,"(40.672270139000034, -73.97016831399992)",Grand Army Plaza,Brooklyn,,NW entrance Prospect Park
+41,"(40.661153667000065, -73.98017246099994)",Windsor Terrace,Brooklyn,,Prospect Park W & 15 Street
+42,"(40.64089044600007, -73.96569709399995)",Cortelyou,Brooklyn,,Courtelyou Road & Rugby Road
+43,"(40.63338325400008, -73.99040200199994)",Borough Park,Brooklyn,,14th Avenue - 49 Street & 50 Street
+44,"(40.641122522000046, -74.01814246399994)",Sunset Park,Brooklyn,,4th Avenue - 59 Street & 60 Street
+45,"(40.641333977000045, -74.07736966399995)",St. George,Staten Island,,"Boro Hall park lot, St. Mark's Place & Hyatt Street"
+46,"(40.61724073400006, -74.03360756099994)",Bay Ridge,Brooklyn,,3rd Avenue & 95th Street
