@@ -132,6 +132,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ParksController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -146,6 +147,7 @@
     <Compile Include="Ingestion\CSVParser.cs" />
     <Compile Include="Ingestion\CSVReader.cs" />
     <Compile Include="Ingestion\IDataParser.cs" />
+    <Compile Include="Logic\APIKeyAuthorization.cs" />
     <Compile Include="Logic\BuildCities.cs" />
     <Compile Include="Logic\BuildVenues.cs" />
     <Compile Include="Models\AccessDB.cs" />
@@ -243,6 +245,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Developer\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -272,6 +275,15 @@
     <Content Include="NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Admin.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Account\ChangePassword.cshtml" />
+    <Content Include="Views\Account\ChangePasswordSuccess.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -153,6 +153,12 @@ namespace MupadoodleAPI.Controllers
             return View(cList);
         }
 
+        /** Admin **/
+        public ActionResult Admin()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";

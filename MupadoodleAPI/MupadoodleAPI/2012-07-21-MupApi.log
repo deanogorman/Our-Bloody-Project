@@ -1,0 +1,190 @@
+2012-07-21 10:27:56.8283|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Request http://localhost:4463/api/museums
+2012-07-21 10:27:56.9743|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='controller:museums'
+2012-07-21 10:27:57.2723|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Museums
+2012-07-21 10:27:57.2813|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers HttpControllerDescriptor CreateController
+2012-07-21 10:27:57.2813|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerActivator Create
+2012-07-21 10:27:57.3523|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerActivator Create MupadoodleAPI.Controllers.MuseumsController
+2012-07-21 10:27:57.3603|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers HttpControllerDescriptor CreateController MupadoodleAPI.Controllers.MuseumsController
+2012-07-21 10:27:57.3603|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController ExecuteAsync
+2012-07-21 10:27:57.3963|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionSelector SelectAction
+2012-07-21 10:27:57.6013|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'GetAllMuseums()'
+2012-07-21 10:27:57.6513|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2012-07-21 10:27:57.6993|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2012-07-21 10:27:57.7483|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='GetAllMuseums()'
+2012-07-21 10:27:57.7483|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'GetAllMuseums()'
+2012-07-21 10:27:57.8533|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'System.Collections.Generic.List`1[MupadoodleAPI.Models.Museum]'
+2012-07-21 10:27:58.0843|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]
+2012-07-21 10:27:58.2353|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'XmlMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/xml; charset=utf-8'
+2012-07-21 10:27:58.2353|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'XmlMediaTypeFormatter' formatter
+2012-07-21 10:27:58.2543|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='XmlMediaTypeFormatter', content-type='application/xml; charset=utf-8'
+2012-07-21 10:27:58.2853|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync
+2012-07-21 10:27:58.2983|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController ExecuteAsync
+2012-07-21 10:27:58.2983|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Request Content-type='application/xml; charset=utf-8', content-length=unknown
+2012-07-21 10:27:58.3923|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync Value='System.Collections.Generic.List`1[MupadoodleAPI.Models.Museum]', type='IEnumerable`1', content-type='application/xml; charset=utf-8'
+2012-07-21 10:27:58.6244|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync
+2012-07-21 10:27:58.7724|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController Dispose
+2012-07-21 10:27:58.7724|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController Dispose
+2012-07-21 14:15:18.7840|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Request http://localhost:4463/api/admin
+2012-07-21 14:15:19.7861|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='controller:admin'
+2012-07-21 14:15:20.0001|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Admin
+2012-07-21 14:15:20.1761|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers HttpControllerDescriptor CreateController
+2012-07-21 14:15:20.2021|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers DefaultHttpControllerActivator Create
+2012-07-21 14:15:21.7572|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers DefaultHttpControllerActivator Create MupadoodleAPI.Controllers.AdminController
+2012-07-21 14:15:21.7572|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers HttpControllerDescriptor CreateController MupadoodleAPI.Controllers.AdminController
+2012-07-21 14:15:21.7572|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers AdminController ExecuteAsync
+2012-07-21 14:15:21.7572|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ApiControllerActionSelector SelectAction
+2012-07-21 14:15:22.6913|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'GetMuseums()'
+2012-07-21 14:15:22.7493|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2012-07-21 14:15:22.8173|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2012-07-21 14:15:23.0103|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='GetMuseums()'
+2012-07-21 14:15:23.0163|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'GetMuseums()'
+2012-07-21 14:15:25.2044|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'SELECT 
+[Extent1].[LocationID] AS [LocationID], 
+'0X0X' AS [C1], 
+[Extent1].[longitude] AS [longitude], 
+[Extent1].[latitude] AS [latitude], 
+[Extent1].[lname] AS [lname], 
+[Extent1].[MuseumID] AS [MuseumID], 
+[Extent1].[cityStr] AS [cityStr], 
+[Extent1].[shape] AS [shape], 
+[Extent1].[tel] AS [tel], 
+[Extent1].[url] AS [url], 
+[Extent1].[adress1] AS [adress1], 
+[Extent1].[address2] AS [address2], 
+[Extent1].[zip] AS [zip], 
+[Extent1].[City_LocationID3] AS [City_LocationID3], 
+[Extent1].[City_LocationID4] AS [City_LocationID4]
+FROM [dbo].[Locations] AS [Extent1]
+WHERE [Extent1].[Discriminator] = 'Museum''
+2012-07-21 14:15:25.3934|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]
+2012-07-21 14:15:25.5274|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'XmlMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/xml; charset=utf-8'
+2012-07-21 14:15:25.5274|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'XmlMediaTypeFormatter' formatter
+2012-07-21 14:15:25.9024|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='XmlMediaTypeFormatter', content-type='application/xml; charset=utf-8'
+2012-07-21 14:15:25.9765|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync
+2012-07-21 14:15:26.0015|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers AdminController ExecuteAsync
+2012-07-21 14:15:26.0325|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Request Content-type='application/xml; charset=utf-8', content-length=unknown
+2012-07-21 14:15:26.0655|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync Value='SELECT 
+[Extent1].[LocationID] AS [LocationID], 
+'0X0X' AS [C1], 
+[Extent1].[longitude] AS [longitude], 
+[Extent1].[latitude] AS [latitude], 
+[Extent1].[lname] AS [lname], 
+[Extent1].[MuseumID] AS [MuseumID], 
+[Extent1].[cityStr] AS [cityStr], 
+[Extent1].[shape] AS [shape], 
+[Extent1].[tel] AS [tel], 
+[Extent1].[url] AS [url], 
+[Extent1].[adress1] AS [adress1], 
+[Extent1].[address2] AS [address2], 
+[Extent1].[zip] AS [zip], 
+[Extent1].[City_LocationID3] AS [City_LocationID3], 
+[Extent1].[City_LocationID4] AS [City_LocationID4]
+FROM [dbo].[Locations] AS [Extent1]
+WHERE [Extent1].[Discriminator] = 'Museum'', type='IEnumerable`1', content-type='application/xml; charset=utf-8'
+2012-07-21 14:15:26.6785|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync
+2012-07-21 14:15:27.7016|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers AdminController Dispose
+2012-07-21 14:15:27.8716|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers AdminController Dispose
+2012-07-21 14:19:03.9219|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Request http://localhost:4463/api/admin
+2012-07-21 14:19:04.0459|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='controller:admin'
+2012-07-21 14:19:04.3859|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Admin
+2012-07-21 14:19:04.3859|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers HttpControllerDescriptor CreateController
+2012-07-21 14:19:04.4009|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers DefaultHttpControllerActivator Create
+2012-07-21 14:19:04.4199|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers DefaultHttpControllerActivator Create MupadoodleAPI.Controllers.AdminController
+2012-07-21 14:19:04.4279|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers HttpControllerDescriptor CreateController MupadoodleAPI.Controllers.AdminController
+2012-07-21 14:19:04.4279|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers AdminController ExecuteAsync
+2012-07-21 14:19:04.4429|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ApiControllerActionSelector SelectAction
+2012-07-21 14:19:04.6390|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'GetMuseums()'
+2012-07-21 14:19:04.6930|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2012-07-21 14:19:04.7920|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2012-07-21 14:19:04.8190|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='GetMuseums()'
+2012-07-21 14:19:04.8190|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'GetMuseums()'
+2012-07-21 14:19:04.9130|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'SELECT 
+[Extent1].[LocationID] AS [LocationID], 
+'0X0X' AS [C1], 
+[Extent1].[longitude] AS [longitude], 
+[Extent1].[latitude] AS [latitude], 
+[Extent1].[lname] AS [lname], 
+[Extent1].[MuseumID] AS [MuseumID], 
+[Extent1].[cityStr] AS [cityStr], 
+[Extent1].[shape] AS [shape], 
+[Extent1].[tel] AS [tel], 
+[Extent1].[url] AS [url], 
+[Extent1].[adress1] AS [adress1], 
+[Extent1].[address2] AS [address2], 
+[Extent1].[zip] AS [zip], 
+[Extent1].[City_LocationID3] AS [City_LocationID3], 
+[Extent1].[City_LocationID4] AS [City_LocationID4]
+FROM [dbo].[Locations] AS [Extent1]
+WHERE [Extent1].[Discriminator] = 'Museum''
+2012-07-21 14:19:04.9770|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]
+2012-07-21 14:19:05.0600|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting JsonMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'JsonMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/json; charset=utf-8'
+2012-07-21 14:19:05.0680|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting JsonMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'JsonMediaTypeFormatter' formatter
+2012-07-21 14:19:05.0680|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='JsonMediaTypeFormatter', content-type='application/json; charset=utf-8'
+2012-07-21 14:19:05.0980|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync
+2012-07-21 14:19:05.1570|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers AdminController ExecuteAsync
+2012-07-21 14:19:05.1650|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Request Content-type='application/json; charset=utf-8', content-length=unknown
+2012-07-21 14:19:05.2240|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting JsonMediaTypeFormatter WriteToStreamAsync Value='SELECT 
+[Extent1].[LocationID] AS [LocationID], 
+'0X0X' AS [C1], 
+[Extent1].[longitude] AS [longitude], 
+[Extent1].[latitude] AS [latitude], 
+[Extent1].[lname] AS [lname], 
+[Extent1].[MuseumID] AS [MuseumID], 
+[Extent1].[cityStr] AS [cityStr], 
+[Extent1].[shape] AS [shape], 
+[Extent1].[tel] AS [tel], 
+[Extent1].[url] AS [url], 
+[Extent1].[adress1] AS [adress1], 
+[Extent1].[address2] AS [address2], 
+[Extent1].[zip] AS [zip], 
+[Extent1].[City_LocationID3] AS [City_LocationID3], 
+[Extent1].[City_LocationID4] AS [City_LocationID4]
+FROM [dbo].[Locations] AS [Extent1]
+WHERE [Extent1].[Discriminator] = 'Museum'', type='IEnumerable`1', content-type='application/json; charset=utf-8'
+2012-07-21 14:19:06.6571|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Net.Http.Formatting JsonMediaTypeFormatter WriteToStreamAsync
+2012-07-21 14:19:06.6781|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers AdminController Dispose
+2012-07-21 14:19:06.6781|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/admin System.Web.Http.Controllers AdminController Dispose
+2012-07-21 17:50:29.7168|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Request http://localhost:4463/api/museums
+2012-07-21 17:50:29.9888|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='controller:museums'
+2012-07-21 17:50:30.3298|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Museums
+2012-07-21 17:50:30.3298|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers HttpControllerDescriptor CreateController
+2012-07-21 17:50:30.3298|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerActivator Create
+2012-07-21 17:50:30.3948|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerActivator Create MupadoodleAPI.Controllers.MuseumsController
+2012-07-21 17:50:30.4038|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers HttpControllerDescriptor CreateController MupadoodleAPI.Controllers.MuseumsController
+2012-07-21 17:50:30.4138|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController ExecuteAsync
+2012-07-21 17:50:30.4988|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionSelector SelectAction
+2012-07-21 17:50:30.6629|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'GetAllMuseums()'
+2012-07-21 17:50:30.7259|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Filters AuthorizeAttribute OnAuthorization
+2012-07-21 17:50:30.7449|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Filters AuthorizeAttribute OnAuthorization
+2012-07-21 17:50:30.9609|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController ExecuteAsync
+2012-07-21 17:50:31.1199|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Request Content-type='none', content-length=unknown
+2012-07-21 17:50:32.3399|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController Dispose
+2012-07-21 17:50:32.3399|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController Dispose
+2012-07-21 18:38:27.5864|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Request http://localhost:4463/api/museums
+2012-07-21 18:38:28.0244|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='controller:museums'
+2012-07-21 18:38:28.4465|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Museums
+2012-07-21 18:38:28.4465|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers HttpControllerDescriptor CreateController
+2012-07-21 18:38:28.4635|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerActivator Create
+2012-07-21 18:38:28.5055|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers DefaultHttpControllerActivator Create MupadoodleAPI.Controllers.MuseumsController
+2012-07-21 18:38:28.5085|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers HttpControllerDescriptor CreateController MupadoodleAPI.Controllers.MuseumsController
+2012-07-21 18:38:28.5085|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController ExecuteAsync
+2012-07-21 18:38:28.5305|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionSelector SelectAction
+2012-07-21 18:38:28.7715|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'GetAllMuseums()'
+2012-07-21 18:38:28.8475|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Filters AuthorizeAttribute OnAuthorization
+2012-07-21 18:38:28.8555|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Filters AuthorizeAttribute OnAuthorization
+2012-07-21 18:38:28.8885|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2012-07-21 18:38:29.0335|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2012-07-21 18:38:29.1525|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='GetAllMuseums()'
+2012-07-21 18:38:29.1675|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'GetAllMuseums()'
+2012-07-21 18:38:30.0195|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'System.Collections.Generic.List`1[MupadoodleAPI.Models.Museum]'
+2012-07-21 18:38:30.0215|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]
+2012-07-21 18:38:30.2376|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'XmlMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/xml; charset=utf-8'
+2012-07-21 18:38:30.2406|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'XmlMediaTypeFormatter' formatter
+2012-07-21 18:38:30.2406|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='XmlMediaTypeFormatter', content-type='application/xml; charset=utf-8'
+2012-07-21 18:38:30.2956|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync
+2012-07-21 18:38:30.3076|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController ExecuteAsync
+2012-07-21 18:38:30.3186|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Request Content-type='application/xml; charset=utf-8', content-length=unknown
+2012-07-21 18:38:30.3876|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync Value='System.Collections.Generic.List`1[MupadoodleAPI.Models.Museum]', type='IEnumerable`1', content-type='application/xml; charset=utf-8'
+2012-07-21 18:38:30.6546|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync
+2012-07-21 18:38:30.9266|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController Dispose
+2012-07-21 18:38:30.9266|INFO|MupadoodleAPI.Models.NLogger| GET http://localhost:4463/api/museums System.Web.Http.Controllers MuseumsController Dispose

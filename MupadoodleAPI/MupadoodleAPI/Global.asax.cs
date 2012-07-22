@@ -9,7 +9,13 @@ using System.Web.Routing;
 using MupadoodleAPI.App_Start;
 using MupadoodleAPI.DataAccess;
 using System.Web.Http.Tracing;
+using System.Web.Security;
 using MupadoodleAPI.Models;
+
+using System.Web.SessionState;
+using System.ServiceModel.Activation;
+using MupadoodleAPI.Logic;
+
 
 namespace MupadoodleAPI
 {
@@ -18,6 +24,11 @@ namespace MupadoodleAPI
 
     public class WebApiApplication : System.Web.HttpApplication
     {
+        static void Configure(HttpConfiguration config)
+        {
+            config.MessageHandlers.Add(new ApiKeyHandler("1234-abcd"));
+        }
+
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
@@ -30,7 +41,31 @@ namespace MupadoodleAPI
 
            GlobalConfiguration.Configuration.Services.Replace(typeof(ITraceWriter), new NLogger());
 
+           Configure(GlobalConfiguration.Configuration);
+
            // ApiConfig.ConfigureApi(GlobalConfiguration.Configuration);
         }
     }
+
+   /* public class Global : System.Web.HttpApplication
+    {
+
+        void Application_Start(object sender, EventArgs e)
+        {
+            RegisterRoutes();
+        }
+
+        private void RegisterRoutes()
+        {
+            WebServiceHostFactory factory = new WebServiceHostFactory();
+            RouteTable.Routes.Add(
+                new ServiceRoute("Sessions", factory, typeof(SessionService)));
+        }
+
+        public static bool APIKeyVerification
+        {
+            get;
+            set;
+        }
+    }*/
 }

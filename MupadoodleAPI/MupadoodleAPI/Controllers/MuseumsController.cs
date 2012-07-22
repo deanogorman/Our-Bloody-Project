@@ -11,29 +11,32 @@ using NLog;
 
 namespace MupadoodleAPI.Controllers
 {
+   // [Authorize]
     public class MuseumsController : ApiController
     {
         List<Museum> museums = new List<Museum>();
         MuseumDAL mDAL = new MuseumDAL();
 
-        //Api logginh
-        private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
-
+      //  [AllowAnonymous]
         public IEnumerable<Museum> GetAllMuseums()
         {
             museums = mDAL.getAllMuseumsFromDb(true);
             return museums;
 
-            logger.Trace("Sample trace message");
-            logger.Debug("Sample debug message");
-            logger.Info("Sample informational message");
-            logger.Warn("Sample warning message");
-            logger.Error("Sample error message");
-            logger.Fatal("Sample fatal error message");
+            
+            /*** NLog Stuf **/
+            //Api logginh  System.Web.Http.AuthorizeAttribute
+            //   private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
+            //logger.Trace("Sample trace message");
+          //  logger.Debug("Sample debug message");
+          //  logger.Info("Sample informational message");
+           // logger.Warn("Sample warning message");
+           // logger.Error("Sample error message");
+           // logger.Fatal("Sample fatal error message");
 
-            // alternatively you can call the Log() method 
+            // alternatively - you can call the Log() method 
             // and pass log level as the parameter.
-            logger.Log(LogLevel.Info, "Sample fatal error message");
+          //  logger.Log(LogLevel.Info, "Sample fatal error message");
         }
 
         public Museum GetMuseumById(int id)
