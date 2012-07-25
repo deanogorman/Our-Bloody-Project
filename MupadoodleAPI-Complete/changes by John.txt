@@ -1,0 +1,7 @@
+1. Added MarketDAL to DataAccess folder
+2. Added MarketsController.cs to controllers folder
+3. Added Market.cs to model folder
+4. Modified AccessDB.cs
+5. Modified City.cs
+6. Modified CSVParser.cs
+7. Modified CSVReader.cs

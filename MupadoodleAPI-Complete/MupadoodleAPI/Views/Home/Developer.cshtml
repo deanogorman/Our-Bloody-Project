@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Developer";
+}
+
+<h2>Welcome to:</h2>
+<header>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p class="site-title">
+                <a href="~/">Developer API</a></p>
+        </div>
+    </div>
+</header>
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>
+                    Welcome to Mupadoodle Web API!</h1>
+            </hgroup>
+            <h3>
+            API Call Options</h3>
+        <ol class="round">
+            <li class="one">
+                <h5>
+                    API Structure
+                </h5>
+               http:/localhost:4463/api/[<mark>amenity</mark>]/?[<mark>search param</mark>] &[<mark>api key</mark>] </li>
+            <li class="two">
+                <h5>
+                    Amenity</h5>
+                    <mark>museums:</mark> search for museums <br /><br />
+                    <mark>parks:</mark> search for parks <br /><br />
+                    <mark>markets:</mark> search for markets </li>
+            <li class="three">
+                <h5>
+                    Search Parameter</h5>
+                    <mark>city:</mark> search within a particular city <br /><br />
+                    <mark>museumName:</mark> search for amenity name, or a word in the name</li>
+            <li class="four">
+                <h5>
+                    API Key</h5>
+                    Your API Key is <mark>1234-abcd</mark> </li>
+            <li class="five">
+                <h5>
+                    Example</h5>
+                    <a>http://localhost:4463/api/museums?key=1234-abcd</a><br /><br />
+                    <a>http://localhost:4463/api/museums/?city=bronx&key=1234-abcd</a><br /><br />
+                    <a>http://localhost:4463/api/museums/?museumName=history&key=1234-abcd</a>
+            </li>
+        </ol>
+        </div>
+    </section>
+    
+</div>

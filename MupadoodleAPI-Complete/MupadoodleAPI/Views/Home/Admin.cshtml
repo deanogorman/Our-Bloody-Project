@@ -1,0 +1,24 @@
+﻿@model MupadoodleAPI.Models.Museum
+
+@{
+    ViewBag.Title = "Admin";
+}
+
+<h2>Admin</h2>
+
+<div class="content">
+    
+    <div class="float-right">
+    <h2>Add New Museum</h2>
+    <form id="product">
+        @Html.ValidationSummary(true)
+        <fieldset>
+            <legend>Contact</legend>
+            @Html.EditorForModel()
+            <p>
+                <input type="submit" value="Save" />
+            </p>
+        </fieldset>
+    </form>
+    </div>
+</div>

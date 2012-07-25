@@ -1,0 +1,418 @@
+﻿@model IEnumerable<MupadoodleAPI.Models.City>
+
+@{
+    ViewBag.Title = "Interactive View of Cities and their Venues";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<p>
+    @Html.ActionLink("Show Cities and Venues Textually", "BuildCities")
+</p>
+
+<p>
+    @Html.ActionLink("Reconstruct All Cities and Show Textually", "BuildCities")
+</p>
+<p>
+    @Html.ActionLink("Add All Venues to Database", "addMuseumFiletoDB")
+</p>
+<p>
+    @Html.ActionLink("Show Cities and Venues Graphically", "ShowCitiesGraphically")
+</p>
+
+<!-- start doing the stuff here -->
+@section MyJavaScript {
+<script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.3"></script>
+<script type="text/javascript">
+    var map = null;
+    var links = "Click for info: <a href='#' onClick='ShapeLayerInfo(0)'>Base Layer</a><br/>";
+    var title = 0;
+    var layer = 0;
+    var selIndex = 0;
+    var index = 0;
+    var shapes = "";
+    var shapeID = 0;
+    var numVenueTypes = 2;
+    var venueTypes = ["Museums", "Parks"];
+    var venueIcons = ["/Images/museum_icon.png", "/Images/park_icon.png"];
+    var cityData = @Html.Raw(ViewData["Cities"]);;
+    var museumData = @Html.Raw(ViewData["Museums"]);
+    var parkData = @Html.Raw(ViewData["Parks"]);
+
+    function GetMap(index) {
+        if (map)
+        {
+            var i = 0;
+            //alert("clearing map");
+            map.Clear();
+            var handler = document.getElementById('cities');
+            while (handler.hasChildNodes()) {
+                i++;
+                //alert("clearing child #" + i);
+                handler.removeChild(handler.lastChild);
+            }
+            i=0;
+            handler = document.getElementById('venues');
+            while (handler.hasChildNodes()) {
+                i++;
+                //alert("clearing child #" + i);
+                handler.removeChild(handler.lastChild);
+            }
+            i=0;
+            handler = document.getElementById('venuescontrol');
+            while (handler.hasChildNodes()) {
+                i++;
+                //alert("clearing child #" + i);
+                handler.removeChild(handler.lastChild);
+            }
+        }
+        //alert("Creating a new map");
+        map = new VEMap('myMap');
+
+        // SetDashboardSize must be called before calling LoadMap
+        map.SetDashboardSize("tiny");
+        map.LoadMap();
+
+        if (index == -1)
+        {
+            // Add a title and description for the base layer.
+            baseLayer = map.GetShapeLayerByIndex(0);
+            baseLayer.SetTitle("Base Layer");
+            baseLayer.SetDescription(
+               "This is the base layer. " +
+               "It always has index 0, and cannot be deleted.");
+        }
+
+        if (index == -1)
+        {
+            //alert("Adding Cities");
+            AddCities();
+        } else {
+            for (var i = 1; i < numVenueTypes; i++) {
+                map.AddShapeLayer(new VEShapeLayer());
+            }
+
+            //alert("Going to call venue filter function");
+            setupVenueFilter();
+            //alert("Adding museums");
+            AddMuseums(index, 0);
+            //alert("Adding parks");
+            AddParks(index, 1);
+            
+        }
+    }
+
+    // add each park to the map in the appropriate layer
+    function AddParks(cityIndex, layerIndex) {
+
+        var points = new Array();
+        var layer = map.GetShapeLayerByIndex(layerIndex);
+        var pindex = 0;
+
+        for (park in parkData)
+        {
+            if (parkData[park].cityStr == cityData[cityIndex].theName)
+            {
+                points.push(new VELatLong(parkData[park].latitude, parkData[park].longitude));
+                shape = new VEShape(VEShapeType.Pushpin, points[pindex]);
+                shape.SetTitle("<h2>" + parkData[park].theName + "</h2>"
+                                + "<h3>Acres: " + parkData[park].acres + "</h3>"
+                                + "<h3>Location: " + parkData[park].place + "</h3>");
+                shape.SetCustomIcon("<img src='" + venueIcons[layerIndex] + "' />");
+                layer.AddShape(shape);
+                pindex++;
+            }
+        }
+        if (pindex > 0)
+        {
+            map.SetMapView(points);
+        } else {
+            document.getElementById("toggleButton" + layerIndex).disabled = true;
+        }
+    }
+
+    // add each museum to the map in the appropriate layer
+    function AddMuseums(cityIndex, layerIndex) {
+
+        var points = new Array();
+        var layer = map.GetShapeLayerByIndex(layerIndex);
+        var pindex = 0;
+
+        for (museum in museumData)
+        {
+            if (museumData[museum].cityStr == cityData[cityIndex].theName)
+            {
+                points.push(new VELatLong(museumData[museum].latitude, museumData[museum].longitude));
+                shape = new VEShape(VEShapeType.Pushpin, points[pindex]);
+                shape.SetTitle("<h2>" + museumData[museum].theName + "</h2>"
+                                + "<h3>Address: " + museumData[museum].adress1 + "</h3>"
+                                + "<h3>Address: " + museumData[museum].address2 + "</h3>"
+                                + "<h3>ZIP: " + museumData[museum].zip + "</h3>"
+                                + "<h3>Phone: " + museumData[museum].tel + "</h3>"
+                                + "<h3>URL: " + museumData[museum].url + "</h3>");
+                shape.SetCustomIcon("<img src='" + venueIcons[layerIndex] + "' />");
+                //shape.SetCustomIcon("<img src='/Images/museum_icon.png' />");
+                layer.AddShape(shape);
+                pindex++;
+            }
+        }
+        if (pindex > 0)
+        {
+            map.SetMapView(points);
+        } else {
+            document.getElementById("toggleButton" + layerIndex).disabled = true;
+        }
+    }
+
+    // add each city to the map
+    function AddCities() {
+
+        var points = new Array();
+        var layer = map.GetShapeLayerByIndex(0);
+
+        for (city in cityData)
+        {
+            points.push(new VELatLong(cityData[city].latitude, cityData[city].longitude));
+            shape = new VEShape(VEShapeType.Pushpin, points[city]);
+            shape.SetTitle("<h2>" + cityData[city].theName + "</h2>");
+            shape.SetCustomIcon("<img src='/Images/city_icon.png' />");
+            layer.AddShape(shape);
+        }
+        map.SetMapView(points);
+        setupCitiesCheckbox();
+    }
+
+   
+    // Add a shape to each layer.
+    function AddShapes() {
+        var points = new Array(
+               new VELatLong(45.01188, -111.06687),
+               new VELatLong(45.01534, -104.06324),
+               new VELatLong(41.01929, -104.06),
+               new VELatLong(41.003, -111.05878)
+            );
+
+        for (var i = 0; i < 4; i++) {
+            shape = new VEShape(VEShapeType.Pushpin, points[i]);
+            layer = map.GetShapeLayerByIndex(i);
+            new VEShape(VEShapeType.Pushpin, points[i]);
+            shape.SetTitle("Pushpin " + i);
+            layer.AddShape(shape);
+        }
+
+        map.SetMapView(points);
+    }
+
+    // Display some info about each layer when the link is clicked.
+    function ShapeLayerInfo(index) {
+        var layer = map.GetShapeLayerByIndex(index);
+        var count = layer.GetShapeCount();
+        alert("Title: " + layer.GetTitle() + "\nIndex: " +
+               index + "\nDescription: " + layer.GetDescription() +
+               "\nShape Count: " + count);
+    }
+
+    // Hide the layer at the selected index.
+    function HideLayer() {
+        layer = map.GetShapeLayerByIndex(selIndex);
+
+        if (layer.IsVisible()) {
+            layer.Hide();
+        }
+    }
+
+    // Hide all layers.
+    function HideAllLayers() {
+        map.HideAllShapeLayers();
+    }
+
+    // Show all layers.
+    function ShowAllLayers() {
+        map.ShowAllShapeLayers();
+    }
+
+    // Make the layer at the selected index visible again.
+    function ShowLayer() {
+        layer = map.GetShapeLayerByIndex(selIndex);
+
+        if (!layer.IsVisible()) {
+            layer.Show();
+        }
+    }
+
+    // Add a shape to the center of the layer at the selected index.
+    function AddShapeToLayer() {
+        var center = new VELatLong();
+        center = map.GetCenter();
+        shape = new VEShape(VEShapeType.Pushpin, center);
+        shape.SetTitle("Another new shape");
+        layer = map.GetShapeLayerByIndex(selIndex);
+        layer.AddShape(shape);
+        AdjustView();
+        IndexChanged(selIndex);
+    }
+
+    // Delete all shapes within the layer at the selected index.
+    function DeleteAllShapes() {
+        layer = map.GetShapeLayerByIndex(selIndex);
+        layer.DeleteAllShapes();
+        IndexChanged(selIndex);
+    }
+
+    // Delete the specified shape within the specified layer.
+    function DeleteOneShape(shapeIdx, layerIdx) {
+        if (shapeIdx != null && layerIdx != null) {
+            try {
+                layer = map.GetShapeLayerByIndex(layerIdx);
+                shape = layer.GetShapeByIndex(shapeIdx);
+                layer.DeleteShape(shape);
+                IndexChanged(selIndex);
+            }
+            catch (e) {
+                alert(e.message);
+            }
+        }
+        else {
+            alert("The specified shape, or layer, does not exist.");
+        }
+    }
+
+    // Update hyperlinks when the index selection changes, and shapes are added/removed.
+    function IndexChanged(index) {
+        selIndex = index;
+        layer = map.GetShapeLayerByIndex(index);
+        count = layer.GetShapeCount();
+
+        var links = "<a href='#' id='HideLayer' onclick='HideLayer()'>Click to hide " +
+               layer.GetTitle() + "</a><br />";
+
+        links += "<a href='#' id='ShowLayer' onclick='ShowLayer()'>Click to show " +
+               layer.GetTitle() + "</a><br />";
+
+        links += "<a href='#' id='HideAllLayers' onclick='HideAllLayers()'>" +
+               "Click to hide all layers</a><br />";
+
+        links += "<a href='#' id='ShowAllLayers' onclick='ShowAllLayers()'>" +
+               "Click to show all layers</a><br />";
+
+        links += "<a href='#' id='AddShapeToLayer' onclick='AddShapeToLayer()'>" +
+               "Click to add a shape to the center of " + layer.GetTitle() + "</a><br />";
+
+        links += "<a href='#' id='DeleteAllShapes' onclick='DeleteAllShapes()'>" +
+               "Click to delete all shapes from " + layer.GetTitle() + "</a><br />";
+
+        links += "Click to delete a shape: ";
+
+        for (var i = 0; i < count; i++) {
+            shape = layer.GetShapeByIndex(i);
+            shapeID = shape.GetID();
+            links += "<a href='#' id='DeleteOneShape' onclick='DeleteOneShape(" + i +
+                  ", " + selIndex + ")'>" + shapeID + "</a> | ";
+        }
+    }
+
+    // Adjust the map view when a shape is added.
+    function AdjustView() {
+        // Click and drag the map a bit, and add a pushpin to the center
+        // to see VEGetBoundingRectangle in action.
+        layer = map.GetShapeLayerByIndex(selIndex);
+        rect = layer.GetBoundingRectangle();
+        count = layer.GetShapeCount();
+        map.SetMapView(rect);
+
+        if (count <= 1) {
+            map.SetZoomLevel(7);
+        }
+    }
+
+    
+    function setupCitiesCheckbox() {
+        var citiesCheckBox = null;
+        var item;
+        var handler = document.getElementById('cities');
+        for (city in cityData)
+        {
+            citiesCheckBox = document.createElement('input');
+            citiesCheckBox.setAttribute('type', 'button');
+            //citiesCheckBox.width = '100px';
+            citiesCheckBox.value = "Show the venues for " + cityData[city].theName;
+            citiesCheckBox.setAttribute("onclick", "clicky('" + city + "')")
+            citiesCheckBox.checked = false;
+            handler.appendChild(citiesCheckBox);
+            handler.appendChild(document.createElement('p'));
+        }
+
+    }
+
+    function setupVenueFilter() {
+        var venueButton = null;
+
+        var handler = document.getElementById('venues');
+        //alert("Setting up venues filter");
+        for (i = 0; i < numVenueTypes; i++)
+        {
+            icon = document.createElement('img');
+            icon.setAttribute('src', venueIcons[i]);
+            handler.appendChild(icon);
+
+            venueButton = document.createElement('input');
+            venueButton.setAttribute('type', 'button');
+            venueButton.setAttribute('id', 'toggleButton' + i);
+            venueButton.value = "Toggle " + venueTypes[i];
+            venueButton.setAttribute("onclick", "toggleButton('" + i + "')")
+            handler.appendChild(venueButton);
+            handler.appendChild(document.createElement('p'));
+        }
+
+        handler = document.getElementById('venuescontrol');
+        venueButton = document.createElement('input');
+        venueButton.setAttribute('type', 'button');
+        venueButton.value = "Show All Venues";
+        venueButton.setAttribute("onclick", "ShowAllLayers()")
+        handler.appendChild(venueButton);
+
+        venueButton = document.createElement('input');
+        venueButton.setAttribute('type', 'button');
+        venueButton.value = "Hide All Venues";
+        venueButton.setAttribute("onclick", "HideAllLayers()")
+        handler.appendChild(venueButton);
+        handler.appendChild(document.createElement('p'));
+    }
+
+    function toggleButton(layerIndex)
+    {
+        //alert("Toggling " + venueTypes[layerIndex]);
+        layer = map.GetShapeLayerByIndex(layerIndex);
+
+        if (layer.IsVisible()) {
+            layer.Hide();
+        } else {
+            layer.Show();
+        }
+    }
+
+    function clicky(cityIndex)
+    {
+        //alert("clicked on " + cityData[cityIndex].theName);
+        GetMap(cityIndex);
+    }
+      </script>
+      }
+
+
+<div id='myMap' style="position:relative; width:700px; height:500px;"></div>
+<div id='cities' style="position:relative; left:720px; top:-500px"></div>
+<div id='venues' style="position:relative; left:720px; top:-500px"></div>
+<div id='venuescontrol' style="position:relative; left:720px; top:-500px"></div>
+<form name="myform" action="javascript:GetMap(-1)" style="position:relative; left:720px; top:-500px">
+      <img src='/Images/city_icon.png' />
+      <input name="Submit" type="submit" value="Show All Cities"/>
+</form>
+
+
+
+  
+ <!-- stop doing the stuff here -->
