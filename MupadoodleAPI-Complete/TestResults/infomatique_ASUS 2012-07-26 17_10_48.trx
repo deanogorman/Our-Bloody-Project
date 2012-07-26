@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ecc59a8e-be51-4dc0-86a5-3fc94e8c5881" name="infomatique@ASUS 2012-07-26 17:10:48" runUser="asus\infomatique" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="376e7860-4a7d-473f-a685-e1aa3b50eb9a">
+    <Deployment runDeploymentRoot="infomatique_ASUS 2012-07-26 17_10_48">
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\WebGrease.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files\NLog\.NET Framework 4.0\NLog.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI\bin\MupadoodleAPI.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-26T17:10:48.9602104+01:00" queuing="2012-07-26T17:10:50.3092876+01:00" start="2012-07-26T17:10:50.7133107+01:00" finish="2012-07-26T17:10:56.2646282+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="parseShapeTest" storage="c:\louise\semester3\enterpriseframeworks\groupproj\mupadoodleapi-complete\mupadoodleapi.tests\bin\debug\mupadoodleapi.tests.dll" id="13616ed8-b3b0-79ce-c6a4-93b6f6f0ac76">
+      <Execution id="9c37472f-570a-4154-acfd-c148097cf401" />
+      <TestMethod codeBase="C:/Louise/Semester3/EnterpriseFrameworks/GroupProj/MupadoodleAPI-Complete/MupadoodleAPI.Tests/bin/Debug/MupadoodleAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MupadoodleAPI.Tests.CSVParserTest, MupadoodleAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseShapeTest" />
+    </UnitTest>
+    <UnitTest name="DeveloperTest" storage="c:\louise\semester3\enterpriseframeworks\groupproj\mupadoodleapi-complete\mupadoodleapi.tests\bin\debug\mupadoodleapi.tests.dll" id="d45afd85-4f82-ce53-ea6e-f9dab34a2cb2">
+      <Execution id="5188ff5b-2e60-4882-afd0-880e7fa13f13" />
+      <TestMethod codeBase="C:/Louise/Semester3/EnterpriseFrameworks/GroupProj/MupadoodleAPI-Complete/MupadoodleAPI.Tests/bin/Debug/MupadoodleAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MupadoodleAPI.Tests.HomeControllerTest, MupadoodleAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveloperTest" />
+    </UnitTest>
+    <UnitTest name="parseMuseumsTest" storage="c:\louise\semester3\enterpriseframeworks\groupproj\mupadoodleapi-complete\mupadoodleapi.tests\bin\debug\mupadoodleapi.tests.dll" id="ed4a00bb-1100-73a9-0b5b-a7134fdc6366">
+      <Execution id="0009b223-d415-4869-ae2c-4efb3bbe8e65" />
+      <TestMethod codeBase="C:/Louise/Semester3/EnterpriseFrameworks/GroupProj/MupadoodleAPI-Complete/MupadoodleAPI.Tests/bin/Debug/MupadoodleAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MupadoodleAPI.Tests.CSVParserTest, MupadoodleAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseMuseumsTest" />
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\louise\semester3\enterpriseframeworks\groupproj\mupadoodleapi-complete\mupadoodleapi.tests\bin\debug\mupadoodleapi.tests.dll" id="6e3538bc-686e-25b3-e926-aaeee675c36a">
+      <Execution id="ae946ba7-944f-4289-8048-acd9200def7b" />
+      <TestMethod codeBase="C:/Louise/Semester3/EnterpriseFrameworks/GroupProj/MupadoodleAPI-Complete/MupadoodleAPI.Tests/bin/Debug/MupadoodleAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MupadoodleAPI.Tests.HomeControllerTest, MupadoodleAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+    </UnitTest>
+    <UnitTest name="supportsTypeTest" storage="c:\louise\semester3\enterpriseframeworks\groupproj\mupadoodleapi-complete\mupadoodleapi.tests\bin\debug\mupadoodleapi.tests.dll" id="b8629021-676b-16b6-2eb1-ae24fce633e1">
+      <Execution id="2314a3a4-3814-4c0a-bb9a-f44dde171ec5" />
+      <TestMethod codeBase="C:/Louise/Semester3/EnterpriseFrameworks/GroupProj/MupadoodleAPI-Complete/MupadoodleAPI.Tests/bin/Debug/MupadoodleAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MupadoodleAPI.Tests.CSVParserTest, MupadoodleAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13616ed8-b3b0-79ce-c6a4-93b6f6f0ac76" executionId="9c37472f-570a-4154-acfd-c148097cf401" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e3538bc-686e-25b3-e926-aaeee675c36a" executionId="ae946ba7-944f-4289-8048-acd9200def7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8629021-676b-16b6-2eb1-ae24fce633e1" executionId="2314a3a4-3814-4c0a-bb9a-f44dde171ec5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d45afd85-4f82-ce53-ea6e-f9dab34a2cb2" executionId="5188ff5b-2e60-4882-afd0-880e7fa13f13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed4a00bb-1100-73a9-0b5b-a7134fdc6366" executionId="0009b223-d415-4869-ae2c-4efb3bbe8e65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9c37472f-570a-4154-acfd-c148097cf401" testId="13616ed8-b3b0-79ce-c6a4-93b6f6f0ac76" testName="parseShapeTest" computerName="ASUS" duration="00:00:00.0418523" startTime="2012-07-26T17:10:50.8433181+01:00" endTime="2012-07-26T17:10:51.3853491+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c37472f-570a-4154-acfd-c148097cf401">
+    </UnitTestResult>
+    <UnitTestResult executionId="ae946ba7-944f-4289-8048-acd9200def7b" testId="6e3538bc-686e-25b3-e926-aaeee675c36a" testName="IndexTest" computerName="ASUS" duration="00:00:04.3352408" startTime="2012-07-26T17:10:51.3983499+01:00" endTime="2012-07-26T17:10:55.7405982+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae946ba7-944f-4289-8048-acd9200def7b">
+      <Output>
+        <DebugTrace>Using connection strings property
+LocalSqlServer: Name:           {0}
+data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true: Connection String:           {0}
+System.Data.SqlClient: Provider:           {0}
+Using connection strings property
+LocalSqlServer: Name:           {0}
+data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true: Connection String:           {0}
+System.Data.SqlClient: Provider:           {0}
+Using connection strings property
+LocalSqlServer: Name:           {0}
+data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true: Connection String:           {0}
+System.Data.SqlClient: Provider:           {0}
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2314a3a4-3814-4c0a-bb9a-f44dde171ec5" testId="b8629021-676b-16b6-2eb1-ae24fce633e1" testName="supportsTypeTest" computerName="ASUS" duration="00:00:00.0082720" startTime="2012-07-26T17:10:55.7535990+01:00" endTime="2012-07-26T17:10:55.7685998+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2314a3a4-3814-4c0a-bb9a-f44dde171ec5">
+    </UnitTestResult>
+    <UnitTestResult executionId="5188ff5b-2e60-4882-afd0-880e7fa13f13" testId="d45afd85-4f82-ce53-ea6e-f9dab34a2cb2" testName="DeveloperTest" computerName="ASUS" duration="00:00:00.0013366" startTime="2012-07-26T17:10:55.7716000+01:00" endTime="2012-07-26T17:10:55.7876009+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5188ff5b-2e60-4882-afd0-880e7fa13f13">
+    </UnitTestResult>
+    <UnitTestResult executionId="0009b223-d415-4869-ae2c-4efb3bbe8e65" testId="ed4a00bb-1100-73a9-0b5b-a7134fdc6366" testName="parseMuseumsTest" computerName="ASUS" duration="00:00:00.0359084" startTime="2012-07-26T17:10:55.7906011+01:00" endTime="2012-07-26T17:10:55.8436041+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0009b223-d415-4869-ae2c-4efb3bbe8e65">
+    </UnitTestResult>
+  </Results>
+</TestRun>

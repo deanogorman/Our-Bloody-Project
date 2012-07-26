@@ -7,7 +7,7 @@ using System.IO;
 
 namespace MupadoodleAPI.Ingestion
 {
-    interface IDataParser
+    public interface IDataParser
     {
         // returns a List of ExchangeRate objects
         List<Location> parseLocations();

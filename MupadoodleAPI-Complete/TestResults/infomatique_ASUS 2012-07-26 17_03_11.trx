@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b9a2d121-11f4-46aa-9f3d-e1c7572d9f26" name="infomatique@ASUS 2012-07-26 17:03:11" runUser="asus\infomatique" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="bddc716d-fd49-4913-a09f-aef185163c84">
+    <Deployment runDeploymentRoot="infomatique_ASUS 2012-07-26 17_03_11">
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\WebGrease.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files\NLog\.NET Framework 4.0\NLog.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI\bin\MupadoodleAPI.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\MupadoodleAPI.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\MupadoodleAPI-Complete\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-26T17:03:11.5590486+01:00" queuing="2012-07-26T17:03:13.0451336+01:00" start="2012-07-26T17:03:13.3431506+01:00" finish="2012-07-26T17:03:22.9847021+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="3" passed="2" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BuildCitiesTest" storage="c:\louise\semester3\enterpriseframeworks\groupproj\mupadoodleapi-complete\mupadoodleapi.tests\bin\debug\mupadoodleapi.tests.dll" id="caed8591-6a68-72c4-a96f-9333be148ace">
+      <Execution id="dff57445-7daf-4304-b441-316662dde2e0" />
+      <TestMethod codeBase="C:/Louise/Semester3/EnterpriseFrameworks/GroupProj/MupadoodleAPI-Complete/MupadoodleAPI.Tests/bin/Debug/MupadoodleAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MupadoodleAPI.Tests.HomeControllerTest, MupadoodleAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildCitiesTest" />
+      <AspNet webSiteUrl="http://localhost:4463/">
+        <Host pathToWebApp="C:\Louise\Semester3\EnterpriseFrameworks\GroupProj\API\MupadoodleAPI - Latest Version\MupadoodleAPI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\louise\semester3\enterpriseframeworks\groupproj\mupadoodleapi-complete\mupadoodleapi.tests\bin\debug\mupadoodleapi.tests.dll" id="6e3538bc-686e-25b3-e926-aaeee675c36a">
+      <Execution id="03e13a5b-04b0-4e8d-b32a-0b0e931f01e1" />
+      <TestMethod codeBase="C:/Louise/Semester3/EnterpriseFrameworks/GroupProj/MupadoodleAPI-Complete/MupadoodleAPI.Tests/bin/Debug/MupadoodleAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MupadoodleAPI.Tests.HomeControllerTest, MupadoodleAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+    </UnitTest>
+    <UnitTest name="DeveloperTest" storage="c:\louise\semester3\enterpriseframeworks\groupproj\mupadoodleapi-complete\mupadoodleapi.tests\bin\debug\mupadoodleapi.tests.dll" id="d45afd85-4f82-ce53-ea6e-f9dab34a2cb2">
+      <Execution id="7e4cd3d5-c11b-41bf-a94a-9e3f96064a8f" />
+      <TestMethod codeBase="C:/Louise/Semester3/EnterpriseFrameworks/GroupProj/MupadoodleAPI-Complete/MupadoodleAPI.Tests/bin/Debug/MupadoodleAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MupadoodleAPI.Tests.HomeControllerTest, MupadoodleAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveloperTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6e3538bc-686e-25b3-e926-aaeee675c36a" executionId="03e13a5b-04b0-4e8d-b32a-0b0e931f01e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="caed8591-6a68-72c4-a96f-9333be148ace" executionId="dff57445-7daf-4304-b441-316662dde2e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d45afd85-4f82-ce53-ea6e-f9dab34a2cb2" executionId="7e4cd3d5-c11b-41bf-a94a-9e3f96064a8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="03e13a5b-04b0-4e8d-b32a-0b0e931f01e1" testId="6e3538bc-686e-25b3-e926-aaeee675c36a" testName="IndexTest" computerName="ASUS" duration="00:00:04.8901684" startTime="2012-07-26T17:03:13.4581572+01:00" endTime="2012-07-26T17:03:18.9714725+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03e13a5b-04b0-4e8d-b32a-0b0e931f01e1">
+      <Output>
+        <DebugTrace>Using connection strings property
+LocalSqlServer: Name:           {0}
+data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true: Connection String:           {0}
+System.Data.SqlClient: Provider:           {0}
+Using connection strings property
+LocalSqlServer: Name:           {0}
+data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true: Connection String:           {0}
+System.Data.SqlClient: Provider:           {0}
+Using connection strings property
+LocalSqlServer: Name:           {0}
+data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true: Connection String:           {0}
+System.Data.SqlClient: Provider:           {0}
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dff57445-7daf-4304-b441-316662dde2e0" testId="caed8591-6a68-72c4-a96f-9333be148ace" testName="BuildCitiesTest" computerName="ASUS" duration="00:00:03.6172069" startTime="2012-07-26T17:03:19.0054745+01:00" endTime="2012-07-26T17:03:22.6226814+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dff57445-7daf-4304-b441-316662dde2e0">
+      <Output>
+        <ErrorInfo>
+          <Message>The test adapter 'WebHostAdapter' threw an exception while running test 'BuildCitiesTest'. The web site could not be configured correctly; getting ASP.NET process information failed. Requesting 'http://localhost:4463/VSEnterpriseHelper.axd' returned an error: The remote server returned an error: (404) Not Found.
+The remote server returned an error: (404) Not Found.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7e4cd3d5-c11b-41bf-a94a-9e3f96064a8f" testId="d45afd85-4f82-ce53-ea6e-f9dab34a2cb2" testName="DeveloperTest" computerName="ASUS" duration="00:00:00.0023124" startTime="2012-07-26T17:03:22.6426825+01:00" endTime="2012-07-26T17:03:22.6936854+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e4cd3d5-c11b-41bf-a94a-9e3f96064a8f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

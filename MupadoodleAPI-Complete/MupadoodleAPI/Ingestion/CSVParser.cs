@@ -11,7 +11,7 @@ namespace MupadoodleAPI.Ingestion
 {
     public class CSVParser : IDataParser
     {
-        private String supportedFormat = "csv";
+        public String supportedFormat = "csv";
         private StreamReader reader;
 
         public List<Models.Location> parseLocations()
@@ -52,9 +52,9 @@ namespace MupadoodleAPI.Ingestion
             //throw new NotImplementedException();
         }
 
-        private void parseShape(string shape, ref double lat, ref double lng)
+        public void parseShape(string shape, ref double lat, ref double lng)
         {
-            // strip off the first a last characters in the string as these are braces
+            // strip off the first and last characters in the string as these are braces
             string shape2 = shape.Substring(1, shape.Length - 2);
             // split the string into 2 strings
             string[] split = shape2.Split(new Char[] { ',' });

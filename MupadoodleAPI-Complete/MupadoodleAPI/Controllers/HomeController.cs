@@ -166,13 +166,13 @@ namespace MupadoodleAPI.Controllers
         /** Admin **/
         public ActionResult Admin()
         {
-            return View();
+            return View("Admin");
         }
 
         /** API **/
         public ActionResult Developer()
         {
-            return View();
+            return View("Developer");
         }
 
         public ActionResult About()
@@ -182,11 +182,5 @@ namespace MupadoodleAPI.Controllers
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }

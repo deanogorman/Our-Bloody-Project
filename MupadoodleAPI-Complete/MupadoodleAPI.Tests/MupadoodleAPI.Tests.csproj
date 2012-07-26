@@ -113,9 +113,10 @@
     <Reference Include="WebGrease, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSVParserTest.cs" />
     <Compile Include="HomeControllerTest.cs" />
+    <Compile Include="MarketTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Controllers\ValuesControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -128,6 +129,11 @@
       <Project>{FDB4ACF3-4C63-4ED4-850E-82B700887FAF}</Project>
       <Name>MupadoodleAPI</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Ingestion\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
