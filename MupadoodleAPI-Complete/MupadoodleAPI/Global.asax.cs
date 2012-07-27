@@ -43,7 +43,7 @@ namespace MupadoodleAPI
 
            Configure(GlobalConfiguration.Configuration);
 
-           // ApiConfig.ConfigureApi(GlobalConfiguration.Configuration);
+           ApiConfig.ConfigureApi(GlobalConfiguration.Configuration);
         }
     }
 

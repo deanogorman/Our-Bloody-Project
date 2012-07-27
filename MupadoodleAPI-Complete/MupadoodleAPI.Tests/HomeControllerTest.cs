@@ -67,6 +67,7 @@ namespace MupadoodleAPI.Tests
         /// <summary>
         ///A test for ShowCitiesGraphically
         ///</summary>
+        [TestMethod()]
         public void ShowCitiesGraphicallyTest()
         {
             var controller = new HomeController(); 
@@ -84,6 +85,7 @@ namespace MupadoodleAPI.Tests
         /// <summary>
         ///A test for QueryMuseumDB
         ///</summary>
+        [TestMethod()]
         public void QueryMuseumDBTest()
         {
             var controller = new HomeController(); 
@@ -136,6 +138,7 @@ namespace MupadoodleAPI.Tests
         /// <summary>
         ///A test for BuildCities
         ///</summary>
+        [TestMethod()]
         public void BuildCitiesTest()
         {
             var controller = new HomeController(); 
@@ -152,6 +155,7 @@ namespace MupadoodleAPI.Tests
         /// <summary>
         ///A test for Admin
         ///</summary>
+        [TestMethod()]
         public void AdminTest()
         {
             var controller = new HomeController();
@@ -164,6 +168,7 @@ namespace MupadoodleAPI.Tests
         /// <summary>
         ///A test for About
         ///</summary>
+        [TestMethod()]
         public void AboutTest()
         {
             var controller = new HomeController();

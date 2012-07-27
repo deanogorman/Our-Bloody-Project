@@ -20,6 +20,7 @@ namespace MupadoodleAPI.Tests
         ///Gets or sets the test context which provides
         ///information about and functionality for the current test run.
         ///</summary>
+
         public TestContext TestContext
         {
             get
@@ -66,6 +67,7 @@ namespace MupadoodleAPI.Tests
         /// <summary>
         ///A test for Market Constructor
         ///</summary>
+        [TestMethod()]
         public void MarketConstructorTest()
         {
             double Lat = 2.0;
@@ -101,6 +103,7 @@ namespace MupadoodleAPI.Tests
         /// <summary>
         ///A test for MarketID
         ///</summary>
+        [TestMethod()]
         public void MarketIDTest()
         {
             Market target = new Market(); 
@@ -109,12 +112,12 @@ namespace MupadoodleAPI.Tests
             target.MarketID = expected;
             actual = target.MarketID;
             Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
         }
 
         /// <summary>
         ///A test for cityStr
         ///</summary>
+        [TestMethod()]
         public void cityStrTest()
         {
             double Lat = 2.0;
@@ -137,6 +140,7 @@ namespace MupadoodleAPI.Tests
         /// <summary>
         ///A test for location
         ///</summary>
+        [TestMethod()]
         public void locationTest()
         {
             double Lat = 2.0;
@@ -159,6 +163,7 @@ namespace MupadoodleAPI.Tests
         /// <summary>
         ///A test for name
         ///</summary>
+        
         public void nameTest()
         {
             Market target = new Market(); // TODO: Initialize to an appropriate value

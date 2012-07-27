@@ -179,7 +179,7 @@ namespace MupadoodleAPI.Controllers
         {
             ViewBag.Message = "Your app description page.";
 
-            return View();
+            return View("About");
         }
 
     }
