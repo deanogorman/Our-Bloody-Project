@@ -134,11 +134,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
-    <Compile Include="Controllers\MarketsController.cs" />
-    <Compile Include="Controllers\ParksController.cs" />
+    <Compile Include="Controllers\APIControllers\MarketsController.cs" />
+    <Compile Include="Controllers\APIControllers\ParksController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LocationsController.cs" />
-    <Compile Include="Controllers\MuseumsController.cs" />
+    <Compile Include="Controllers\APIControllers\LocationsController.cs" />
+    <Compile Include="Controllers\APIControllers\MuseumsController.cs" />
     <Compile Include="DataAccess\CitiesDAL.cs" />
     <Compile Include="DataAccess\MarketDAL.cs" />
     <Compile Include="DataAccess\MuseumDAL.cs" />
